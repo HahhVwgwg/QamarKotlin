@@ -42,11 +42,11 @@
         <entry key="app/src/main/res/drawable/ripple.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/drawable/ripple_effect_qaza.xml" value="0.27314814814814814" />
         <entry key="app/src/main/res/drawable/splash_logo.xml" value="0.15729166666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17753821240742834" />
         <entry key="app/src/main/res/layout/fragment_asma.xml" value="0.21557971014492755" />
         <entry key="app/src/main/res/layout/fragment_dua.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_khatym.xml" value="0.2056159420289855" />
-        <entry key="app/src/main/res/layout/fragment_pray_time.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_pray_time.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_qaza.xml" value="0.21557971014492755" />
         <entry key="app/src/main/res/layout/fragment_quran.xml" value="0.25766674428686515" />
         <entry key="app/src/main/res/layout/fragment_sura.xml" value="0.14114583333333333" />

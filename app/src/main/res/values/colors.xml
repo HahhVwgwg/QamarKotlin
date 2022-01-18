@@ -45,13 +45,13 @@
     <color name="nextPrayer">#71aabd</color>
     <color name="yearDatePickerContainer">#181818</color>
     <color name="arrowBackIcon">#ffffff</color>
-    <color name="yearDatePickerIconColor">#ffffff</color>
+    <color name="yearDatePickerIconColor">#4060AD</color>
     <color name="notificationIcon">#4060AD</color>
     <color name="prayTimesContainer">#181818</color>
     <color name="dividerPrayTimes">#72808b</color>
     <color name="prayTimeText">#ffffff</color>
     <color name="prayTimeClock">#ffffff</color>
-    <color name="locationMainIcon">#ffffff</color>
+    <color name="locationMainIcon">#4060AD</color>
     <color name="quranMainBg1">#4060AD</color>
     <color name="quranMainBg2">#2C3A5C</color>
     <color name="quranMainBg3">#8681bd</color>

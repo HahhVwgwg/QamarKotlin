@@ -92,7 +92,7 @@
     <style name="BottomSheetText" parent="Widget.AppCompat.TextView">
         <item name="android:background">@drawable/ripple</item>
         <item name="android:textSize">@dimen/bottomSheetTextSize</item>
-        <item name="android:fontFamily">@font/gold_semi_bold</item>
+        <item name="android:fontFamily">@font/gold_bold</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/_2sdp</item>
         <item name="android:layout_width">wrap_content</item>
