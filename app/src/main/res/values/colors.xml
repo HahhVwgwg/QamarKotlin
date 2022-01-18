@@ -40,7 +40,7 @@
     <color name="toolbarTextColor">#AD77C5</color>
     <color name="toolbarIconColor">#AD77C5</color>
     <color name="containerMain">#181818</color>
-    <color name="timer">#C162C1</color>
+    <color name="timer">#AD77C5</color>
     <color name="regularText">#ffffff</color>
     <color name="nextPrayer">#71aabd</color>
     <color name="yearDatePickerContainer">#181818</color>
@@ -50,8 +50,8 @@
     <color name="prayTimesContainer">#181818</color>
     <color name="dividerPrayTimes">#72808b</color>
     <color name="prayTimeText">#AD77C5</color>
-    <color name="prayTimeClock">#C162C1</color>
-    <color name="locationMainIcon">#C162C1</color>
+    <color name="prayTimeClock">#AD77C5</color>
+    <color name="locationMainIcon">#AD77C5</color>
     <color name="quranMainBg1">#4060AD</color>
     <color name="quranMainBg2">#2C3A5C</color>
     <color name="quranMainBg3">#8681bd</color>
