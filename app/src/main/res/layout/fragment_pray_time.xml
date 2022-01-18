@@ -82,7 +82,7 @@
                 android:layout_marginEnd="@dimen/_13sdp"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/mosquefinal2"
+                android:src="@drawable/mosquefinal4"
                 android:translationZ="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
