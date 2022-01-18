@@ -82,7 +82,7 @@
                 android:layout_marginEnd="@dimen/_13sdp"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/mosquefinal5"
+                android:src="@drawable/mosquefinal2"
                 android:translationZ="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -229,7 +229,7 @@
 
                     <TextView
                         android:id="@+id/fajr2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -272,7 +272,7 @@
 
                     <TextView
                         android:id="@+id/sunrise2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -316,7 +316,7 @@
 
                     <TextView
                         android:id="@+id/dhuhr2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -364,7 +364,7 @@
 
                     <TextView
                         android:id="@+id/asr2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -408,7 +408,7 @@
 
                     <TextView
                         android:id="@+id/maghrib2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -452,7 +452,7 @@
 
                     <TextView
                         android:id="@+id/isha2"
-                        style="@style/SemiBold.13"
+                        style="@style/Bold.13"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="@dimen/_7sdp"
@@ -505,7 +505,7 @@
 
                 <TextView
                     android:id="@+id/fajr"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
@@ -546,7 +546,7 @@
 
                 <TextView
                     android:id="@+id/sunrise"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
@@ -587,7 +587,7 @@
 
                 <TextView
                     android:id="@+id/dhuhr"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
@@ -628,7 +628,7 @@
 
                 <TextView
                     android:id="@+id/asr"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
@@ -669,7 +669,7 @@
 
                 <TextView
                     android:id="@+id/maghrib"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
@@ -710,7 +710,7 @@
 
                 <TextView
                     android:id="@+id/isha"
-                    style="@style/SemiBold.13"
+                    style="@style/Bold.13"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="@dimen/_19sdp"
