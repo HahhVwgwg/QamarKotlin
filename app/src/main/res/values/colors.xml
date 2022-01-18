@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7fbdd4</color>
+    <color name="colorPrimaryDark">#71aabd</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color0">#71aabd</color>
+    <color name="color1">#7fbdd6</color>
+    <color name="color2">#010101</color>
+    <color name="color3">#acadb1</color>
+    <color name="gray">#ccc</color>
+    <color name="color4">#fff</color>
+    <color name="colorgray">#fafafa</color>
+    <color name="colorTransparent">#fff</color>
+    <color name="color5">#fafafa</color>
+    <color name="transparent">#00000000</color>
+    <color name="my_spinner_text_color">#fff</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <color name="color00">#1b212d</color>
+    <color name="color11">#222e3c</color>
+    <color name="color22">#fff</color>
+    <color name="grayColorForSettingsPage">#9697AB</color>
+    <color name="color33">#72808b</color>
+    <color name="color44">#000</color>
+
+    <color name="color000">#202020</color>
+    <color name="color111">#181818</color>
+    <color name="color222">#fff</color>
+    <color name="color333">#72808b</color>
+    <color name="color444">#000</color>
+
+    <color name="mainBackground">#202020</color>
+    <color name="rippleBottomSheet">#181818</color>
+    <color name="rippleBottomSheetStopColor">#202020</color>
+    <color name="bottomSheetText">#4060AD</color>
+    <color name="bottomSheetTextNotActive">#ccc</color>
+    <color name="bottomSheetContainer">#181818</color>
+    <color name="toolbarColor">#181818</color>
+    <color name="toolbarTextColor">#ffffff</color>
+    <color name="toolbarIconColor">#ffffff</color>
+    <color name="containerMain">#181818</color>
+    <color name="timer">#ffffff</color>
+    <color name="regularText">#ffffff</color>
+    <color name="nextPrayer">#71aabd</color>
+    <color name="yearDatePickerContainer">#181818</color>
+    <color name="arrowBackIcon">#ffffff</color>
+    <color name="yearDatePickerIconColor">#ffffff</color>
+    <color name="notificationIcon">#4060AD</color>
+    <color name="prayTimesContainer">#181818</color>
+    <color name="dividerPrayTimes">#72808b</color>
+    <color name="prayTimeText">#ffffff</color>
+    <color name="prayTimeClock">#ffffff</color>
+    <color name="locationMainIcon">#ffffff</color>
+    <color name="quranMainBg1">#4060AD</color>
+    <color name="quranMainBg2">#2C3A5C</color>
+    <color name="quranMainBg3">#8681bd</color>
+    <color name="quranMainBg4">#a3a1e2</color>
+    <color name="continueReading">#4060AD</color>
+    <color name="lastReadPara">#ffffff</color>
+    <color name="lastReadPage">#ffffff</color>
+    <color name="liquidSwipe">#202020</color>
+    <color name="liquidSwipeIndicator">#181818</color>
+    <color name="duaContainer">#181818</color>
+    <color name="arabicDua">#ffffff</color>
+    <color name="nativeDua">#ffffff</color>
+    <color name="translationDua">#ffffff</color>
+    <color name="counterContainer">#2C3A5C</color>
+    <color name="counterIcons">#ffffff</color>
+    <color name="counterName">#ffffff</color>
+    <color name="counter">#ffffff</color>
+    <color name="qazaItem">#ffffff</color>
+    <color name="addButtonRippleStatic">#486B8B</color>
+    <color name="addButtonRippleRipple">#7fbdd4</color>
+
+
+    <color name="white">#ffffff</color>
+
+    <color name="black">#1C1C1C</color>
+    <color name="color_qalqala">#ff2f9900</color>
+    <color name="color_iqlab">#ff3164c5</color>
+    <color name="color_idgham">#ffb955c8</color>
+    <color name="color_ikhfa">#ffb60000</color>
+    <color name="color_ghunna">#ffd16a00</color>
+    <color name="color_idghamwo">#aaa</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_ikhfa_new">#FFC0CB</color>
+
+    <color name="qalqala">#71aabd</color>
+    <color name="iqlab">#4970B1</color>
+    <color name="idgham">#A65BC3</color>
+    <color name="ikhfa">#7fbdd4</color>
+    <color name="sozu">#ffd16a00</color>
+    <color name="idghamwo">#EF93FA</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="ghunna">#3B9367</color>
+    <color name="ghunnaDarker">#245b40</color>
+</resources>

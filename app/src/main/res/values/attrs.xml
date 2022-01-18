@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+
+        <attr name="elevationDynamic" format="integer" />
+        <attr name="shadowCustom" format="integer" />
+        <!-- MainActivity -->
+        <attr name="mainBackground" format="color" />
+        <attr name="toolbarColor" format="color" />
+        <attr name="toolbarTextColor" format="color" />
+        <attr name="toolbarIconColor" format="color" />
+        <attr name="containerMain" format="color" />
+        <attr name="regularText" format="color" />
+        <attr name="arrowBackIcon" format="color" />
+
+
+        <!-- BottomSheet -->
+        <attr name="bottomSheetText" format="color" />
+        <attr name="bottomSheetTextNotActive" format="color" />
+        <attr name="rippleBottomSheet" format="color" />
+        <attr name="rippleBottomSheetStopColor" format="color" />
+        <attr name="bottomSheetContainer" format="color" />
+
+        <!-- Pray Time -->
+        <attr name="timer" format="color" />
+        <attr name="nextPrayer" format="color" />
+        <attr name="yearDatePickerContainer" format="color" />
+        <attr name="yearDatePickerIconColor" format="color" />
+        <attr name="notificationIcon" format="color" />
+        <attr name="prayTimesContainer" format="color" />
+        <attr name="dividerPrayTimes" format="color" />
+        <attr name="prayTimeText" format="color" />
+        <attr name="prayTimeClock" format="color" />
+        <attr name="locationMainIcon" format="color" />
+
+        <!--Quran-->
+        <attr name="quranMainBg1" format="color" />
+        <attr name="quranMainBg2" format="color" />
+        <attr name="quranMainBg3" format="color" />
+        <attr name="quranMainBg4" format="color" />
+        <attr name="continueReading" format="color" />
+        <attr name="lastReadPara" format="color" />
+        <attr name="lastReadPage" format="color" />
+        <attr name="liquidSwipe" format="color" />
+        <attr name="liquidSwipeIndicator" format="color" />
+
+        <!--Dua-->
+        <attr name="duaContainer" format="color" />
+        <attr name="arabicDua" format="color" />
+        <attr name="nativeDua" format="color" />
+        <attr name="translationDua" format="color" />
+        <attr name="counterContainer" format="color" />
+        <attr name="counterIcons" format="color" />
+        <attr name="counterName" format="color" />
+        <attr name="counter" format="color" />
+        <!--Qaza-->
+        <attr name="qaza" format="color" />
+        <attr name="addButtonRippleStatic" format="color" />
+        <attr name="addButtonRippleRipple" format="color" />
+
+
+        <attr name="color0" format="color" />
+        <attr name="color1" format="color" />
+        <attr name="color2" format="color" />
+        <attr name="color3" format="color" />
+        <attr name="color4" format="color" />
+        <attr name="background1" format="color" />
+        <attr name="background2" format="color" />
+        <attr name="background3" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LiquidPager">
+        <attr name="button_drawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RallyLineGraphChart">
+        <attr name="barColor" format="color" />
+        <attr name="curveBorderColor" format="color" />
+        <attr name="curveFillColor" format="color" />
+        <attr name="curveTopMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RallyScrollableTab">
+        <attr name="selectedColor" format="color" />
+        <attr name="unSelectedColor" format="color" />
+        <attr name="tabTextAppearance" format="reference" />
+    </declare-styleable>
+
+</resources>

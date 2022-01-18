@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_dark_bottom_30"
+            android:elevation="?attr/elevationDynamic"
+            android:paddingHorizontal="@dimen/_11sdp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/Toolbar.Main"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:paddingVertical="@dimen/_11sdp"
+                android:text="@string/prayer_time"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/qibla"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/qibla"
+                android:layout_width="@dimen/_33sdp"
+                android:layout_height="@dimen/_33sdp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/settings"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/settings"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_compass" />
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="@dimen/_31sdp"
+                android:layout_height="@dimen/_31sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_settings" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_138sdp"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <View
+                android:id="@+id/forever"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/marginHorizontal"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginBottom="?attr/elevationDynamic"
+                android:background="@drawable/container_main_dark_20"
+                android:contentDescription="@null"
+                android:elevation="?attr/elevationDynamic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/mosque_image"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_113sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/mosquefinal5"
+                android:translationZ="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_23sdp"
+                android:orientation="vertical"
+                android:translationZ="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/mosque_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/location"
+                        android:layout_width="@dimen/_17sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_location_main"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="@dimen/_3sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/location"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Qasqelen' qalasy" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/nextPrayer"
+                    style="@style/Medium.16"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:textColor="?attr/nextPrayer"
+                    android:textSize="@dimen/_18ssp"
+                    tools:text="Next pray Isha" />
+
+                <TextView
+                    android:id="@+id/timer"
+                    style="@style/Medium"
+                    android:layout_width="match_parent"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/timer"
+                    android:textSize="@dimen/timer" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/yearDatePickerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/marginHorizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/container_main_dark_20"
+            android:backgroundTint="?attr/yearDatePickerContainer"
+            android:elevation="?attr/elevationDynamic"
+            android:paddingHorizontal="@dimen/_2sdp"
+            app:layout_constraintTop_toBottomOf="@id/container">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_34sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_arrow_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="?attr/yearDatePickerIconColor" />
+
+            <ImageView
+                android:id="@+id/forward"
+                android:layout_width="@dimen/_34sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_arrow_forward"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="?attr/yearDatePickerIconColor" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                app:layout_constraintEnd_toStartOf="@id/forward"
+                app:layout_constraintStart_toEndOf="@id/back" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginHorizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/container_main_dark_20"
+            android:backgroundTint="?attr/prayTimesContainer"
+            android:baselineAligned="false"
+            android:elevation="?attr/elevationDynamic"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/yearDatePickerContainer">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_5sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/fajr"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/fajr2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/fajr2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/first2" />
+
+                    <ImageView
+                        android:id="@+id/first2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:layout_marginHorizontal="@dimen/_7sdp"
+                    android:background="?attr/dividerPrayTimes" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/sunrise"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/sunrise2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/sunrise2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/second2" />
+
+                    <ImageView
+                        android:id="@+id/second2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:layout_marginHorizontal="@dimen/_7sdp"
+                    android:background="?attr/dividerPrayTimes" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/dhuhr"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/dhuhr2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/dhuhr2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/third2" />
+
+                    <ImageView
+                        android:id="@+id/third2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_7sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/asr"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/asr2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/asr2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/fourth2" />
+
+                    <ImageView
+                        android:id="@+id/fourth2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:layout_marginHorizontal="@dimen/_7sdp"
+                    android:background="?attr/dividerPrayTimes" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/maghrib"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/maghrib2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/maghrib2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/fifth2" />
+
+                    <ImageView
+                        android:id="@+id/fifth2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:layout_marginHorizontal="@dimen/_7sdp"
+                    android:background="?attr/dividerPrayTimes" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/click_second6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_7sdp"
+                    android:paddingVertical="@dimen/_10sdp">
+
+                    <TextView
+                        style="@style/Medium.13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/isha"
+                        android:textColor="?attr/prayTimeText"
+                        app:layout_constraintEnd_toStartOf="@id/isha2"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/isha2"
+                        style="@style/SemiBold.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_7sdp"
+                        android:text="@string/not_setted_time"
+                        android:textColor="?attr/prayTimeClock"
+                        app:layout_constraintEnd_toStartOf="@id/sixth2" />
+
+                    <ImageView
+                        android:id="@+id/sixth2"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/ic_notification"
+                        android:contentDescription="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_234sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/container_main_dark_20"
+            android:backgroundTint="?attr/prayTimesContainer"
+            android:elevation="?attr/elevationDynamic"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_7sdp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/yearDatePickerContainer">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/fajr"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/fajr"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/fajr"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/first" />
+
+                <ImageView
+                    android:id="@+id/first"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="?attr/dividerPrayTimes" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sunrise"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/sunrise"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/sunrise"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/second" />
+
+                <ImageView
+                    android:id="@+id/second"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="?attr/dividerPrayTimes" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/dhuhr"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/dhuhr"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/dhuhr"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/third" />
+
+                <ImageView
+                    android:id="@+id/third"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="?attr/dividerPrayTimes" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/asr"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/asr"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/asr"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/fourth" />
+
+                <ImageView
+                    android:id="@+id/fourth"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="?attr/dividerPrayTimes" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/maghrib"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/maghrib"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/maghrib"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/fifth" />
+
+                <ImageView
+                    android:id="@+id/fifth"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="?attr/dividerPrayTimes" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/click6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/Medium.13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/isha"
+                    android:textColor="?attr/prayTimeText"
+                    app:layout_constraintEnd_toStartOf="@id/isha"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/isha"
+                    style="@style/SemiBold.13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_19sdp"
+                    android:text="@string/not_setted_time"
+                    android:textColor="?attr/prayTimeClock"
+                    app:layout_constraintEnd_toStartOf="@id/sixth" />
+
+                <ImageView
+                    android:id="@+id/sixth"
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:background="@drawable/ic_notification"
+                    android:contentDescription="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TooManyViews" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

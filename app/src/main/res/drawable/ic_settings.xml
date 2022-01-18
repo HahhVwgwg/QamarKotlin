@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="115.88dp"
+    android:height="115.47dp"
+    android:viewportWidth="115.88"
+    android:viewportHeight="115.47">
+    <path
+        android:fillColor="?attr/toolbarIconColor"
+        android:pathData="M74.31,94.95a21.09,21.09 0,0 1,20.74 -20.88c11.09,0 20.79,9.5 20.83,20.5 0,11.23 -9.63,20.94 -20.79,20.9A21,21 0,0 1,74.31 94.95Z" />
+    <path
+        android:fillColor="?attr/toolbarIconColor"
+        android:pathData="M20.66,41.44A21,21 0,0 1,0.03 20.76C-0.04,9.65 9.74,0.01 20.96,0c11,0 20.63,9.66 20.61,20.72A21.12,21.12 0,0 1,20.66 41.44Z" />
+    <path
+        android:fillColor="?attr/toolbarIconColor"
+        android:pathData="M95.25,41.44a21.12,21.12 0,0 1,-20.94 -20.69c0,-11.06 9.54,-20.72 20.58,-20.74 11.27,0 21,9.59 20.95,20.72A21,21 0,0 1,95.25 41.44Z" />
+    <path
+        android:fillColor="?attr/toolbarIconColor"
+        android:pathData="M20.87,74.07c11.29,0.08 20.83,9.73 20.7,20.93A21,21 0,0 1,20.74 115.47a21.22,21.22 0,0 1,-20.74 -20.94C0.08,83.51 9.79,73.99 20.87,74.07Z" />
+</vector>

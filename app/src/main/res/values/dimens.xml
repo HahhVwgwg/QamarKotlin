@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+    <dimen name="toolbarContainer">@dimen/_23sdp</dimen>
+    <dimen name="toolbarTextSize">@dimen/_20ssp</dimen>
+    <dimen name="containerMain">@dimen/_20sdp</dimen>
+    <dimen name="containerMain1">@dimen/_18sdp</dimen>
+    <dimen name="containerMain2">@dimen/_16sdp</dimen>
+    <dimen name="containerMain3">@dimen/_14sdp</dimen>
+    <dimen name="containerMain4">@dimen/_12sdp</dimen>
+    <dimen name="containerMain5">@dimen/_10sdp</dimen>
+    <dimen name="shadowCustomValue">1.5dp</dimen>
+
+
+
+    <dimen name="marginHorizontal">@dimen/_8sdp</dimen>
+    <dimen name="regular16">@dimen/_16ssp</dimen>
+
+    <!-- BottomSheet -->
+    <dimen name="rippleBottomSheetRadius">@dimen/_23sdp</dimen>
+    <dimen name="elevationBottomNavigation">@dimen/_23sdp</dimen>
+    <dimen name="bottomSheetTextSize">@dimen/_11ssp</dimen>
+    <dimen name="bottomSheetContainer">@dimen/_23sdp</dimen>
+
+    <!-- Pray Time -->
+    <dimen name="timer">@dimen/_33ssp</dimen>
+    <dimen name="prayTime">@dimen/_13ssp</dimen>
+
+    <!--Quran -->
+    <dimen name="liquidTabSize">@dimen/_12ssp</dimen>
+    <dimen name="cornerLiquidSwipe">@dimen/_12sdp</dimen>
+
+</resources>

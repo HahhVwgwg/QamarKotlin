@@ -1,0 +1,1242 @@
+<resources>
+    <string name="app_name">QQQ</string>
+    <string name="time_adjustment_description">Select -10 minutes if you want to be aware of 10 minutes before the prayer time.</string>
+    <string name="swipe_to_right">Swipe right</string>
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="sound">Sound</string>
+    <string name="islamic_events">Islamic events</string>
+    <string name="selected_language">Selected language:</string>
+    <string name="other_languages">Other languages:</string>
+    <string name="translations">Translations</string>
+    <string name="prayer">Prayer</string>
+    <string name="quran">Quran</string>
+    <string name="zikr">Zikr</string>
+    <string name="tespihat">Tespihat</string>
+    <string name="names">Names</string>
+    <string name="rules">Tajweed rules</string>
+    <string name="hatim_quran">Hatim Quran</string>
+    <string name="colon" translatable="false">&#160;:</string>
+    <string name="prayer_fajr">Morning prayer</string>
+    <string name="qaza">Qaza Guide</string>
+    <string name="prayer_dhuhr">Dhuhr prayer</string>
+    <string name="prayer_asr">Asr prayer</string>
+    <string name="prayer_maghrib">Maghrib prayer</string>
+    <string name="prayer_isha">Isha prayer</string>
+    <string name="oraza_qaza">Fast qaza</string>
+    <string name="search">Search</string>
+    <string name="close">Close</string>
+    <string name="choose_the_theme_above">Choose the theme above</string>
+    <string name="version_code">1.5</string>
+    <string name="todays_goal_achieved">Today\'s goal achieved</string>
+    <string name="open_monthly_schedule">Open monthly schedule</string>
+    <string name="rate_us_long_string">How do you like our app? Please rate us!</string>
+    <string name="rate">Rate</string>
+    <string name="auto_scroll">Auto Scroll</string>
+    <string name="play">Play</string>
+    <string name="notifications_not_works_long_text">We have detected battery saving settings which might interrupt notifications on your device.</string>
+    <string name="manual">Manual</string>
+    <string name="adaptive_battery">Adaptive battery</string>
+    <string name="battery_settings">Battery settings</string>
+    <string name="autostart_settings">AutoStart settings</string>
+    <string name="optimize_battery_settings">Optimize battery settings</string>
+    <string name="arabic">Arabic</string>
+    <string name="transcription">Transcription</string>
+    <string name="translation">Translation</string>
+    <string name="tajweed_beta">Tajweed beta</string>
+    <string name="zhuma_mubarak">Jumma Mubarak</string>
+    <string name="read_kahf">Read sura Kahf</string>
+    <string name="meaning">Meaning</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="adj_offset_prayer_times_explation">To adjust prayer time move button</string>
+    <string name="azans">Azans</string>
+    <string name="change_zikr_name">Change zikr name</string>
+    <string name="set_ayah_limit">Enter value</string>
+    <string name="choose_calculation_explanation">Please choose a prayer time calculation method. You can change it later in Settings.</string>
+    <string name="find_automatically">Automatic detection</string>
+    <string name="choose_prayer">Choose prayer</string>
+    <string name="zero">0</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="symbol">№</string>
+    <string name="compass_calibration">Compass Calibration</string>
+    <string name="compass_calibration_explanation">While holding your device and following the method shown on-screen, move your phone around three times, tracing a figure eight in the process.</string>
+    <string name="choose_your_current_location">Choose your current location</string>
+    <string name="english">English</string>
+    <string name="latin">Latin</string>
+    <string name="russion">Русский</string>
+    <string name="kiril">Кириллица</string>
+    <string name="kazakh">Қазақша</string>
+    <string name="kirill">Кирил</string>
+    <string name="select_your_current_location">Use current geolocation</string>
+    <string name="names_99">99 names of Allah</string>
+    <string name="last_reads">Last Reads :</string>
+    <string name="bookmarks">Bookmarks :</string>
+    <string name="twice_zero">00</string>
+    <string name="prayer_time">Prayer time</string>
+    <string name="not_setted_time">--:--</string>
+    <string name="quran_karim">Quran Karim</string>
+    <string name="continue_sura">Continue reading</string>
+    <string name="delete_dua_from_database">Delete dua from database</string>
+    <string name="skip">Skip</string>
+    <string name="no_entries">No entries</string>
+    <string name="monthly_schedule">Monthly schedule</string>
+    <string name="determine">Determine</string>
+    <string name="open_settings_page">Open settings page</string>
+    <string name="notifications_does_not_work_explanation">If adhan notifications are constantly being delayed or not received at all, please check the notifications options by going to Qamar settings → Notifications and Sound → \'Notifications not working?\'.</string>
+    <string name="attention">Please note</string>
+    <string name="storage_permission_explanation">Құран деректерін сыртқы қоймаға сақтау үшін рұқсат сұралуда. Сыртқы қоймаға сақтауға рұқсат бересіз бе?</string>
+    <string name="allow">Allow</string>
+    <string name="sura_with_name" />
+    <string name="no_results_found">No results found</string>
+    <string name="am_pm_hours">24 hour format</string>
+    <string name="vibrate_on_sound">Vibrate on sound</string>
+    <string name="vibrate_on_zikr">Vibrate on dhikr</string>
+    <string name="aware_of_holy_days">Awareness of holy days</string>
+    <string name="prayer_tespihat">Prayer Tespihat</string>
+    <string name="asr_calculation_method">Asr calculation method</string>
+    <string name="adj_hijri_date">Hijri date correction</string>
+    <string name="set_goals">Set goals</string>
+    <string name="prayer_time_source">Prayer times source</string>
+    <string name="geolocation">Current location</string>
+    <string name="prayer_adj">Manual correction</string>
+    <string name="azan_sound">Azan sound</string>
+    <string name="regulate_notifications">Notifications adjustment</string>
+    <string name="notifications_does_not_work">Notifications not working?</string>
+    <string name="go_to_help">Visit help center</string>
+    <string name="choose_quran_translation">Quran translation</string>
+    <string name="choose_transcription_language">Transcription language</string>
+    <string name="technical_support">Customer support</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="rate_the_application">Rate app</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="quran_hatim_dua">Dua Khatmil Quran</string>
+    <string name="quran_katim_in_arabic">دُعَاءُ خَتْمِ القُرْآنِ الكَريمِ</string>
+    <string name="ghunna">Ghunnah</string>
+    <string name="ikhfa">Ikhfaa’ (Conceal)</string>
+    <string name="idgham">Idghaam with Ghunna (Merge)</string>
+    <string name="idgham_without_ghunna">Idghaam without Ghunna (Merge)</string>
+    <string name="iqlab">Iqlaab(Flipping)</string>
+    <string name="qalqala">Al-Qalqalah (Slipping)</string>
+    <string name="no_need_to_read">No need to read</string>
+    <string name="stop_signs">Waqf (Stopping &amp; Pausing Signs in the Quran) signs</string>
+    <string name="sajda_ayats">Sajda ayats</string>
+    <string name="mad_6">Мadd (lengthening). 6 harakat. (Compulsory)</string>
+    <string name="mad_4_or_5">Мadd connected 4 or 5</string>
+    <string name="mad_2_4_6">Мadd exposed to Sukoon (2, 4 or 6)</string>
+    <string name="mad_2">Мadd 2 harakat</string>
+    <string name="ghunna_1">\tFor every noon and meem mushaddad, i.e. for every noon and meem that have a shaddah, one must sound a ghunnah.
+                            \n\tRecall a ghunnah is the sound made entirely by the nose [nasal passage]. It is almost like a hum and completes the sound of the noon or meem. Ghunnah is directly translated to “nasalisation” and this should not be longer than two counts. i.e. similar to the time it takes to say the words: “one – two”.
+                            \n\tIt is the simplest rule, because you just need to check, does the noon/meem have a shaddah on top? If so, sound a ghunnah.
+    </string>
+    <string name="ikhfa_1">Literal meaning: To conceal something</string>
+    <string name="ikhfa_2">The rule: If any of the 15 letters of Ikhfaa’ come after Noon As-Sakinah or Tanween the word will be read between Ith’har and Idghaam with the existence of Ghunna, and the duration will be of two Harakah.</string>
+    <string name="ikhfa_3">ف ق ك ث ت خ ذ د ذ ش س ض ص ظ ط</string>
+    <string name="ikhfa_4" />
+    <string name="ikhfa_5" />
+    <string name="idgham_1">Literal meaning: To merge something into something else</string>
+    <string name="idgham_3">If any of these letters come after Nûn As-Sakinah or Tanween it is read with Ghunna.</string>
+    <string name="idgham_2">It has four letters (ي , ن , م , و (يَنْمُو.</string>
+    <string name="idgham_4" />
+    <string name="idgham_5" />
+    <string name="idgham_without_ghunna_1">It has two letters:</string>
+    <string name="idgham_without_ghunna_2">"ر ل "</string>
+    <string name="idgham_without_ghunna_3">If any of these two letters precede Nûn As-Sakinah or Tanween it will be read without Ghunna.</string>
+    <string name="iqlab_1">After every Noon Saakinah or Tanween, if the letter baa (ب) follows, the sound must be flipped [i.e. changed] to the sound of the letter meem (م). </string>
+    <string name="iqlab_2">The lips should not be entirely pressed together, to allow for the meem to come through the nasal passage as well. The mouth should be prepared to say the baa after sounding through the meem. So the above, min b‘ad is sounds like mimm b‘ad when read. What ever you do, take this piece of advice and do not get mixed up between the full shaped meem (م) drawn above letters to indicate iqlaab, and the cut meem (مـ) to indicated a compulsory stop. Refer to the resources link below. Iqlaab must be sounded for two counts, i.e. the time it takes to say the words, “one – two”.</string>
+    <string name="qalqala_1">
+        \tQalqalah: sound articulation and echo. In essence the word means shaking/disturbance. In Tajweed, it means to disturb the letter that has sukoon, i.e. that is saakin, but without any corresponding movement of the mouth and jaw that is associated with voweled letters (i.e. letters that have fat-ha, dammah, or kasra). Qalqalah “shakes” to “echo” the letter without taking up the preceding or succeeding letter’s diacritic.
+        \n\tTo explain:
+        \n\tThere are five letters in the Arabic alphabet that apply to Qalqalah. These five letters are:
+    </string>
+    <string name="qalqala_2">" ج ق ط ب د"</string>
+    <string name="qalqala_3">\tTo feel the importance of Qalqalah, try saying (أط), how about (أق) you’ll find one of two things happen. Either the back end of your tongue gets stuck and it’s difficult to loosen it and breathe, or your tongue will naturally slip and the back of your mouth is open again. It is this “slipping” that Qalqalah is based on. Disturbing the letter without moving your jaw or mouth. Try it for the rest of the letters, (أد) and (أج) and (أب). Imagine trying to say the word,\n\t
+أبْناء
+\n\tIf there was no “slipping”/”shaking”/”echoing” of the letter baa (بْ) then how hard would it be to say the noon (ن) straight away with your lips still pressed together? Doing Qalqalah will cause your lips to “slip” a bit i.e. open up a tiny bit without adding a diacritic to the baa, to make it easy to pronounce the noon.</string>
+    <string name="no_need_to_read_1">If the questioning hamzah enters a word that starts with a hamzatul wasl of type participle, the hamzatul wasl is dropped and swapped for an alif. This does not change whether the laam in the original “Al-” is merged or pronounced based on whether it’s a laam shamseeyah or qamareeyah. Note, that when this occurs, it is called Al-Madd Al-Farq.</string>
+    <string name="no_need_to_read_2">If the hamzatul wasl is preceded by the word min (مِنْ), then the silent noon is voweled with a fat-ha. We take this rule for granted, because the Quranic scripture does this for us already, we see it all the time and probably don’t even know about it.\n
+        If the hamzatul wasl is preceded by the pluralising silent waaw that is preceded by a fat-ha, or if the hamzatul wasl is preceded by the pluralising silent meem, then the meem/waaw are voweled with a dammah. As with above, the Quranic scripture does this for us. An example of each:\n
+        In all other cases, not covered in the first two circumstances, any word that ends with any form of sukoon that precedes a word starting with a hamzatul wasl of any form, must have the sukoon voweled with a kasra.</string>
+    <string name="no_need_to_read_3" />
+    <string name="no_need_to_read_4" />
+    <string name="no_need_to_read_5" />
+    <string name="no_need_to_read_6" />
+    <string name="no_need_to_read_7" />
+    <string name="no_need_to_read_8" />
+    <string name="no_need_to_read_9" />
+    <string name="stop_signs_1">" م"</string>
+    <string name="stop_signs_2">The Mandatory Stop. One must stop at this sign, which is a small "mīm" letter in the Arabic alphabet. Failing to stop at this sign would change the meaning of the verse or sentence.</string>
+    <string name="stop_signs_3">ال</string>
+    <string name="stop_signs_4">At this sign, it is necessary to continue. One may not stop or pause.</string>
+    <string name="stop_signs_5">صلی</string>
+    <string name="stop_signs_6">It is better to continue but it is allowed to pause.</string>
+    <string name="stop_signs_7">" قلی"</string>
+    <string name="stop_signs_8">It is better to stop but it is allowed to continue.</string>
+    <string name="stop_signs_9">ج</string>
+    <string name="stop_signs_10">At this small "jīm" letter, one may stop or continue. Both are allowed.</string>
+    <string name="stop_signs_11">" ۛ  ۛ "</string>
+    <string name="stop_signs_12">This sign always comes up as a pair, with two sets of three pyramid-shape dots. One may only stop at one of these two signs.</string>
+    <string name="sajda_ayats_1">\tSajda Tilaawat will be performed like a normal Sajda. Wudhu is a condition.\n
+    \tThere is no Sajdah Tilaawat when the Aayat of Sajdah is heard on tape.</string>
+    <string name="sajda_ayats_2">\tFace the Qiblah and without raising the hands, recite Takbeer (Allaahu Akbar), going down in the Sajda position. In Sajda, recite Subhaana rabbiyal a\'alaa at least 3 times. Thereafter, reciting the Takbeer if you wish to. If you wish, you may arise from the Sajda position into the Tashahhud position. The Sajdah Tilaawat is now complete. There is no need for Salaam.</string>
+    <string name="empty_fieds">Fill at least one field</string>
+    <string name="min" translatable="false">" мин"</string>
+    <string name="max_length_is_20">Zikr name should not exceed 20 characters</string>
+    <string name="sura">Surah</string>
+    <string name="ayat">verse</string>
+    <string name="page">page</string>
+    <string name="pageShort">page</string>
+    <string name="minute">minute</string>
+    <string name="second">second</string>
+    <string name="adaptive_battery_long_explanation">\'Adaptive Battery\' option can be turned off by going to System Settings → Battery → Adaptive Battery → Uncheck \'Use Adaptive Battery\'.</string>
+    <string name="next_prayer">Next prayer</string>
+    <string name="download_text">Download it on Play Store \nhttps://play.google.com/store/apps/details?id=e.muslim.prayer</string>
+    <string name="download_body_text" />
+    <string name="open_islamic_events">Open islamic events</string>
+    <string name="with_us_year_3">3 year with us!</string>
+    <string name="with_us_year_2">2 year with us!</string>
+    <string name="with_us_year_1">1 year with us!</string>
+    <string name="with_us_day_90">90 days with us!</string>
+    <string name="with_us_year_30">30 days with us!</string>
+    <string name="ayah_compound">-verse</string>
+    <string name="_1">1</string>
+    <string name="month_prayer_table">Click this button to see the monthly prayer table</string>
+    <string name="monthly_quran_table">Click this button to see a monthly quran reading statistics</string>
+    <string name="qibla_direction">Qibla direction</string>
+    <string name="settings_page">Settings page</string>
+    <string name="chain_explanation">Dates exceeding a certain minute becomes green. If more than a few minutes have been pronounced in a row, chain appears.</string>
+    <string name="month_schedule_expanded">Monthly Statistics of Reading Quran</string>
+    <string name="show_saved_zikrs">Open saved dhikrs</string>
+    <string name="change_zikir_name">Change dhikr name</string>
+    <string name="save_zikir">Save dhikr</string>
+    <string name="make_0_zikir">Reset dhikr</string>
+    <string name="choose_language">Choose language:</string>
+    <string name="continue_with_locale_language">Continue in english language</string>
+    <string name="add_dua">Add dua</string>
+    <string name="surah">Surah</string>
+    <string name="para">Para</string>
+    <string name="booksmarks_main">Bookmarks</string>
+    <string name="search_quran_explanation">Search any word within the Quran</string>
+    <string name="goTo_page">Go to page</string>
+    <string name="qaza_explanation">Qaza guide page</string>
+    <string name="tajweed_first_explanation">Tajweed rules page</string>
+    <string name="application_language">Application language</string>
+    <string name="turn_on_geolocation">Turn on your location service</string>
+    <string name="need_to_update_current_location">Information about your location may be outdated</string>
+    <string name="please_grant_permissions">Zhadyga ruqsat bugattalgan.Ruqsat beru uwin baptau mazirine kiriniz!</string>
+    <string-array name="duaArabic">
+        <item> لَا إِلٰهَ إِلَّا ٱلله مُحَمَّدٌ رَسُولُ ٱلله</item>
+        <item>ٱللَّٰهُمَّ صَلِّ عَلىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ</item>
+        <item>سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيم</item>
+        <item>اللّهـمَّ أَنْتَ رَبِّـي لاَ إلهَ إلاَّ أَنْتَ ، خَلَقْتَنـي وَأَنا عَبْـدُكَ ، وَأَنَا عَلـىَ عَهْـدِكَ وَوَعْـدِكَ ماَ اسْتَـطَعْـتُ ، أَعُـوذُبِكَ مِنْ شَـرِّ مَا صَنَـعْتُ ، أَبُـوءُ لَـكَ بِنِعْـمَتِـكَ عَلَـيَّ وَأَبُـوءُ لَـكَ بِذَنْـبِي فَاغْفـِرْ لِي فَإِنَّـهُ لَا يَغْـفِرُ الذُّنُـوبَ إِلاَّ أَنْتَ</item>
+        <item> اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ</item>
+        <item>اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ</item>
+        <item>لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</item>
+    </string-array>
+    <string-array name="duaTransliteration">
+        <item>La ilaha illallah muhammadur rasulullah</item>
+        <item>Allahumma salli ala Muhammad wa ala aali Muhammad</item>
+        <item>Subhaana Allaahi Wabihamdih, Subhaana Allahi al-`Azheem</item>
+        <item>Allahumma, anta rabbi, la ilaha illa anta, khalaqtani wa ana \'abduka, wa ana \'ala \'ahdika wa wa\'dika mastata\'tu, a\'udhu bika min sharri ma sana\'tu, abuw\'u laka bidhanbi, wa abuw\'u laka bini\'matika \'alayya faghfirli, fa innahu la yaghfirudh-dhunuba illa anta</item>
+        <item>Allahumma ainiy aasbahtu ushhiduka waushhidu hamalata arshika, wamalayikataka wajamia khalqika, biannaka aanta Allahu llazi la ilaha illa aanta wahdaka la sharika laka, waanna Muhammadaan abduka warasuluka (To be recited four times)</item>
+        <item>Allahu laaa ilaaha illaa huwal haiyul qai-yoom; laa taakhuzuhoo sinatunw wa laa nawm; lahoo maa fissamaawaati wa maa fil ard; man zallazee yashfa\'u indahooo illaa be iznih; ya\'lamu maa baina aideehim wa maa khalfahum; wa laa yuheetoona beshai \'immin \'ilmihee illa be maa shaaaa; wasi\'a kursiyyuhus samaa waati wal arda wa la ya\'ooduho hifzuhumaa; wa huwal aliyyul \'azeem</item>
+    </string-array>
+    <string-array name="duaTranslation">
+        <item>There is no god but God; Muhammad is the messenger of God</item>
+        <item>O God, send blessings upon Muhammad and upon the Progeny of Muhammad.</item>
+        <item>Glory be to Allah and all praise is due to him, glory be to Allah the great.</item>
+        <item>O Allah, You are my Lord, there is no god but You. You have created me and I am Your slave and I am keeping my promise and covenant to You as much as I can. I seek refuge with You from the evil of what I do. I acknowledge Your blessing and I acknowledge my sin, so forgive me, for there is none who can forgive sin except You.</item>
+        <item>O Allah! in the morning we call Thee, the bearers of Thy Throne, Thy angels, and all Thy creatures to witness that Thou art Allah than Whom there is no god, Thou being alone and without a partner, and that Muhammad is Thy servant and Thy Apostle</item>
+        <item>Allah! There is no god but He - the Living, the Self-subsisting, Eternal. No slumber can seize Him nor Sleep. His are all things in the heavens and on earth. Who is there that can intercede in His presence except as he permitteth? He knoweth what (appeareth to His creatures As) Before or After or Behind them. Nor shall they compass aught of His knowledge except as He willeth. His throne doth extend over the heavens and on earth, and He feeleth no fatigue in guarding and preserving them, For He is the Most High, the Supreme (in glory).</item>
+    </string-array>
+    <string-array name="duaSpecial">
+        <item />
+        <item />
+        <item />
+        <item>It was narrated from Shaddad bin Aws that: If he says this in the morning, believing in it firmly, and dies on that day before evening comes, he will enter Paradise, and if he says it in the evening, believing firmly in it, and dies before morning comes, he will enter Paradise." Al-Walid bin Tha'labah contradicted him.</item>
+        <item>The Prophet (ﷺ) said: If anyone says this in the morning, Allah will forgive him any sins that he commits that day; and if he repeats them in the evening. Allah will forgive him any sins he commits that night.</item>
+        <item>Hadhrat Hassan bin Ali (ra) says: “A person once asked: “Oh Rasulallaah (ﷺ) what does that person receive who recites Ayatul Kursi after every Fard Salaat ? Nabi (ﷺ) said: “That person remains under the protection of Allah until the next Salaat.”</item>
+    </string-array>
+
+    <string-array name="monthOfYear">
+        <item>Jan.</item>
+        <item>Fab.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sep.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    <string-array name="dayOfWeek">
+        <item>SU.</item>
+        <item>MO.</item>
+        <item>TU.</item>
+        <item>WE.</item>
+        <item>TH.</item>
+        <item>FR.</item>
+        <item>SA.</item>
+    </string-array>
+    <string-array name="dayOfWeekShort">
+        <item>Su</item>
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+    <string-array name="cityNames">
+        <item>Cities of Republican importance</item>
+        <item>Nur-Sultan</item>
+        <item>Almaty</item>
+        <item>Shymkent</item>
+        <item>Almaty region</item>
+        <item>Jarkent</item>
+        <item>Qapshaǵaı</item>
+        <item>Taldyqorǵan</item>
+        <item>Saryózek</item>
+        <item>Úsharal</item>
+        <item>Uzynaǵash</item>
+        <item>Talǵar</item>
+        <item>Qaskeleń</item>
+        <item>Eńbekshіqazaq</item>
+        <item>Shamalǵan aýyly</item>
+        <item>Akmola region</item>
+        <item>Kókshetaý</item>
+        <item>Stepnogorsk</item>
+        <item>Atbasar</item>
+        <item>Aktobe region</item>
+        <item>Aqtóbe</item>
+        <item>Qandyaǵash</item>
+        <item>Hromtaý</item>
+        <item>Shalqar</item>
+        <item>Shubarqudyq</item>
+        <item>Qarǵaly</item>
+        <item>Oıyl district</item>
+        <item>Yrǵyz district</item>
+        <item>Baıǵanın district</item>
+        <item>Qobda district</item>
+        <item>Mártók district</item>
+        <item>Embі</item>
+        <item>Atyrau region</item>
+        <item>Mııaly</item>
+        <item>Atyraý</item>
+        <item>Maqat</item>
+        <item>Qulsary</item>
+        <item>Inder</item>
+        <item>East Kazakhstan region</item>
+        <item>Aıagóz</item>
+        <item>Óskemen</item>
+        <item>Rıdder</item>
+        <item>Semeı</item>
+        <item>Zaısan</item>
+        <item>Zhambyl region</item>
+        <item>Jańatas</item>
+        <item>Qarataý</item>
+        <item>Taraz</item>
+        <item>Shý</item>
+        <item>Qordaı</item>
+        <item>Karaganda region</item>
+        <item>Balqash</item>
+        <item>Jáırem</item>
+        <item>Jezqazǵan</item>
+        <item>Sátpaev</item>
+        <item>Qaraǵandy</item>
+        <item>Qarajal</item>
+        <item>Atasý aýyly</item>
+        <item>Jezdі kentі</item>
+        <item>Temіrtaý</item>
+        <item>Kostanay region</item>
+        <item>Jіtіqara district </item>
+        <item>Uzynkól district </item>
+        <item>Denıs district</item>
+        <item>Lısakov</item>
+        <item>Taran district</item>
+        <item>Amangeldі district</item>
+        <item>Federov district</item>
+        <item>Jangeldі district</item>
+        <item>Qarasý district</item>
+        <item>Meńdіqara district</item>
+        <item>Naýyrzym  district </item>
+        <item>Sarykól district</item>
+        <item>Áýlıekól district</item>
+        <item>Arqalyq</item>
+        <item>Qostanaı</item>
+        <item>Rýdnyı</item>
+        <item>Qarabalyq district</item>
+        <item>Qamysty district</item>
+        <item>Altynsarın district</item>
+        <item>Kyzylorda region</item>
+        <item>Aral</item>
+        <item>Baıqonyr</item>
+        <item>Qyzylorda</item>
+        <item>Qazaly</item>
+        <item>Shıelі district</item>
+        <item>Josaly</item>
+        <item>Jalaǵash district</item>
+        <item>Syrdarııa district</item>
+        <item>Jańaqorǵan district</item>
+        <item>Mangistau region</item>
+        <item>Beıneý</item>
+        <item>Aqtaý</item>
+        <item>Jańaózen</item>
+        <item>Fort-Shevchenko</item>
+        <item>North Kazakhstan region</item>
+        <item>Petropavl</item>
+        <item>Shal aqyn district</item>
+        <item>Taıynsha</item>
+        <item>Pavlodar region</item>
+        <item>Ekіbastuz</item>
+        <item>Pavlodar</item>
+        <item>Turkestan region</item>
+        <item>Jetіsaı</item>
+        <item>Saryaǵash</item>
+        <item>Shardara</item>
+        <item>Túrkіstan</item>
+        <item>Keles district</item>
+        <item>Lenger</item>
+        <item>Otyrar district</item>
+        <item>Saıram district</item>
+        <item>Sozaq district</item>
+        <item>Túlkіbas kentі</item>
+        <item>Kentaý</item>
+        <item>Qazyǵurt</item>
+        <item>Sozaq</item>
+        <item>West Kazakhstan region</item>
+        <item>Jánіbek</item>
+        <item>Aqsaı</item>
+        <item>Chapaev</item>
+        <item>Jańqala</item>
+        <item>Saıqyn</item>
+        <item>Oral</item>
+        <item>Syrym district</item>
+    </string-array>
+
+    <!--  EVENTS -->
+    <string name="event1_name">Beginning of the Three Holy Months</string>
+    <string name="event1_hijri_date">1 Rajab,</string>
+    <string name="event1_info">
+        \t“For if the reward yielded by good works at other times are tenfold, in the month of Rajab they are more than a hundredfold, in Sha‘ban they exceed three hundredfold, and in Ramadan they reach a thousand fold, while on Fridays in Ramadan they reach thousands and on the Night of Power may reach thirty thousand. (The Rays, p.491)\n\n
+        \tMuslim spirits are covered with a different atmosphere in this phase of time, which is known as “Shuhur’u-Salasa” – Three Holy Months – in religious literature; because, divine mercy is at its merit within these months. If merits and religious services are rewarded tenfold in other times, they are rewarded more and more in the months of Rajab, Sha’ban and Ramadan.
+    </string>
+
+    <string name="event2_name">Isra and Mi\'raj</string>
+    <string name="event2_hijri_date">26 Rajab,</string>
+    <string name="event2_info">
+        \tThe Isra’ Mi’raj — the Night Journey and Ascension of the Prophet Muhammad — is a significant observance for Muslims around the world. Those adhering to the Islamic faith will attest that it was during this momentous night that the Prophet Muhammad embarked on a miraculous journey atop a brilliant white-winged beast called Al Buraq (from the Arabic bariq, meaning lightning).\n\n
+        \tThe night journey (Isra’) of the Prophet began from the Masjid al-Haram in Makkah to its destination the Masjid al-Aqsa in Jerusalem. Along the way, the Prophet made a number of stops as ordered by Gabriel, including Madinah, Mount Sinai, Bethlehem and the grave of Moses. Upon reaching the Masjid al-Aqsa, Prophet Muhammad performed his night prayer before ascending to the seven heavens (Mi’raj). \n\n
+        \tAccompanied by the archangel Gabriel soaring alongside, the ascension transported Prophet Muhammad beyond the seven heavens to reach the Throne of God where he was permitted an audience with the Creator Himself. \n\n
+        \tIt is considered desirable for Muslims to take advantage of the eve of the holiday (and of the holiday itself) by performing more voluntary night prayers, reciting the Holy Qur’an as well as making supplications. Muslims are also advised to engage the day by performing righteousness to parents, strengthening kinships and committing to acts of charity.
+    </string>
+
+    <string name="event3_name">Shab-e-Barat</string>
+    <string name="event3_hijri_date">14 Shabaan,</string>
+    <string name="event3_info">
+        \tShab e barat day is known as Bara\'at Night, The Night of Fortune and Forgiveness. Shab e-Barat is a holiday observed on the 14th night of Sha\'aban, the eighth month in the Islamic calendar. Shab e-Barat which takes place on the full moon is dependent on the sighting of the previous new moon signifying the start of the month of Sha\'aban. In Islam, Shab-e-Barat means the night of forgiveness, or Day of Atonement. It is considered to be the night when God forgives sinners.\n\n
+        \tThe history of this festival dates backs to the time when the twelfth Imam of the Shia Muslims named Muhammad al-Mahdi was born. The night of Shab e barat is celebrated as his birthday.\n\n
+        \tOn the other hand, Sunni Muslim community believes that on this day only, God saved the ark of Noah from the flood. This is why the people across the globe celebrate shab e barat.\n\n
+        \tOn shab e barat, people pray to Allah and visit the graves of their near and dear ones to offer prayers and light candles. Some Muslims do a daylong fast while spending the night seeking mercy for the sins committed by them. Muslims stay awake in the night, reciting the Quran and praying after the return from the graveyards where they prayed for their departed relatives and Muslim congregation.\n\n
+        \tMuslims believe on Shab-e Barat, God writes their destinies for the year to come, on the basis of their past actions. Therefore, the night is spent in asking for God’s mercy for any misdemeanour. Shab e barat is celebrated by Shia Muslims with joyous displays of fireworks.
+    </string>
+    <string name="event4_name">The beginning of Ramadan</string>
+    <string name="event4_hijri_date">1 Ramadan,</string>
+    <string name="event4_info">The beginning of Ramadan</string>
+    \tA prominent Islamic scholar has very aptly described Ramadan in the following words: “Fasting
+    is not just the state of remaining hungry and thirsty. Its nature and effect can only be
+    discovered by experience. The human makeup is such that the less food is consumed the greater is
+    the purification of the soul and the development of the powers of inner vision. God’s purpose is
+    that you should reduce one kind of food (physical) and increase the other kind (spiritual). The
+    person fasting must remember that the aim is not simply to remain hungry; he should be engrossed
+    in the remembrance of God so as to attain severance from worldly desires. Those who truly fast
+    for the sake of attaining to God, and not merely as a custom, should be absorbed in the praise
+    and glorification of God, and in meditating upon His Unity.”
+    <string name="event5_name">Laylat-al-Qadr</string>
+    <string name="event5_hijri_date">27 Ramadan,</string>
+    <string name="event5_info">
+        \tThe Night of Power – also referred to as Laylat-al-Qadr – is considered to be the Holiest night in the Islamic calendar. This was the night when the first verses of the Holy Qur’an were revealed to the Prophet Muhammad (PBUH), by Angel Jibrail. This night falls within the last 10 days of Ramadan, and although the exact date is unknown, it is widely believed to be the 27th day of the Holy month.\n\n
+        \tOn this night, a single good deed brings the blessings of 1,000 months. Just some of the good deeds that we can carry out on the Holiest of nights include dedicating the day to worship to increase your taqwa, reciting the Holy Qur’an to familiarise yourself with its teachings and giving to those most in need, thus fulfilling one of the Five Pillars of Islam. In fact, giving charity on Laylat-al-Qadr means that rewards for such a deed will come back manifold.\n\n
+        \tThere are plenty of things one can do on this auspicious night to maximise our blessings and reward. We have detailed some of these below:\n\n
+        \tRecite the Holy Qur’an\n
+        \tDuring the month of Ramadan and over the course of the year, many of us tend to recite the Holy Qur’an without knowing what it is we are actually reading. Take some time out to translate the meaning of the Holy Qur’an on this night; it is, after all, the night the very first verses of the guidance were revealed - ask yourself one simple question: would you read an English book from cover to cover if you did not understand what you were reading?\n\n
+        \tSupplications (Dua)\n
+        \tIt is said that you may ask Allah SWT for whatever you wish for on this night (legitimate desires, of course) but in doing so, do not forget to make as much Dua as possible for others and seek repentance as much as possible to your Lord for your sins on this night.\n\n
+        \tUnite\n
+        \tRamadan is intended to bring peace and unity to Islam so ensure you spend as much time as possible praying and worshipping with your loved ones. Visit the Mosque with your family and friends, have your suhoor and iftar with them and pray alongside each other, too.\n\n
+        \tDedicate Time\n
+        \tIn this day and age, we take numerous days off from our work and commitments to attend occasions and events that hold much importance to us. This night is, by far, infinitely more important than any worldly commitment we could have, so ensure you book the day off to worship, seek repentance and thank your Lord for the privilege itself.\n\n
+        \tPerform I’tikaaf\n
+        \tThe Holy Prophet Muhammed (PBUH) used to spend the final ten days of this Holy month in I’tikaaf at the Masjid. I’tikaaf is the act of performing continuous prayer and Dhikr (devotional prayers/remembrance of Allah SWT) at the Masjid for a prolonged period of time, without leaving.\n\n
+        \tIbaadah (Worship)\n
+        \tIf you cannot perform I’tikaaf during the last ten nights it is strongly recommended to spend the actual night of Laylat-ul-Qadr in ibaadah, at the Masjid, reciting dua and seeking repentance as much as you can. As mentioned above, reciting the Holy Qur’an and supplications are recommended, along with reciting tasbih prayers and the recommended amaal for Laylat-ul-Qadr during the course of the night.
+    </string>
+
+    <string name="event6_name">Eid al-Fitr\n</string>
+    <string name="event6_hijri_date">1 Shawal,</string>
+    <string name="event6_info">
+        \tRamadan, the month of fasting, ends with the festival of Eid al-Fitr. Literally the "Festival of Breaking the Fast," Eid al-Fitr is one of the two most important Islamic celebrations (Eid al-Adha is the other). At Eid al-Fitr people dress in their finest clothes, adorn their homes with lights and decorations, give treats to children, and enjoy visits with friends and family.\n\n
+        \tA sense of generosity and gratitude colors these festivities. Although charity and good deeds are always important in Islam, they have special significance at the end of Ramadan. As the month draws to a close, Muslims are obligated to share their blessings by feeding the poor and making contributions to mosques.
+    </string>
+
+    <string name="event9_name">Day of \'Arafah</string>
+    <string name="event9_hijri_date">9 Dhul Hijjah,</string>
+    <string name="event9_info">
+        \tThe day of Arafah is also significant because this amazing ayah was revealed on this day:\n
+        \t"This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion." (Surah al Maa\'idah 5:3)\n\n
+        \tArafah was the Day on which Allah perfected His religion, completed His favours upon His beloved Prophet Muhammad (pbuh), and approved Islam as a way of life!\n\n
+        \tThings to Do on the Day of Arafah\n
+        \t1. Fasting on the Day of Arafah: \n
+        Fasting is highly encouraged and recommended for those not going on hajj.\n
+        "Fasting on the Day of Arafah expiates the sins of the past year and the coming year." (Muslim)\n\n
+        \t2. DU\'AA OF ARAFAH: Saying this du\'aa very often:\n
+        The Prophet Muhammad, peace be upon him, said:\n
+        "The most excellent dua is the dua on the Day of Arafah, and the best of what I and the prophets before me have said, is "There is nothing that deserves to be worshiped in truth except Allaah, He is Alone and has no partner, to Him belongs the dominion and to Him belongs all praise, and He is All-Powerful over all things." (Muwatta)\n\m
+        \t3. Making Tahleel, Takbeer, Tahmeed and Tasbeeh:\n
+        Its is a sunnah of our Prophet (pbuh) to recite the Tahleel, Takbeer and Tahmeed as many times as possible on the day of Arafah, and also on the days of Tashreeq (11, 12 and 13th of Dhul Hijjah\n
+        Tahleel is to say "Laa ilaaha il-lal-laah"\n
+        Takbeer is to say "Allahu Akbar"\n
+        Tahmeed is to say "Alhamdulillaah"\n
+        Tasbeeh is to say "Subhanallaah".\n
+        \t4. Seek forgiveness from Almighty Allah:\n
+        The Prophet Muhammad (pbuh) said:\n
+        "On this day, Allah, the most Exalted, descends to the nearest heaven, and He is proud of His servants on the earth and says to those in heavens, look at My servants, they have come from far and near, with hair disheveled and faces covered with dust, to seek my Mercy. Even if their sins are as much the sand or the froth of the sea, I shall forgive them.
+    </string>
+
+    <string name="event10_name">Eid al-Adha\n(1-day)</string>
+    <string name="event10_hijri_date">10 Dhul Hijjah,</string>
+    <string name="event10_info">
+        \tAt Eid al-Adha, many Muslims make a special effort to pray and listen to a sermon at a mosque. They also wear new clothes, visit family members and friends and may symbolically sacrifice an animal in an act known as qurbani. This represents the animal that Ibrahim sacrificed in the place of his son.
+    </string>
+
+    <string name="event14_name">The Islamic New Year</string>
+    <string name="event14_hijri_date">1 Muharram,</string>
+    <string name="event14_info">
+        \tThe month of Muharram marks the beginning of the Islamic liturgical year. The Islamic year begins on the first day of Muharram, and is counted from the year of the Hegira (anno Hegirae) the year in which Muhammad emigrated from Mecca to Medina (A.D. July 16, 622).
+    </string>
+
+    <string name="event15_name">Night Ashura</string>
+    <string name="event15_hijri_date">10 Muharram,</string>
+    <string name="event15_info">
+        \tAshura is observed on the 10th day of Muharram and it is the most sacred day among all its days\n\n
+        \tAshura falls on the 10th day of Muharram, which is the first month of the Islamic Lunar Calendar. In Islam, it is considered as a month of pure sacredness and sanctity; being one of the four months that Allah chose to be sacred. In this month and the occasion of Ashura; Muslims should highly adhere to patience.\n\n
+        \tAround the world, Muslims observe a fast on the day of Ashura because Prophet Muhammad (PBUH) is known to have fasted on Ashura. Also, to distinguish Muslims from Jews, fast on the day before or after Ashura is to be kept.
+    </string>
+
+    <string name="event16_name">Mawlid al-Nabi</string>
+    <string name="event16_hijri_date">12 Rabi ul Awwal,</string>
+    <string name="event16_info">
+        \tRabi’ al awal, the third month of the Islamic Calendar. Several significant events took place in the life of our Prophet (pbuh) during this month. This month is considered to be a month of renewal, a time to renew your love for our beloved Prophet Muhammad (pbuh). It is an excellent time to remind ourselves of the significant events that took place and form some good habits.\n\n
+        \tRecommended acts\n
+        1.Reconnect With Allah swt.Rabi’ al Awwal is a time for renewal; being grateful to Allah swt, reviving our connection with Him and His Messenger by learning more about the Qur’an and Sunnah. It’s a time to be thankful to Allah swt for sending our beloved Prophet (pbuh) to us to guide us to His Light. It is a time for grounding ourselves in our purpose of worshiping Allah swt.\n
+        2. Increase Your Salawat/Salutation Upon The Prophet (pbuh). There are numerous such documented benefits of sending salam and blessing to the Prophet (pbuh). When you send salutation to the Prophet (pbuh), you are obeying the command of Allah, Allah returns the salutation ten times, the Prophet(pbuh) hears your greeting, and last but not least you get peace and blessings from the angels.\n
+    </string>
+
+    <string name="event">Religious days</string>
+    <string name="mosque">Mosques</string>
+    <string name="today">Today</string>
+
+    <!-- Months -->
+    <string name="muharram">Muharram</string>
+    <string name="safar">Safar</string>
+    <string name="rabilalawwal">Rabi ul Awwal</string>
+    <string name="rabialakhar">Rabi ul Thani</string>
+    <string name="jumadaalawwal">Jumada al Awwal</string>
+    <string name="jumadaalakhirah">Jumada al Thani</string>
+    <string name="rajab">Rajab</string>
+    <string name="shaban">Shabaan</string>
+    <string name="ramadan">Ramadan </string>
+    <string name="shawwal">Shawal</string>
+    <string name="dhulqadah">Dhul qi’dah</string>
+    <string name="dhulhijjah">Dhul Hijjah</string>
+
+    <string name="dismiss">Dismiss</string>
+    <string name="no_alarms_set">No Alarms Set</string>
+    <string name="alarm_title">Alarm Title</string>
+    <string name="alarm">Alarm</string>
+    <string name="snoozed_alarm">Snoozed Alarm</string>
+    <string name="settings">Settings</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+
+    <string name="_00_00">0:00</string>
+    <string name="_0_00_00">00:00</string>
+    <string name="_05_00">5:00</string>
+    <string name="_bet">-page</string>
+
+    <string-array name="repeatValues">
+        <item>1 time</item>
+        <item>2 times</item>
+        <item>3 times</item>
+        <item>4 times</item>
+        <item>5 times</item>
+        <item>6 times</item>
+        <item>11 times</item>
+        <item>13 times</item>
+        <item>15 times</item>
+        <item>17 times</item>
+        <item>19 times</item>
+    </string-array>
+    <string-array name="asr_juristic_method">
+        <item>Shafi</item>
+        <item>Hanafi</item>
+    </string-array>
+    <string-array name="quran_reading_streak_time">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <string-array name="adj_hijri">
+        <item>\u0020\u0020\u0020–2\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020–1\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00200\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00201\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00202\u0020\u0020\u0020</item>
+    </string-array>
+
+    <string-array name="days_of_week_long">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="month_gregorian">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="headers">
+        <item>Pray times</item>
+        <item>Notifications and Sound</item>
+        <item>Quran</item>
+        <item>Other</item>
+        <item>Contact us</item>
+    </string-array>
+
+    <string name="mekka">Meccan surah</string>
+    <string name="medina">Medinan surah</string>
+
+    <string-array name="counter_names">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Forth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+        <item>Seventh</item>
+        <item>Eighth</item>
+    </string-array>
+
+    <string-array name="azan_sound">
+        <item>Mishary Rashid Al Afasi</item>
+        <item>Nature sounds</item>
+        <item>Notification</item>
+    </string-array>
+
+
+    <string-array name="kazakh_names">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Aal-E-Imran</item>
+        <item>An-Nisa\'</item>
+        <item>Al-Ma\'idah</item>
+        <item>Al-An\'am</item>
+        <item>Al-A\'raf</item>
+        <item>Al-Anfal</item>
+        <item>At-Tawbah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra\'</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Taha</item>
+        <item>Al-Anbiya\'</item>
+        <item>Al-Hajj</item>
+        <item>Al-Mu\'minun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Ash-Shu\'ara</item>
+        <item>An-Naml</item>
+        <item>Al-Qasas</item>
+        <item>Al-Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba\'</item>
+        <item>Fatir</item>
+        <item>Yaseen</item>
+        <item>As-Saaffat</item>
+        <item>Sad</item>
+        <item>Az-Zumar</item>
+        <item>Ghafir</item>
+        <item>Fussilat</item>
+        <item>Ash-Shura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jathiya</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Adh-Dhariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'ah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadila</item>
+        <item>Al-Hashr</item>
+        <item>Al-Mumtahana</item>
+        <item>As-Saf</item>
+        <item>Al-Jumu\'ah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Taghabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyamah</item>
+        <item>Al-Insan</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba\'</item>
+        <item>An-Nazi\'at</item>
+        <item>\'Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infitar</item>
+        <item>Al-Mutaffifin</item>
+        <item>Al-Inshiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-A\'la</item>
+        <item>Al-Ghashiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Ad-Dhuhaa</item>
+        <item>Al-Sharh</item>
+        <item>At-Tin</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adiyat</item>
+        <item>Al-Qari\'ah</item>
+        <item>At-Takathur</item>
+        <item>Al-Asr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraysh</item>
+        <item>Al-Ma\'un</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nasr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas</item>
+        <item>Dua Khatmil Quran</item>
+    </string-array>
+
+    <string-array name="kazakh_names_new">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Aal-E-Imran</item>
+        <item>An-Nisa\'</item>
+        <item>Al-Ma\'idah</item>
+        <item>Al-An\'am</item>
+        <item>Al-A\'raf</item>
+        <item>Al-Anfal</item>
+        <item>At-Tawbah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra\'</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ta-Ha</item>
+        <item>Al-Anbiya\'</item>
+        <item>Al-Hajj</item>
+        <item>Al-Mu\'minun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Ash-Shu\'ara</item>
+        <item>An-Naml</item>
+        <item>Al-Qasas</item>
+        <item>Al-Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba\'</item>
+        <item>Fatir</item>
+        <item>Ya-Seen</item>
+        <item>As-Saaffat</item>
+        <item>Sad</item>
+        <item>Az-Zumar</item>
+        <item>Ghafir</item>
+        <item>Fussilat</item>
+        <item>Ash-Shura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jathiya</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Adh-Dhariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'ah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadila</item>
+        <item>Al-Hashr</item>
+        <item>Al-Mumtahana</item>
+        <item>As-Saf</item>
+        <item>Al-Jumu\'ah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Taghabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyamah</item>
+        <item>Al-Insan</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba\'</item>
+        <item>An-Nazi\'at</item>
+        <item>\'Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infitar</item>
+        <item>Al-Mutaffifin</item>
+        <item>Al-Inshiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-A\'la</item>
+        <item>Al-Ghashiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Ad-Dhuhaa</item>
+        <item>Al-Sharh</item>
+        <item>At-Tin</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adiyat</item>
+        <item>Al-Qari\'ah</item>
+        <item>At-Takathur</item>
+        <item>Al-Asr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraysh</item>
+        <item>Al-Ma\'un</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nasr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas</item>
+    </string-array>
+
+    <string name="we_use_location_services">We use location services to accurately detect your city.</string>
+    <string name="open_surah">Open surah</string>
+    <string name="open_page">Open page</string>
+    <string name="open">Open</string>
+    <string name="page_upparcase">Page</string>
+    <string name="animation">Animations</string>
+    <string name="fajr_for_month">Fajr</string>
+    <string name="sunrise_for_month">Sun.</string>
+    <string name="dhuhr_for_month">Dhuhr</string>
+    <string name="asr_for_month">Asr</string>
+    <string name="maghrib_for_month">Mag.</string>
+    <string name="isha_for_month">Isha</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="holy_first_part">"Holy "</string>
+    <string name="quran_second_part">Quran</string>
+    <string name="quran_explanation">Qamar is a Quran study tool for everyone. It provides Verse by Verse Audio Playback with repeat functions, Color Coded Tajweed, custom bookmarks, and translations in different languages.</string>
+    <string name="prayer_first">"Prayer "</string>
+    <string name="times_second">Times</string>
+    <string name="prater_times_explanation">Get the most accurate Prayer times, set reminders and customize notifications for each prayer.</string>
+    <string name="zikr_explanation">Keep record of your tesbihat and dhikr in the dhikr section. Use the app for the names of ALLAH (c.c) as well.</string>
+    <string name="zikr_and">"Zikr and "</string>
+    <string name="dua">Dua</string>
+    <string name="religues_first">"Religious "</string>
+    <string name="days_second">Days</string>
+    <string name="religious_explanation">Lunar based Hijri Calendar that shows Hijri Dates and Islamic Holidays of any year.</string>
+    <string name="bismilla">Bismillah</string>
+    <string name="value">Value</string>
+    <string name="add_to_bookmarks">Add to bookmarks</string>
+    <string name="book_version">Book version</string>
+    <string name="remove_from_bookmarks">Remove from bookmarks</string>
+    <string name="simple_version">Simple version</string>
+
+
+    <string-array name="name_99">
+        <item>Ar-Rahman</item>
+        <item>Ar-Raheem</item>
+        <item>Al-Malik</item>
+        <item>Al-Quddus</item>
+        <item>As-Salam</item>
+        <item>Al-Mu’min</item>
+        <item>Al-Muhaymin</item>
+        <item>Al-Aziz</item>
+        <item>Al-Jabbar</item>
+        <item>Al-Mutakabbir</item>
+        <item>Al-Khaaliq</item>
+        <item>Al-Baari</item>
+        <item>Al-Musawwir</item>
+        <item>Al-Ghaffaar</item>
+        <item>Al-Qahhaar</item>
+        <item>Al-Wahhab</item>
+        <item>Ar-Razzaq</item>
+        <item>Al-Fattah</item>
+        <item>Al-Alim</item>
+        <item>Al-Qaabid</item>
+        <item>Al-Baasit</item>
+        <item>Al-Khaafid</item>
+        <item>Ar-Rafi</item>
+        <item>Al-Mu’izz</item>
+        <item>Al-Muzil</item>
+        <item>As-Sami’</item>
+        <item>Al-Baseer</item>
+        <item>Al-Hakam</item>
+        <item>Al-Adl</item>
+        <item>Al-Lateef</item>
+        <item>Al-Khabeer</item>
+        <item>Al-Haleem</item>
+        <item>Al-Azeem</item>
+        <item>Al-Ghafoor</item>
+        <item>Ash-Shakoor</item>
+        <item>Al-Aliyy</item>
+        <item>Al-Kabeer</item>
+        <item>Al-Hafiz</item>
+        <item>Al-Muqeet</item>
+        <item>Al-Haseeb</item>
+        <item>Al-Jaleel</item>
+        <item>Al-Kareem</item>
+        <item>Ar-Raqeeb</item>
+        <item>Al-Mujeeb</item>
+        <item>Al-Waasi’</item>
+        <item>Al-Hakeem</item>
+        <item>Al-Wadud</item>
+        <item>Al-Majeed</item>
+        <item>Al-Ba’ith</item>
+        <item>Ash-Shaheed</item>
+        <item>Al-Haqq</item>
+        <item>Al-Wakeel</item>
+        <item>Al-Qawwiyy</item>
+        <item>Al-Mateen</item>
+        <item>Al-Waliyy</item>
+        <item>Al-Hameed</item>
+        <item>Al-Muhsee</item>
+        <item>Al-Mubdi</item>
+        <item>Al-Mueed</item>
+        <item>Al-Muhyi</item>
+        <item>Al-Mumeet</item>
+        <item>Al-Hayy</item>
+        <item>Al-Qayyoom</item>
+        <item>Al-Waajid</item>
+        <item>Al-Maajid</item>
+        <item>Al-Waahid</item>
+        <item>Al-Ahad</item>
+        <item>As-Samad</item>
+        <item>Al-Qaadir</item>
+        <item>Al-Muqtadir</item>
+        <item>Al-Muqaddim</item>
+        <item>Al-Mu’akhkhir</item>
+        <item>Al-Awwal</item>
+        <item>Al-Akhir</item>
+        <item>Az-Zaahir</item>
+        <item>Al-Baatin</item>
+        <item>Al-Waali</item>
+        <item>Al-Muta’ali</item>
+        <item>Al-Barr</item>
+        <item>At-Tawwaab</item>
+        <item>Al-Muntaqim</item>
+        <item>Al-Afuww</item>
+        <item>Ar-Ra’oof</item>
+        <item>Maalik-ul-Mulk</item>
+        <item>Zul-Jalaali-wal-Ikram</item>
+        <item>Al-Muqsit</item>
+        <item>Al-Jaami’</item>
+        <item>Al-Ghaniyy</item>
+        <item>Al-Mughni</item>
+        <item>Al-Maani’</item>
+        <item>Ad-Daarr</item>
+        <item>An-Naafi’</item>
+        <item>An-Noor</item>
+        <item>Al-Haadi</item>
+        <item>Al-Badi’</item>
+        <item>Al-Baaqi</item>
+        <item>Al-Waaris</item>
+        <item>Ar-Rasheed</item>
+        <item>As-Saboor</item>
+    </string-array>
+
+    <string-array name="kazakh_names_99">
+        <item>The Beneficent</item>
+        <item>The Merciful</item>
+        <item>The Eternal Lord</item>
+        <item>The Most Sacred</item>
+        <item>The Embodiment of Peace</item>
+        <item>The Infuser of Faith</item>
+        <item>The Preserver of Safety</item>
+        <item>The Mighty One</item>
+        <item>The Omnipotent One</item>
+        <item>The Dominant One</item>
+        <item>The Creator</item>
+        <item>The Evolver</item>
+        <item>The Flawless Shaper</item>
+        <item>The Great Forgiver</item>
+        <item>The All-Prevailing One</item>
+        <item>The Supreme Bestower</item>
+        <item>The Total Provider</item>
+        <item>The Supreme Solver</item>
+        <item>The All-Knowing One</item>
+        <item>The Restricting One</item>
+        <item>The Extender</item>
+        <item>The Reducer</item>
+        <item>The Elevating One</item>
+        <item>The Honourer-Bestower</item>
+        <item>The Abaser</item>
+        <item>The All-Hearer</item>
+        <item>The All-Seeing</item>
+        <item>The Impartial Judge</item>
+        <item>The Embodiment of Justice</item>
+        <item>The Knower of Subtleties</item>
+        <item>The All-Aware One</item>
+        <item>The Clement One</item>
+        <item>The Magnificent One</item>
+        <item>The Great Forgiver</item>
+        <item>The Acknowledging One</item>
+        <item>The Sublime One</item>
+        <item>The Great One</item>
+        <item>The Guarding One</item>
+        <item>The Sustaining One</item>
+        <item>The Reckoning One</item>
+        <item>The Majestic One</item>
+        <item>The Bountiful One</item>
+        <item>The Watchful One</item>
+        <item>The Responding One</item>
+        <item>The All-Pervading One</item>
+        <item>The Wise One</item>
+        <item>The Loving One</item>
+        <item>The Glorious One</item>
+        <item>The Infuser of New Life</item>
+        <item>The All Observing Witness</item>
+        <item>The Embodiment of Truth</item>
+        <item>The Universal Trustee</item>
+        <item>The Strong One</item>
+        <item>The Firm One</item>
+        <item>The Protecting Associate</item>
+        <item>The Sole-Laudable One</item>
+        <item>The All-Enumerating One</item>
+        <item>The Originator</item>
+        <item>The Restorer</item>
+        <item>The Maintainer of life</item>
+        <item>The Inflictor of Death</item>
+        <item>The Eternally Living One</item>
+        <item>The Self-Subsisting One</item>
+        <item>The Pointing One</item>
+        <item>The All-Noble One</item>
+        <item>The Only One</item>
+        <item>The Sole One</item>
+        <item>The Supreme Provider</item>
+        <item>The Omnipotent One</item>
+        <item>The All Authoritative One</item>
+        <item>The Expediting One</item>
+        <item>The Procrastinator</item>
+        <item>The Very First</item>
+        <item>The Infinite Last One</item>
+        <item>The Perceptible</item>
+        <item>The Imperceptible</item>
+        <item>The Holder of Supreme Authority</item>
+        <item>The Extremely Exalted One</item>
+        <item>The Fountain-Head of Truth</item>
+        <item>The Ever-Acceptor of Repentance</item>
+        <item>The Retaliator</item>
+        <item>The Supreme Pardoner</item>
+        <item>The Benign One</item>
+        <item>The Eternal Possessor of Sovereignty</item>
+        <item>The Possessor of Majesty and Honour</item>
+        <item>The Just One</item>
+        <item>The Assembler of Scattered Creations</item>
+        <item>The Self-Sufficient One</item>
+        <item>The Bestower of Sufficiency</item>
+        <item>The Preventer</item>
+        <item>The Distressor</item>
+        <item>The Bestower of Benefits</item>
+        <item>The Prime Light</item>
+        <item>The Provider of Guidance</item>
+        <item>The Unique One</item>
+        <item>The Ever Surviving One</item>
+        <item>The Eternal Inheritor</item>
+        <item>The Guide to Path of Rectitude</item>
+        <item>The Extensively Enduring One</item>
+    </string-array>
+
+    <string-array name="meanings">
+        <item>Comes from the word Rehmat, which means that Allah compassion for the entire creation without differentiating believers and non-believers.</item>
+        <item>The ONE who has kindness for everyone in this universe.</item>
+        <item>The Sovereign Lord, the one who dominates and owns everything on earth and heavens.</item>
+        <item>The One who is free from any flaw, and the One who is most pure from any imperfection.</item>
+        <item>The One who is the only Peace giver to the seven heavens and above.</item>
+        <item>Al-Mu’min means that the One who gives full security. He sent Prophets who witnessed for Himself that no one is God but Him. Also, the One who puts faith in hearts and protects them who seek his shelter.</item>
+        <item>The One who witnesses every single act and saying of His creatures. He is the one who always watches and looks after us.</item>
+        <item>The Mighty and Strong, who can’t be defeated by anyone in this and hereafter world.</item>
+        <item> The One who doesn’t allow anything to happen without His will. He is All-Might and has the authority to do anything.</item>
+        <item>The One clear from resembling any of the creatures. He has power, dominancy, and pride. </item>
+        <item>The One who creates every single creature from nothing and He has the power to vanish anyone anytime.</item>
+        <item>The Maker and Creator, who has planned before the creation of seven heavens and earth. Everything happened here as per His will.</item>
+        <item>The One who forms His creatures in different looks and appearance including all living and non-living creatures.</item>
+        <item>The Forgiver, He likes nothing more than forgiveness. And that’s why He forgives the sins of His people with or without any condition.</item>
+        <item>The Dominant, The One who has the absolute power over everything in this universe.</item>
+        <item>The One who is distributes generously without asking for any return. He blessed all creature with numerous gifts.</item>
+        <item>The Sustainer, who creates all sources of food and everything that is essential for livelihood.</item>
+        <item>The Opener, The Judge; who opens his mercy and greatness for slaves. He has a solution to every problem.</item>
+        <item>The Knowledgeable; who has supreme knowledge about every happening in this world. Nothing is hidden from Him.</item>
+        <item>The Constrictor, who has all authority to make life easier or difficult of anyone whomever He selects.</item>
+        <item>The Enlarger, who can make one’s life easier and increase the sustenance without any doubt.</item>
+        <item>The Abaser, The One who lowers the status of anyone He wished by His legacy.</item>
+        <item>The Exalter and the Elevator; The One who raises the status of anyone whoever He willed by His Destruction.</item>
+        <item>He gives esteem to whoever He wished; though there is no one to degrade Him. But He degrades whoever anyone.</item>
+        <item>The Dishonourer, The Humiliator; the one who can’t be degraded by anyone. But He degrades anyone whom He wished for. </item>
+        <item>The Hearer, The One who hears everything by His Eternal Hearing. He is not unaware of anything that is being spoken in this world.</item>
+        <item>The All-Noticing, The One who has the power to see by His Eternal Seeing.</item>
+        <item>The Judge, He is the only ruler of the entire world and He is the best of all rulers. There is no question on His judgment is this Word.</item>
+        <item>The Just, He is the only one who is the best symbol of justice for poor and rich. Nobody can refrain from his Justice.</item>
+        <item>The Subtle One; He is the One who is kind to His every little and poor creature. He knows the situation of slaves and endows upon them.</item>
+        <item>The One who is aware of everyone and the truth of this world.</item>
+        <item>The Forbearing; He is the only One who has the power to delay the punishment. And if He will, they can be forgiven.</item>
+        <item>The Great One, The Mighty; He is the One who only deserves the attributes of pride and glory. He is pure from all imperfection.</item>
+        <item>The All-Forgiving, the Forgiving. There is no one who can forgive like Him. He forgives whomever He wills.</item>
+        <item>The Grateful, the Appreciative. Only He is the One who blesses his believers a lot of reward for showing a little obedience.</item>
+        <item>The Highest, only He is the One who is abstained from the creature’s characteristics.</item>
+        <item>The Most Great; He is the One who is supreme and has the greater status of all.</item>
+        <item>The Preserver, the Protector. Only He is the One who can protect whatever and whoever He willed for.</item>
+        <item>The Maintainer, The Guardian, The Feeder, The One who has the power to do anything to anyone.</item>
+        <item>The Reckoner, only Allah is the only One who can give satisfaction to whomever He is willing to provide.</item>
+        <item>The Sublime One, The Beneficent, The One who has attributed Power and Glory of status and this won’t be compared with anyone.</item>
+        <item>The Generous One, The Gracious, in the entire world He is the One who is accredited with the power of supremacy and magnificent status.</item>
+        <item>The Watcher, Allah is the one who is watching everyone and He is not absent from anyone’s deed.</item>
+        <item>The Responsive, He is the One who listens and answers in any form. The time and method are not what we are looking for but whatever seems good according to Him.</item>
+        <item>The Vast, the All-Embracing, The Knowledgeable. He is the only one who has knowledge that nobody can ever think of. The creature only uses 5% of the mind he has been given. </item>
+        <item>The Wise, The Judge of Judges, The One who remains correct in all of His decisions, and judgments. </item>
+        <item>Allah is the One who loves His people who have a firm belief in Him and also love those who love believers. </item>
+        <item>The Most Glorious One; only Allah has the trait of being glory in this world. No ruler or king is equivalent to Him. He is the only unmatched power, generosity, and Kindness for the living beings.</item>
+        <item>The Resurrector, The Raiser (from death), He started life from nothing and He has the power to create or destroy any life without asking permission. </item>
+        <item>The Witness, the One who is aware of everything and there isn’t any single deed or act happened in this world without His permission.</item>
+        <item>The Truth, The True, He is the One whose existence is truly from eternity and He will remain when everything is finished.</item>
+        <item>The Trustee, the One who gives the ultimate satisfaction to His believers and rely upon, and there isn’t anyone who can seek satisfaction without His permission. </item>
+        <item>The Most Strong, The Strong, The One with the complete superpower, which has no comparison with anyone ever in this entire universe. </item>
+        <item>The only One having super extreme Power which is un-interrupted and He never got tired of handling all matters.</item>
+        <item>The Protecting Friend, the Supporter. He is the One who supports and protects the poor ones from the frown of cruel ones.</item>
+        <item>The Praiseworthy, He who deserves to be praised by all means and there isn’t anyone who can stand in front of Him. </item>
+        <item>The Counter, The Reckoner, The One who keeps a record of everything happening in this world.</item>
+        <item>He is the One who has started the human being and other organisms without seeking help from another creature. He has designed and sent humans as His messenger.</item>
+        <item>The Reproducer, The One who has the ability to bring back every dead creature to life on the Day of Judgment.</item>
+        <item>The Restorer, The Giver of Life; He is the One who took out a living human from a single drop and gives life. He makes the hearts alive by the light of knowledge.</item>
+        <item>The Creator of Death, The Destroyer; He who has render created life and death for every living creature.</item>
+        <item>The Alive, The One attributed with a life that is unlike our life and is not that of a combination of soul, flesh, or blood.</item>
+        <item>The One who remains and does not end.</item>
+        <item>The Perceiver, The Finder, the Rich who is never poor. Al-Wajd is Richness.</item>
+        <item>The Glorious, He who is Most Glorious and this will last forever.</item>
+        <item>The Unique; the One who has no partner and He doesn’t need any. </item>
+        <item>The One; it is to believe that He is the One and there is no one who belongs to Him. He has no family and no child.</item>
+        <item>The Eternal and Independent; the One who is relied upon in matters and reverted to in anyone’s needs.</item>
+        <item>The Able, The Capable, The One attributed with Power.</item>
+        <item>The Powerful and Dominant; He is the One having eternal power of making and implementing His decisions.</item>
+        <item>The Expediter, The Promoter; the One who placed all things in the right place. He makes fast what He wills.</item>
+        <item>The Delayer, the Retarder; He is the One who puts things in the best of theirs. He delays anything to happen if He wills.</item>
+        <item>The First, He is the One who exists in this world from eternity and there is no boundary for the beginning.</item>
+        <item>The Last, The One who will remain even after everything has gone to an end. His existence is without any end.</item>
+        <item>The Manifest, One who is above everything and His is not answerable to anyone. His existence doesn’t need any place. He is the one whose existence is clear from the system going on.</item>
+        <item>The Hidden, there isn’t anything which is hidden from Him. He knows everything happened whether it’s openly done or needs some hidden place to perform the act.</item>
+        <item>The Governor, He is the One who has authority over all creatures and He knows well how to manage them.</item>
+        <item>The Most Exalted, The High Exalted, The One who is supreme of all creatures. And this has been cleared from the attributes of His every single creation.</item>
+        <item>The Source of All Goodness, The Righteous; He is the One who is kind enough to His creatures. He provides food, shelter, and special mercy.</item>
+        <item>The Relenting, The One who grants repentance to those who ask for His mercy. He is the only one who is ready to accept anyone’s regret over their misdeed.</item>
+        <item>The Avenger, The One who proudly conquers over His enemies again and again. He has the authority to punish them for their sins.</item>
+        <item>The Forgiver, He is the only One who forgives when someone asks for His forgiveness.</item>
+        <item>The Compassionate, He is the One with extreme mercy for His creature. He has power and will which let this happen to anyone without differentiating whether someone is a believer or not.</item>
+        <item>He is the One who controls this entire world without asking anyone. The sole authority belongs to Him only.</item>
+        <item>He is the Lord of Majesty and Bounty in this world and no one can stand against Him. He is the only One who deserves to be accepted and never denied.</item>
+        <item>The Equitable, The One who is above all in doing justice to the rich and poor. He is the best in His judgment.</item>
+        <item>The Gatherer, He has the power of gathering all the creatures on the day of judgment. All dead people will be called and they will stand in front of Him for their deeds reward or compensation</item>
+        <item>The One who does not need any of His creation to believe or worship Him but this creature needs Him in every moment.</item>
+        <item>The Enricher, He is the sole who tends to satisfy all of the necessities of living beings.</item>
+        <item>The Withholder. He is the One who has the authority to stop anyone from doing any deed. He doesn’t need to explain why He wouldn’t let anyone doing what they want.</item>
+        <item>The One who makes harm reach to anyone. If He is the One who can benefit anyone, so why not He distress whoever He willed.</item>
+        <item>The Propitious, the One who benefits anyone he chooses. Every gain and good comes from Him.</item>
+        <item>The Light, The One who guides and created light to enlighten His believers. Also, the one who illuminates the heats of His believers with faith and knowledge.</item>
+        <item>The Guide, the One who guides His believers and His guidance ensures the best life in this world and hereafter. </item>
+        <item>The Incomparable means that He is unique in all His traits. He can’t be compared with any of the existing things in this world.</item>
+        <item>The Everlasting, The One who is the one from eternity and there is no ending for Him.</item>
+        <item>The Heir, The One who is the owner of everything belongs to this world. Every single creature has an end but He doesn’t.</item>
+        <item>The One who guides people to the right path to living and help others.</item>
+        <item>The Patient, He is the one who does not quickly punish the sinners. Always looking for the sinners to ask for regret and forgiveness.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_154sdp"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:background="@drawable/container_main_dark_20"
+    android:backgroundTint="?attr/duaContainer"
+    android:elevation="?attr/elevationDynamic"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/arabic_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/scheherazade"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="?attr/arabicDua"
+        android:textSize="@dimen/_20ssp" />
+
+
+    <TextView
+        android:id="@+id/native_dua"
+        style="@style/Medium.13"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="?attr/nativeDua" />
+
+    <TextView
+        android:id="@+id/translation_dua"
+        style="@style/Medium.13"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="?attr/translationDua" />
+
+
+</LinearLayout>

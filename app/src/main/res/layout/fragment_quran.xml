@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_dark_bottom_30"
+            android:elevation="?attr/elevationDynamic"
+            android:paddingHorizontal="@dimen/_11sdp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/Toolbar.Main"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:paddingVertical="@dimen/_11sdp"
+                android:text="@string/quran_karim"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/search"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/statistics"
+                android:layout_width="@dimen/_31sdp"
+                android:layout_height="@dimen/_31sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/go_to"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_statistics" />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/statistics"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_search" />
+
+            <ImageView
+                android:id="@+id/go_to"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_go_to" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/containerMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_138sdp"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <View
+                android:id="@+id/forever"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/marginHorizontal"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginBottom="?attr/elevationDynamic"
+                android:background="@drawable/container_main_dark_20"
+                android:contentDescription="@null"
+                android:elevation="?attr/elevationDynamic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/quran_main"
+                android:layout_width="@dimen/_132sdp"
+                android:layout_height="@dimen/_123sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:background="@drawable/ic_quran_main"
+                android:contentDescription="@null"
+                android:translationZ="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_23sdp"
+                android:orientation="vertical"
+                android:translationZ="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/quran_main"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    style="@style/Medium.16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/continue_sura"
+                    android:textColor="?attr/continueReading"
+                    android:textSize="@dimen/_15sdp"
+                    tools:text="@string/continue_sura" />
+
+                <TextView
+                    android:id="@+id/surah"
+                    style="@style/SemiBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:maxLines="2"
+                    android:textColor="?attr/lastReadPara"
+                    android:textSize="@dimen/_19ssp"
+                    tools:text="36 - Yaseen" />
+
+                <TextView
+                    android:id="@+id/pageAyah"
+                    style="@style/Medium.16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:textColor="?attr/lastReadPage"
+                    tools:text="201 ayah 504 page" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/liquid_swipe_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/marginHorizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="?attr/liquidSwipe"
+            app:layout_constraintTop_toBottomOf="@id/containerMain"
+            app:stl_customTabTextLayoutId="@layout/item_liquid_tab"
+            app:stl_customTabTextViewId="@id/elevation_text"
+            app:stl_defaultTabBackground="@drawable/liquid_tab_bg"
+            app:stl_defaultTabTextAllCaps="false"
+            app:stl_defaultTabTextColor="#ffffff"
+            app:stl_defaultTabTextHorizontalPadding="@dimen/_12sdp"
+            app:stl_defaultTabTextMinWidth="0dp"
+            app:stl_defaultTabTextSize="@dimen/liquidTabSize"
+            app:stl_distributeEvenly="true"
+            app:stl_dividerColor="#FFFFFF"
+            app:stl_dividerThickness="0dp"
+            app:stl_drawDecorationAfterTab="false"
+            app:stl_indicatorAlwaysInCenter="false"
+            app:stl_indicatorColor="?attr/liquidSwipeIndicator"
+            app:stl_indicatorCornerRadius="@dimen/_15sdp"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorInFront="false"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="@dimen/_34sdp"
+            app:stl_indicatorWidth="auto"
+            app:stl_indicatorWithoutPadding="false"
+            app:stl_overlineColor="#4D000000"
+            app:stl_overlineThickness="0dp"
+            app:stl_titleOffset="@dimen/_18sdp"
+            app:stl_underlineColor="#FFFFFF"
+            app:stl_underlineThickness="0dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/liquid_swipe_tab">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingEnd="@dimen/_8sdp"
+                tools:ignore="RtlSymmetry" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/invisible_background" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,1220 @@
+<resources>
+    <string name="app_name">QQQ</string>
+    <string name="time_adjustment_description">Если вы хотите получать уведомление за 10 минут до времени молитвы, выберите -10 минут.</string>
+    <string name="swipe_to_right">Прокрутите вправо</string>
+    <string name="fajr">Фаджр</string>
+    <string name="sunrise">Восход</string>
+    <string name="dhuhr">Зухр</string>
+    <string name="asr">Аср</string>
+    <string name="maghrib">Магриб</string>
+    <string name="isha">Иша</string>
+    <string name="sound">Звук</string>
+    <string name="islamic_events">Религиозные дни</string>
+    <string name="selected_language">Язык по вашему выбору:</string>
+    <string name="other_languages">Другие языки:</string>
+    <string name="translations">Переводы</string>
+    <string name="prayer">Намаз</string>
+    <string name="quran">Коран</string>
+    <string name="tespihat">Теспихат</string>
+    <string name="names">Имена</string>
+    <string name="rules">Правила</string>
+    <string name="hatim_quran">Коран Карим</string>
+    <string name="prayer_fajr">Утренний намаз</string>
+    <string name="qaza">Пропущенные намазы</string>
+    <string name="prayer_dhuhr">Обеденный намаз</string>
+    <string name="prayer_asr">Послеобеденный намаз</string>
+    <string name="prayer_maghrib">Вечерний намаз</string>
+    <string name="prayer_isha">Ночной намаз</string>
+    <string name="oraza_qaza">Пропущенные посты</string>
+    <string name="search">Поиск</string>
+    <string name="close">Закрыть</string>
+    <string name="choose_the_theme_above">Выберите фон</string>
+    <string name="version_code">1.5</string>
+    <string name="todays_goal_achieved">Сегодняшняя цель достигнута</string>
+    <string name="open_monthly_schedule">Открыть статистику</string>
+    <string name="rate_us_long_string">Тебе нравится Qamar? Оцените приложение.</string>
+    <string name="rate">Оценить</string>
+    <string name="auto_scroll">"Прокрутка "</string>
+    <string name="play">Начать</string>
+    <string name="notifications_not_works_long_text">Настройки экономии заряда аккумулятора на вашем устройстве могут препятствовать появлению сообщений.\nУбедитесь, что эти настройки не блокируют приложения и уведомления.</string>
+    <string name="manual">Инструкции</string>
+    <string name="adaptive_battery">Адаптивный аккумулятор</string>
+    <string name="battery_settings">Настройки батареи</string>
+    <string name="autostart_settings">Настройки автозапуска</string>
+    <string name="optimize_battery_settings">Настройки оптимизации батареи</string>
+    <string name="arabic">Арабский</string>
+    <string name="transcription">Транскрипция</string>
+    <string name="translation">Перевод</string>
+    <string name="tajweed_beta">Таджуид бета</string>
+    <string name="zhuma_mubarak">Джума Мубарак</string>
+    <string name="read_kahf">Читать суру аль-Кахф</string>
+    <string name="meaning">Значение</string>
+    <string name="description">Особенности</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Назад</string>
+    <string name="adj_offset_prayer_times_explation">Переместите кнопку, чтобы настроить время входа в систему</string>
+    <string name="azans">Звуки азана</string>
+    <string name="change_zikr_name">Переименуйте зикр</string>
+    <string name="choose_calculation_explanation">Пожалуйста, выберите способ расчета времени молитвы. Вы можете изменить его позже в настройках.</string>
+    <string name="find_automatically">Автоматическое определение</string>
+    <string name="choose_prayer">Выберите молитву</string>
+    <string name="zero">0</string>
+    <string name="set_ayah_limit">Введите значение</string>
+    <string name="no_internet_connection">Нет подключения к Интернету</string>
+    <string name="symbol">№</string>
+    <string name="compass_calibration">Калибровка компаса</string>
+    <string name="compass_calibration_explanation">Удерживая устройство и следуя методу, показанному на экране, переместите свой телефон три раза, очерчивая восьмерку.</string>
+    <string name="choose_your_current_location">Выберите ваше местоположение</string>
+    <string name="english">English</string>
+    <string name="latin">Latin</string>
+    <string name="russion">Русский</string>
+    <string name="kiril">Кириллица</string>
+    <string name="kazakh">Қазақша</string>
+    <string name="kirill">Кирилл</string>
+    <string name="select_your_current_location">Использовать текущее местоположение</string>
+    <string name="names_99">99 имён Аллаха</string>
+    <string name="last_reads">Последние :</string>
+    <string name="bookmarks">Закладки:</string>
+    <string name="twice_zero">00</string>
+    <string name="prayer_time">Время молитв</string>
+    <string name="not_setted_time">-: -</string>
+    <string name="quran_karim">Священный Коран</string>
+    <string name="continue_sura">Продолжить чтение</string>
+    <string name="delete_dua_from_database">Удалить молитву из базы данных</string>
+    <string name="skip">Пропустить</string>
+    <string name="no_entries">Нет записей</string>
+    <string name="monthly_schedule">Ежемесячный график</string>
+    <string name="determine">Определить</string>
+    <string name="we_use_location_services">Мы используем cлужбу геолокации, чтобы точно определить ваш город.</string>
+    <string name="open_settings_page">Открыть настройки</string>
+    <string name="notifications_does_not_work_explanation">В случае постоянных опозданий или отсутствие уведомлений о намазе, пожалуйста, пройдите в Настройки Qamar → Уведомления и звук → \"Не работают уведомления?\" и проверьте все параметры.</string>
+    <string name="attention">Внимание</string>
+    <string name="storage_permission_explanation">Требуется разрешение на хранение данных Корана во внешнем хранилище. Вы разрешаете хранение на открытом ?</string>
+    <string name="allow">Разрешить</string>
+    <string name="sura_with_name" />
+    <string name="no_results_found">Нет результатов</string>
+    <string name="am_pm_hours">24-часовой формат</string>
+    <string name="vibrate_on_sound">Включить вибрацию при проигрывании звуковых сигналов</string>
+    <string name="vibrate_on_zikr">Вибрация при нажатии зикра</string>
+    <string name="aware_of_holy_days">Будь в курсе исламских праздников</string>
+    <string name="prayer_tespihat">Теспихат</string>
+    <string name="asr_calculation_method">Метод расчета асра</string>
+    <string name="adj_hijri_date">Корректировка даты по хиджре</string>
+    <string name="set_goals">Поставить цель</string>
+    <string name="prayer_time_source">Источник времени молитв</string>
+    <string name="geolocation">Местоположение</string>
+    <string name="prayer_adj">Ручная корректировка</string>
+    <string name="azan_sound">Звук призыва к молитве</string>
+    <string name="regulate_notifications">Регулировка уведомлений</string>
+    <string name="notifications_does_not_work">Не работают уведомления?</string>
+    <string name="go_to_help">Посетить Службу поддержки</string>
+    <string name="choose_quran_translation">Выбор перевода Корана</string>
+    <string name="choose_transcription_language">Выберите язык транскрипции</string>
+    <string name="technical_support">Служба поддержки</string>
+    <string name="share_with_friends">Поделиться с друзьями</string>
+    <string name="rate_the_application">Оценить приложение</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="quran_hatim_dua">Дуа Хатм аль-Куран</string>
+    <string name="quran_katim_in_arabic">دُعَاءُ خَتْمِ القُرْآنِ الكَريمِ</string>
+    <string name="ghunna">Гунна (Назализация)</string>
+    <string name="ikhfa">Ихфа (Правило сокрытия)</string>
+    <string name="idgham">Идгам (Правило ассимиляции)</string>
+    <string name="idgham_without_ghunna">Идгам без гунны (Правило ассимиляции)</string>
+    <string name="iqlab">Икляб (Правило изменения, превращения)</string>
+    <string name="qalqala">Калькаля (правило звонких взрывных согласных)</string>
+    <string name="no_need_to_read">Правило соединения</string>
+    <string name="stop_signs">Знаки остановок в Коране</string>
+    <string name="sajda_ayats">Аяты земного поклона</string>
+    <string name="mad_6">Мадд тянется на 6 счетов</string>
+    <string name="mad_4_or_5">Мадд (ваджиб) тянется на счет 4 или 6</string>
+    <string name="mad_2_4_6">Мадд тянется на счет 2 или 4 или 6</string>
+    <string name="mad_2">Мад(удлинение)</string>
+    <string name="ghunna_1">При чтении буквы ن или م с шаддой необходимо сделать гунну длиной в две огласовки.\n
+        Под арабским термином "гунна" (الغُنَّة) – в таджвиде подразумевают приятный звук, выходящий через нос. На русский язык это слово часто переводят как «назализация».\n
+        Гунна – это качество, которое принадлежит только двум буквам арабского алфавита – ن и م. У остальных букв этого качества нет.\n
+        Гунна – это одна из важных составляющих красивого чтения Корана.
+</string>
+    <string name="ikhfa_1">Ихфа (Правило сокрытия)</string>
+    <string name="ikhfa_2">Если после танвина или буквы «нун» с сукуном следует одна из 15 букв</string>
+    <string name="ikhfa_3">ف ق ك ث ت خ ذ د ذ ش س ض ص ظ ط</string>
+    <string name="ikhfa_4">то согласный звук буквы «нун» звучит не ясно, а приглушенно с назализацией и задержкой в 2 счета.</string>
+    <string name="ikhfa_5">Если после буквы «мим» с сукуном следует буква ب , то звук буквы «мим» произносится скрыто (при этом между губами остается небольшое расстояние) и задержкой в два счета</string>
+    <string name="idgham_1">Правило ассимиляции это когда нун-сукун или танвин в конце слова превращается (ассимилируется) в последующую букву.</string>
+    <string name="idgham_2">Если после танвина или буквы «нун» с сукуном следует одна из букв\n
+ى – م – ن – و
+\nто звук «н» буквы «нун» и танвина не произносится, а согласный звук последующей буквы удваивается и произносится в носовой полости с небольшой задержкой в 2 счета.</string>
+    <string name="idgham_3" />
+    <string name="idgham_4" />
+    <string name="idgham_5" />
+    <string name="idgham_without_ghunna_1">Если после танвина или буквы «нун» с сукуном следует одна из букв ر – ل то
+звук буквы «нун» не произносится, а согласный звук последующей буквы
+удваивается без назализации. </string>
+    <string name="idgham_without_ghunna_2">"ر ل "</string>
+    <string name="idgham_without_ghunna_3">Примечание к данному правилу в арабском издании Корана нун пишеться без сукуна,данное правило действует только между двумя словами,над буквами ра и лям ставиться ташдид в Арабском издании корана.</string>
+    <string name="iqlab_1">Если после танвина или буквы «нун» с сукуном следует буква ب ,то вместо звука буквы «нун» произносится согласный звук буквы «мим» (не четко, но с назализацией).</string>
+    <string name="iqlab_2">Примечание к данному правилу в арабском издании Корана нун пишеться без сукуна,может быть в различных вариациях</string>
+    <string name="qalqala_1">Если в середине или конце слова одна из букв:</string>
+    <string name="qalqala_2">" ج ق ط ب د"</string>
+    <string name="qalqala_3">следует с сукуном, то эта буква произносится с небольшим добавлением определенного звука для выделения ее звучания.</string>
+    <string name="no_need_to_read_1">Васл (правило соединения) – это слияние двух, трех или четырех слов в одно слово. Если в начале слова следует «алиф» без огласовки (васл), то предыдущее слово следует соединять с последующим в одно слово. Соединительный алиф (васл) всегда следует в начале слова.</string>
+    <string name="no_need_to_read_2" />
+    <string name="no_need_to_read_3" />
+    <string name="no_need_to_read_4" />
+    <string name="no_need_to_read_5" />
+    <string name="no_need_to_read_6" />
+    <string name="no_need_to_read_7" />
+    <string name="no_need_to_read_8" />
+    <string name="no_need_to_read_9" />
+    <string name="stop_signs_1">" م"</string>
+    <string name="stop_signs_2">Остановка обязательна в любом случае.</string>
+    <string name="stop_signs_3">ال</string>
+    <string name="stop_signs_4">Остановка запрещена.</string>
+    <string name="stop_signs_5">صلی</string>
+    <string name="stop_signs_6">Остановка разрешена ,но продолжить чтение лучше</string>
+    <string name="stop_signs_7">" قلی"</string>
+    <string name="stop_signs_8">Можно продолжить,но остановка лучше.</string>
+    <string name="stop_signs_9">ج</string>
+    <string name="stop_signs_10">Остановка по выбору читающего 50\50.</string>
+    <string name="stop_signs_11">" ۛ  ۛ "</string>
+    <string name="stop_signs_12">Остановка не разрешена на каждом из точек одновременно.\n
+Это правило можно прочитать тремя способами\n
+А) Остановиться на первой,продолжить чтения не останавливаясь на второй.\n
+В) Остановиться на второй ,не останавливаясь на первой.\n
+С) Читать не останавливаясь ни на одной из точек.</string>
+    <string name="sajda_ayats_1">Земной поклон являеться обязательным как для чтеца так и для его слушателя.
+Он заключаеться в одном земном поклоне(сажда),перед и после земного поклона говориться Allahu Akbar (Аллах велик) без поднятия рук. Также есть молитва которая говориться после совершения земного поклона.</string>
+    <string name="sajda_ayats_2">Примечание знак земного поклона обозначается в виде данного значка ۩ и рядом на листе с боку пишется слово сажда.</string>
+    <string name="empty_fieds">Недостаточно информации</string>
+    <string name="max_length_is_20">Имя зикра не должно превышать 20 символов</string>
+    <string name="ayat">аят</string>
+    <string name="page">страница</string>
+    <string name="pageShort">стр.</string>
+    <string name="do_not_show_again">Больше не показывать</string>
+    <string name="minute">минут</string>
+    <string name="second">секунд</string>
+    <string name="next_prayer">Следующий</string>
+    <string name="download_text">Доступно на \nhttps://play.google.com/store/apps/details?id=e.muslim.prayer</string>
+    <string name="download_body_text" />
+    <string name="open_islamic_events">Открыть религиозные дни</string>
+    <string name="with_us_year_3">3 года с нами!</string>
+    <string name="with_us_year_2">2 года с нами!</string>
+    <string name="with_us_year_1">1 год с нами!</string>
+    <string name="with_us_day_90">90 дней с нами!</string>
+    <string name="with_us_year_30">30 дней с нами!</string>
+    <string name="ayah_compound">-аят</string>
+    <string name="_1">1</string>
+    <string name="month_prayer_table">Нажмите на кнопку, чтобы посмотреть время молитв за месяц</string>
+    <string name="monthly_quran_table">Нажмите на кнопку, чтобы посмотреть на статистику чтения Корана за месяц</string>
+    <string name="qibla_direction">Направление киблы</string>
+    <string name="settings_page">Меню настроек</string>
+    <string name="chain_explanation">При ежедневном чтении Корана приложение образует последовательную цепь, если же показатель превышает ежедневную норму, то число окрашивается в зеленый цвет.</string>
+    <string name="month_schedule_expanded">Ежемесячная статистика чтения Корана</string>
+    <string name="show_saved_zikrs">Сохраненные зикры</string>
+    <string name="change_zikir_name">Переименовать зикр</string>
+    <string name="save_zikir">Сохранить зикр</string>
+    <string name="make_0_zikir">Обнулить зикр</string>
+    <string name="choose_language">Выберите язык:</string>
+    <string name="continue_with_locale_language">Продолжить на русском</string>
+    <string name="add_dua">Добавить молитву</string>
+    <string name="surah">Сура</string>
+    <string name="sura">Сура</string>
+    <string name="para">Пара</string>
+    <string name="booksmarks_main">Закладки</string>
+    <string name="search_quran_explanation">Поиск перевода Корана</string>
+    <string name="goTo_page">Перейти на страницу</string>
+    <string name="qaza_explanation">Пропущенные намазы</string>
+    <string name="tajweed_first_explanation">Правила таджвида</string>
+    <string name="application_language">Язык приложения</string>
+    <string name="turn_on_geolocation">Включите службу определения местоположения</string>
+    <string name="need_to_update_current_location">"Информация о вашем местоположении может быть устаревшей"</string>
+    <string name="please_grant_permissions">В разрешении отказано. Введите разрешение для входа!</string>
+    <string-array name="duaArabic">
+        <item> لَا إِلٰهَ إِلَّا ٱلله مُحَمَّدٌ رَسُولُ ٱلله</item>
+        <item>ٱللَّٰهُمَّ صَلِّ عَلىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ</item>
+        <item>سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيم</item>
+        <item>اللّهـمَّ أَنْتَ رَبِّـي لاَ إلهَ إلاَّ أَنْتَ ، خَلَقْتَنـي وَأَنا عَبْـدُكَ ، وَأَنَا عَلـىَ عَهْـدِكَ وَوَعْـدِكَ ماَ اسْتَـطَعْـتُ ، أَعُـوذُبِكَ مِنْ شَـرِّ مَا صَنَـعْتُ ، أَبُـوءُ لَـكَ بِنِعْـمَتِـكَ عَلَـيَّ وَأَبُـوءُ لَـكَ بِذَنْـبِي فَاغْفـِرْ لِي فَإِنَّـهُ لَا يَغْـفِرُ الذُّنُـوبَ إِلاَّ أَنْتَ</item>
+        <item>اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ</item>
+        <item>اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ</item>
+        <item>لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</item>
+    </string-array>
+    <string-array name="duaTransliteration">
+        <item>Ля Иляха илля Ллах, Мухаммад — расулю-Ллах</item>
+        <item>Аллахумма, салли ’аля Мухам-мадин ва ’аля али Мухаммад(ин)</item>
+        <item>Субханаллахи ва бихамдихи, Субханаллахиль азым</item>
+        <item>Аллаахумма антэ раббии, ляя иляяхэ илляя анта, халяктании ва ана ‘абдукя, ва ана ‘аляя ‘ахдикя ва ва‘дикя мастато‘ту, а‘уузу бикя мин шарри маа сона‘ту, абуу’у лякя би ни‘матикя ‘аляйя ва абуу’у лякя би занбии, фагфирлии, фа иннэху ляя ягфируз-зунуубэ илляя анта.</item>
+        <item />
+        <item />
+    </string-array>
+    <string-array name="duaTranslation">
+        <item>Нет божества, достойного (поклонения) кроме Аллаха, Мухаммад — Посланник Аллаха.</item>
+        <item>О Аллах, благослови (салли) Мухаммада и семейство Мухаммада</item>
+        <item>Пречист Аллах, хвала Ему, Пречист Аллах Всевышний</item>
+        <item>О Аллах, Ты — мой Господь! Нет бога, кроме Тебя. Ты сотворил меня, и я — Твой раб. И постараюсь я оправдать возложенную на меня ответственность, сдержать данное мною слово в меру своих сил и возможностей. Я прибегаю к Тебе, удаляясь от всего недоброго, совершенного мною. Я признаю те блага, которыми Ты одарил меня, и признаю свой грех. Прости меня! Поистине, никто не простит моих ошибок, кроме Тебя.</item>
+        <item />
+        <item />
+    </string-array>
+    <string-array name="duaSpecial">
+        <item />
+        <item />
+        <item>Пророк Мухаммад (мир ему и благословение) в известном хадисе сказал: «Есть два слова, которые любит Милостивый, и они легки для языка, а на Весах они будут тяжелы. (Это слова) “Слава Аллаху и хвала Ему, слава Аллаху Великому! Субхана-Ллахи ва бихамдихи, субханаЛлахиль Азым!”» (Сахих Бухари, Сахих Муслим)</item>
+        <item>Пророк Мухаммад (да благословит его Всевышний и приветствует) сказал: «Кто прочтет эту [молитву] утром, будучи убежденным в том, что говорит, и, случись, умрет в течение этого дня до наступления вечера, тот будет одним из обитателей Рая. Кто прочтет эту [молитву] вечером , уверенный в том, что произносит, и, случись, умрет до наступления утра, тот будет одним из обитателей Рая» (св. х. имама аль-Бухари).</item>
+        <item />
+        <item />
+    </string-array>
+    <string-array name="monthOfYear">
+        <item>Янв.</item>
+        <item>Фев.</item>
+        <item>Мар.</item>
+        <item>Апр.</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Авг.</item>
+        <item>Сен.</item>
+        <item>Окт.</item>
+        <item>Ноя.</item>
+        <item>Дек.</item>
+    </string-array>
+    <string-array name="dayOfWeek">
+        <item>ВС.</item>
+        <item>ПН.</item>
+        <item>ВТ.</item>
+        <item>СР.</item>
+        <item>ЧТ.</item>
+        <item>ПТ.</item>
+        <item>СБ.</item>
+    </string-array>
+    <string-array name="dayOfWeekShort">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="cityNames">
+        <item>Города республиканского значения</item>
+        <item>Нур-Султан</item>
+        <item>Алматы</item>
+        <item>Шымкент</item>
+        <item>Алматинская область</item>
+        <item>Жаркент</item>
+        <item>Капшагай</item>
+        <item>Талдыкорган</item>
+        <item>Сарыозек</item>
+        <item>Ушарал</item>
+        <item>Узынагаш</item>
+        <item>Талгар</item>
+        <item>Каскелен</item>
+        <item>Енбекшиказахский</item>
+        <item>село Шамалган</item>
+        <item>Акмолинская область</item>
+        <item>Кокшетау</item>
+        <item>Степногорск</item>
+        <item>Атбасар</item>
+        <item>Актюбинская область</item>
+        <item>Актобе</item>
+        <item>Кандыагаш</item>
+        <item>Хромтау</item>
+        <item>Шалкар</item>
+        <item>Шубаркудык</item>
+        <item>Каргалинский район</item>
+        <item>Уилский район</item>
+        <item>Иргизский район</item>
+        <item>Байганинский район</item>
+        <item>Хобдинский район</item>
+        <item>Мартукский район</item>
+        <item>Эмба</item>
+        <item>Атырауская область</item>
+        <item>Миялы</item>
+        <item>Атырау</item>
+        <item>Макат</item>
+        <item>Кульсары</item>
+        <item>Индерский район</item>
+        <item>Восточно-Казахстанская область</item>
+        <item>Аягоз</item>
+        <item>Усть-Каменогорск</item>
+        <item>Риддер</item>
+        <item>Семей</item>
+        <item>Зайсанский</item>
+        <item>Жамбылская область</item>
+        <item>Жанатас</item>
+        <item>Каратау</item>
+        <item>Тараз</item>
+        <item>Шу</item>
+        <item>Кордай</item>
+        <item>Карагандинская область</item>
+        <item>Балхаш</item>
+        <item>Жайрем</item>
+        <item>Жезказган</item>
+        <item>Сатпаев</item>
+        <item>Караганда</item>
+        <item>Каражал</item>
+        <item>село Атасу</item>
+        <item>поселок Жезды</item>
+        <item>Темиртау</item>
+        <item>Костанайская область</item>
+        <item>Житикаринский район</item>
+        <item>Узункольский район</item>
+        <item>Денисовский район</item>
+        <item>Лисаковск</item>
+        <item>Тарановский район</item>
+        <item>Амангельдийский район</item>
+        <item>Фёдоровский район</item>
+        <item>Джангельдинский район</item>
+        <item>Карасуский район</item>
+        <item>Мендыкаринский район</item>
+        <item>Наурзумский район</item>
+        <item>Сарыкольский район</item>
+        <item>Аулиекольский район</item>
+        <item>Аркалык</item>
+        <item>Костанай</item>
+        <item>Рудный</item>
+        <item>Карабалыкский район</item>
+        <item>Камыстинский район</item>
+        <item>Алтынсаринский район</item>
+        <item>Кызылординская область</item>
+        <item>Аральск</item>
+        <item>Байконур</item>
+        <item>Кызылорда</item>
+        <item>Казалы</item>
+        <item>Чиилийский район</item>
+        <item>Жосалы</item>
+        <item>Жалагашский район</item>
+        <item>Сырдарьинский район</item>
+        <item>Жанакорганский район</item>
+        <item>Мангистауская область</item>
+        <item>Бейнеу</item>
+        <item>Актау</item>
+        <item>Жанаозен</item>
+        <item>Форт-Шевченко</item>
+        <item>Северо-Казахстанская область</item>
+        <item>Петропавловск</item>
+        <item>район Шал акына</item>
+        <item>Тайынша</item>
+        <item>Павлодарская область</item>
+        <item>Экибастуз</item>
+        <item>Павлодар</item>
+        <item>Туркестанская область</item>
+        <item>Жетисай</item>
+        <item>Сарыагаш</item>
+        <item>Шардара</item>
+        <item>Туркестан</item>
+        <item>Келесский район</item>
+        <item>Ленгер</item>
+        <item>Отрарский район</item>
+        <item>Сайрамский район</item>
+        <item>Сузакский район</item>
+        <item>посёлок Тюлькубас</item>
+        <item>Кентау</item>
+        <item>Казыгуртский</item>
+        <item>Сузакский район</item>
+        <item>Западно-Казахстанская область</item>
+        <item>Жанибек</item>
+        <item>Аксай</item>
+        <item>Чапаев</item>
+        <item>Жангала</item>
+        <item>Сайхин</item>
+        <item>Уральск</item>
+        <item>Сырымский район</item>
+    </string-array>
+
+    <!--  EVENTS -->
+    <string name="event1_name">Начало трех священных месяцев</string>
+    <string name="event1_hijri_date">1 Раджаб,</string>
+    <string name="event1_info">
+        \tРаджаб – первый из трех священных месяцев величайшей милости Всевышнего Аллаха к Своим рабам (Раджаб, Шабан и Рамадан).
+    </string>
+
+    <string name="event2_name">Ночь Мирадж</string>
+    <string name="event2_hijri_date">26 Раджаб,</string>
+    <string name="event2_info">
+        \tМираджом называют важное событие - вознесение пророка Мухаммада (мир ему) на семь небесных сводов. Это событие произошло за семнадцать месяцев до его переселения в Медину.\n\n
+        \tКак необходимо провести Благословенную Ночь Мирадж?\n
+        \tНеобходимо читать Коран - читать и осмысливать прочитанное; одновременно можно приготовить угощения и пригласить на чтение Корана родственников и друзей. Таким образом это лишний повод для проявления любви, уважения и привязанности к словам Всевышнего.\n
+        \tНеобходимо произносить салаваты нашему Пророку (мир ему) и делать дуа, надеясь на милость Всевышнего и заступничество Его Посланника Аллаха (мир ему).\n
+        \tВажным является восполнение пропущенных намазов и совершение дополнительных намазов. Есть традиция в эту ночь после ночного намаза (ясту) совершать специальный намаз (12 ракаатов по 2 ракаата) в честь этой Ночи.\n
+        \tЧеловек должен этот день провести в созерцании [тафаккур] и глубоко задуматься над тем, кто он, куда движется, чего Всевышний от него желает.\n
+        \tВ этот день желательно провести анализ своего прошлого. На его основе сделать выводы и определить планы на будущее.\n
+        \tНужно совершать поминовение Всевышнего [зикр]\n
+        \tЕсли были взаимные обиды и ссоры, необходимо простить друг другу прошлое.\n
+        \tЧеловек должен молиться, за себя и других братьев по вере, желательно проговаривая имена тех, за кого делается дуа.\n
+        \tНеобходимо посетить и обзвонить близких и дорогих для себя людей. Поздравить их с предстоящей Ночью Мирадж, поинтересоваться их делами и здоровьем.\n
+        \tЭто лишний повод помочь бедным, сиротам, больным и ограниченным в возможностях людям - проявить свою любовь и сострадание, подарить подарки, передать садака.\n
+        \tЧитая Коран нужно уделить особое внимание аятам связанным с Ночью Мирадж. А также хадисам, в которых Пророк (мир ему) рассказал своим сподвижникам об этом знаменательном событии.\n
+        \tСтараться в эти дни вечерний, ночной и утренние намазы читать вместе с джамаатом в мечети.\n
+        \tВ дни перед и после Ночи Мирадж лучше всего держать уразу.
+    </string>
+
+    <string name="event3_name">Ночь Бараат</string>
+    <string name="event3_hijri_date">14 Ша’бан,</string>
+    <string name="event3_info">
+        \tМесяц Ша’бан примечателен тем, что срединная ночь является особенной, эта ночь называется Бараат, в оригинале на арабском «ляйлят-уль-Барааh». И в переводе с арабского означает "непричастность», «полное отделение», «очищение», «освобождение». Ночь Бараат попадает на ночь с 14-го на 15-ое число месяца шаабан, а по другой версии с 15-ого на 16-ое шаабана.\n\n
+        \tНочь Бараат желательно посвятить поклонению Всевышнему. Исполнять желательные молитвы, такие как витр, тахаджуд и просто желательный намаз (мутляк). Если у кого есть пропущенные молитвы, конечно же, в первую очередь следует возмещать их. Побольше читать зикр, салават на Пророка ﷺ Всевышнего, исполнять свои вирды… Эта ночь примечательна и тем, что в ней особо принимается дуа.\n\n
+        \tВ своих мольбах, дабы ещё больше увеличить шанс того, что Аллах даст испрашиваемое у Него, желательно следовать упомянутым рекомендациям в материале: Как просить Всевышнего, чтобы мольба была принята? Самое главное, не спать этой ночью, а поклоняться Всевышнему, ибо никто из нас не знает, сколько ему ещё отведено прожить на этом свете, доживёт ли он до следующей ночи Бараат?
+    </string>
+
+    <string name="event4_name">Начало священного месяца рамадан</string>
+    <string name="event4_hijri_date">1 Рамадан,</string>
+    <string name="event4_info">
+        \tРамадан – это благословенный месяц Поста и великого поклонения, месяц проявления щедрости и милосердия, время укрепления родственных и дружеских связей, месяц помощи бедным и нуждающимся.\n\n
+        \tРамадан – месяц получения огромных вознаграждений за добрые дела, совершенные искренне ради Аллаhа. Это месяц очищения сердца от пороков, грехов и недостатков.\n\n
+        \tЭто месяц особого соблюдения, когда верующие могут достичь высот благочестия. Дни Рамадана проходят быстро, поэтому очень важно не упустить этот драгоценный месяц, который дает всем нам шанс стать лучше.
+    </string>
+
+    <string name="event5_name">Лейлат аль-Кадр</string>
+    <string name="event5_hijri_date">27 Рамадан,</string>
+    <string name="event5_info">
+        \tНочь Ляйлятуль кадр лучше тысячи месяцев, об этом говорится и в Священном Коране в суре «аль-Кадр». Поклонения, совершенные в эту ночь, равносильны поклонению длиной в 83 года.\n\n
+        \tДеяния, которые лучше всего совершать в Ночь Ляйлятуль Кадр:\n
+        \t1. Совершать намаз. Восполнять пропущенные по разным причинам молитвы, читать дополнительные,выстаивать тахажжуд – ночной намаз. Наш уважаемый Пророк (с.г.с) говорил: «Если кто-то верит в святость Ночи "ляйлятуль кадр" и проводит ночь в смиренном поклонении, чтобы получить сауаб – награду, тому будут прощены все его предыдущие грехи».\n
+        \t2. Чтение Корана.\n
+        \t3. Просить прощения у Аллаха и просить у него то, что принесет нам пользу в этой и Вечной жизни.\n
+        \t4. Делая дуа не забудем попросить у Всевышнего мира и благополучия стране, родному народу, попросить иман для соотечесвтенников. А также облегчить страдания единоверцев, испытывающих нужду, голод, разруху в разных уголках планеты.\n
+        \t5. Размышления. Размышлять о величии Аллаха, великолепии Ислама,Священном Коране, делать верные выводы из проповедей.\n
+        \tВыполняя описанные выше дела, наполним нашу чашу праведных деяний добрыми делами, равными сауабу за 83 года, уважаемые мусульмане. Да воздаст Аллах за наши добрые дела нам награду!
+</string>
+
+    <string name="event6_name">Ураза-Байрам (Ид аль-Фитр)</string>
+    <string name="event6_hijri_date">1 Шавваль,</string>
+    <string name="event6_info">
+        \tПосле завершения священного месяца Рамадан в первый день месяца Шавваль отмечают Ид аль-Фитр (Ураза-Байрам, Ураза-Айт). Этим днем завершается священный пост.
+    </string>
+
+    <string name="event9_name">День Арафа</string>
+    <string name="event9_hijri_date">9 Зуль-хиджа,</string>
+    <string name="event9_info">
+        \tДень Арафа – это девятый день месяца зуль-хиджа. Соблюдение поста в этот день является желательным действием (сунна). В достоверном хадисе, переданном Муслимом и другими учёными, говорится, что когда Пророка (мир ему и благословение) спросили о посте в День Арафа, он сказал:«Грехи того, кто будет поститься в этот день, смоются за предыдущий и последующий годы». Мать правоверных Айша (да будет доволен ею Аллах) сказала Масруку (да будет доволен им Аллах): «О Масрук, не слышал ли ты, что Посланник (мир ему и благословение) сравнивал пост в День Арафа с постом в тысячу других дней?» (Байхаки, Табарани).\n\n
+        \tИмам Рамали поклялся, что пост в День Арафа смоет большие и малые грехи обоих лет. Но грехи перед людьми смоются лишь после того, как обидчик попросит прощения у тех, кого обидел. В этот день могут не поститься больной и путник (при трудностях). Если нет трудностей, можно поститься. Тому, кто совершает хадж, в этот день желательно не поститься, для того чтобы иметь силу для богослужений на горе Арафат.
+    </string>
+
+    <string name="event10_name">Курбан-байрам</string>
+    <string name="event10_hijri_date">10 Зул-Хижжа,</string>
+    <string name="event10_info">
+        \tКурбан-байрам. Его арабское название — Ид аль-Адха, или праздник жертвоприношения, он посвящен окончанию хаджа — паломничества в Мекку. Праздник длится три дня, которые в большинстве мусульманских стран являются нерабочими. Совершить жертвоприношение можно в любой из них.
+    </string>
+
+    <string name="event14_name">Новый год по календарю хиджры</string>
+    <string name="event14_hijri_date">1 Мухаррам,</string>
+    <string name="event14_info">\tНовый год по календарю хиджры</string>
+
+    <string name="event15_name">День Ашура</string>
+    <string name="event15_hijri_date">10 Мухаррам,</string>
+    <string name="event15_info">
+        \tХотя весь месяц Мухаррам является священным месяцем, однако 10-ый день данного месяца — самый священный из всех его дней. Этот день называется Ашура. Как передает сподвижник Ибн Аббас (радиаллаху анху), Пророк Мухаммад (салляллаху алейхи уа саллям) при переселении в Медину обнаружил, что мединские иудеи постились 10-го мухаррама. Они говорили, что это день, когда Пророк Муса (алейхиссалям) и его последователи пересекли чудесным образом Красное море, а фараон был потоплен в его водах. Услышав это от иудеев, Посланник Аллаха (салляллаху алейхи уа саллям) сказал:\n
+        \t«Мы ближе связаны с Мусой (алейхиссалям), чем вы», - и предписал мусульманам постится в день Ашура. (Абу Дауд)\n\n
+        \tТакже передается в ряде достоверных хадисов, что в начале пост в день Ашура был обязательным для мусульман. Позднее пост в Рамадан был сделан обязательным, а пост в день Ашура — добровольным.\n\n
+        \tНекоторые хадисы указывают на еще одну особенность дня Ашура. Согласно данным хадисам в это день следует быть щедрее к своей семье, предоставляя им больше еды, чем в другие дни.\n\n
+        \tОдним словом, на основе ряда достоверных хадисов является установленным, что пост в день Ашура — Сунна Пророка (салляллаху алейхи уа саллям) и соблюдением данного поста человек заслуживает большую награду.
+    </string>
+
+    <string name="event16_name">Мавлид ан-Наби</string>
+    <string name="event16_hijri_date">12 Раби’у ль-авваль,</string>
+    <string name="event16_info">
+        \tМавлид – это празднование дня рождения пророка Мухаммада, слово «мавлид» означает «рождение». Поскольку точная дата появления на свет пророка неизвестна, Мавлид приурочен к смерти Мухаммада – это 12 число месяца Раби аль-Авваль.\n\n
+        \tПосланник Аллаха, мир ему и благословение, ценил свое рождение, благодарил Всевышнего Аллаха за то, что Он создал его и дал жизнь, восхвалял Его за это благо, соблюдал пост по понедельникам: «В этот день я родился, в этот день я был направлен (к людям) и (в этот день) он (Коран) был ниспослан мне» (Муслим). День рождения Пророка, мир ему и благословение, отмечали при его жизни. В мусульманский календарь этот праздник под названием «Мавлид» вошел спустя три века после смерти Пророка Мухаммада, мир ему и благословение.\n\n
+        \tПочитание рождения Пророка Мухаммада, мир ему и благословение, позволяет обновить в сердце любовь к нему, обратиться к Аллаху со словами благодарности. В эту ночь читают Священный Коран, шахаду, истигфар, дуа, зикр, салаваты, стихотворное повествование о рождении посланника Аллаха, его жизни и пророческой миссии.
+    </string>
+
+    <string name="event">Религиозные дни</string>
+    <string name="mosque">Мечети</string>
+    <string name="today">"Сегодня "</string>
+
+    <!-- Months -->
+    <string name="muharram">Мухаррам</string>
+    <string name="safar">Сафар</string>
+    <string name="rabilalawwal">Раби’у ль-авваль</string>
+    <string name="rabialakhar">Раби’у с-сани</string>
+    <string name="jumadaalawwal">Джумада аль-уля</string>
+    <string name="jumadaalakhirah">Джумада аль-ахира</string>
+    <string name="rajab">Раджаб</string>
+    <string name="shaban">Ша’бан</string>
+    <string name="ramadan">Рамадан</string>
+    <string name="shawwal">Шавваль</string>
+    <string name="dhulqadah">Зуль-ка’да</string>
+    <string name="dhulhijjah">Зуль-хиджа</string>
+
+    <string name="dismiss">Название будильника</string>
+    <string name="no_alarms_set">Будильник</string>
+    <string name="alarm_title">Отложенный будильник</string>
+    <string name="alarm">Настройки</string>
+    <string name="snoozed_alarm">Meccan Sura</string>
+    <string name="settings">Настройки</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+
+    <string name="_00_00">0:00</string>
+    <string name="_0_00_00">00:00</string>
+    <string name="_05_00">5:00</string>
+    <string name="_bet">-страница</string>
+
+    <string-array name="repeatValues">
+        <item>1 раз</item>
+        <item>2 раза</item>
+        <item>3 раза</item>
+        <item>4 раза</item>
+        <item>5 раз</item>
+        <item>6 раз</item>
+        <item>11 раз</item>
+        <item>13 раз</item>
+        <item>15 раз</item>
+        <item>17 раз</item>
+        <item>19 раз</item>
+    </string-array>
+    <string-array name="asr_juristic_method">
+        <item>Шафиитский</item>
+        <item>Ханафитский</item>
+    </string-array>
+    <string-array name="quran_reading_streak_time">
+        <item>1 минут</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>60 минут</item>
+    </string-array>
+    <string-array name="adj_hijri">
+        <item>\u0020\u0020\u0020–2\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020–1\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00200\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00201\u0020\u0020\u0020</item>
+        <item>\u0020\u0020\u0020\u00202\u0020\u0020\u0020</item>
+    </string-array>
+
+    <string-array name="days_of_week_long">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+
+    <string-array name="month_gregorian">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="headers">
+        <item>Время молитв</item>
+        <item>Уведомления и Звук</item>
+        <item>Коран</item>
+        <item>Другие</item>
+        <item>Свяжитесь с нами</item>
+    </string-array>
+
+    <string name="mekka">Мекканская сура</string>
+    <string name="medina">Мединская сура</string>
+
+    <string-array name="counter_names">
+        <item>Первый</item>
+        <item>Второй</item>
+        <item>Третий</item>
+        <item>Четвёртый</item>
+        <item>Пятый</item>
+        <item>Шестой</item>
+        <item>Седьмой</item>
+        <item>Восьмой</item>
+    </string-array>
+
+    <string name="fajr_for_month">Фад.</string>
+    <string name="sunrise_for_month">Вос.</string>
+    <string name="dhuhr_for_month">Зухр</string>
+    <string name="asr_for_month">Аср</string>
+    <string name="maghrib_for_month">Маг.</string>
+    <string name="isha_for_month">Иша</string>
+
+    <string-array name="azan_sound">
+        <item>Абу́ Раши́д Миша́ри ибн Ра́шид аль-Афа́си</item>
+        <item>Звуки природы</item>
+        <item>Уведомление</item>
+    </string-array>
+
+
+    <string-array name="kazakh_names">
+        <item>Аль-Фатиха</item>
+        <item>Аль-Бакара</item>
+        <item>Аль \'Имран</item>
+        <item>Ан-Ниса\'</item>
+        <item>Аль-Ма\'ида</item>
+        <item>Аль-Ан\'ам</item>
+        <item>Аль-А\'раф</item>
+        <item>Аль-Анфаль</item>
+        <item>Ат-Тауба</item>
+        <item>Йунус</item>
+        <item>Худ</item>
+        <item>Йусуф</item>
+        <item>Ар-Ра\'д</item>
+        <item>Ибрахим</item>
+        <item>Аль-Хиджр</item>
+        <item>Ан-Нахль</item>
+        <item>Аль-Исра\'</item>
+        <item>Аль-Кахф</item>
+        <item>Марьям</item>
+        <item>Та Ха</item>
+        <item>Аль-Анбийа\'</item>
+        <item>Аль-Хадж</item>
+        <item>Аль-Му\'минун</item>
+        <item>Ан-Нур</item>
+        <item>Аль-Фуркан</item>
+        <item>Аш-Шу\'ара\'</item>
+        <item>Ан-Намль</item>
+        <item>Аль-Касас</item>
+        <item>Аль-\'Анкабут</item>
+        <item>Ар-Рум</item>
+        <item>Лукман</item>
+        <item>Ас-Саджда</item>
+        <item>Аль-Ахзаб</item>
+        <item>Саба\'</item>
+        <item>Фатыр</item>
+        <item>Йа Син</item>
+        <item>Ас-Саффат</item>
+        <item>Сад</item>
+        <item>Аз-Зумар</item>
+        <item>Гафир</item>
+        <item>Фуссылят</item>
+        <item>Аш-Шура</item>
+        <item>Аз-Зухруф</item>
+        <item>Ад-Духан</item>
+        <item>Аль-Джасийа</item>
+        <item>Аль-Ахкаф</item>
+        <item>Мухаммад</item>
+        <item>Аль-Фатх</item>
+        <item>Аль-Худжурат</item>
+        <item>Каф</item>
+        <item>Аз-Зарийат</item>
+        <item>Ат-Тур</item>
+        <item>Ан-Наджм</item>
+        <item>Аль-Камар</item>
+        <item>Ар-Рахман</item>
+        <item>Аль-Ваки\'а</item>
+        <item>Аль-Хадид</item>
+        <item>Аль-Муджадала</item>
+        <item>Аль-Хашр</item>
+        <item>Аль-Мумтахана</item>
+        <item>Ас-Сафф</item>
+        <item>Аль-Джуму\'а</item>
+        <item>Аль-Мунафикун</item>
+        <item>Ат-Тагабун</item>
+        <item>Ат-Талак</item>
+        <item>Ат-Тахрим</item>
+        <item>Аль-Мульк</item>
+        <item>Аль-Калам</item>
+        <item>Аль-Хакка</item>
+        <item>Аль-Ма\'аридж</item>
+        <item>Нух</item>
+        <item>Аль-Джинн</item>
+        <item>Аль-Муззаммиль</item>
+        <item>Аль-Мудассир</item>
+        <item>Аль-Кийама</item>
+        <item>Аль-Инсан</item>
+        <item>Аль-Мурсалят</item>
+        <item>Ан-Наба\'</item>
+        <item>Ан-Нази\'ат</item>
+        <item>\'Абаса</item>
+        <item>Ат-Таквир</item>
+        <item>Аль-Инфитар</item>
+        <item>Аль-Мутаффифин</item>
+        <item>Аль-Иншикак</item>
+        <item>Аль-Бурудж</item>
+        <item>Ат-Тарик</item>
+        <item>Аль-А\'ла</item>
+        <item>Аль-Гашийа</item>
+        <item>Аль-Фаджр</item>
+        <item>Аль-Балад</item>
+        <item>Аш-Шамс</item>
+        <item>Аль-Лайл</item>
+        <item>Ад-Духа</item>
+        <item>Аш-Шарх</item>
+        <item>Ат-Тин</item>
+        <item>Аль-Алак</item>
+        <item>Аль-Кадр</item>
+        <item>Аль-Баййина</item>
+        <item>Аз-Залзала</item>
+        <item>Аль-Адийат</item>
+        <item>Аль-Кари\'а</item>
+        <item>Ат-Такасур</item>
+        <item>Аль-\'Аср</item>
+        <item>Аль-Хумаза</item>
+        <item>Аль-Филь</item>
+        <item>Курайш</item>
+        <item>Аль-Ма\'ун</item>
+        <item>Аль-Каусар</item>
+        <item>Аль-Кафирун</item>
+        <item>Ан-Наср</item>
+        <item>Аль-Масад</item>
+        <item>Аль-Ихлас</item>
+        <item>Аль-Фалак</item>
+        <item>Ан-Нас</item>
+        <item>Дуа хатм</item>
+    </string-array>
+
+    <string-array name="kazakh_names_new">
+        <item>Аль-Фатиха</item>
+        <item>Аль-Бакара</item>
+        <item>Аль \'Имран</item>
+        <item>Ан-Ниса\'</item>
+        <item>Аль-Ма\'ида</item>
+        <item>Аль-Ан\'ам</item>
+        <item>Аль-А\'раф</item>
+        <item>Аль-Анфаль</item>
+        <item>Ат-Тауба</item>
+        <item>Йунус</item>
+        <item>Худ</item>
+        <item>Йусуф</item>
+        <item>Ар-Ра\'д</item>
+        <item>Ибрахим</item>
+        <item>Аль-Хиджр</item>
+        <item>Ан-Нахль</item>
+        <item>Аль-Исра\'</item>
+        <item>Аль-Кахф</item>
+        <item>Марьям</item>
+        <item>Та Ха</item>
+        <item>Аль-Анбийа\'</item>
+        <item>Аль-Хадж</item>
+        <item>Аль-Му\'минун</item>
+        <item>Ан-Нур</item>
+        <item>Аль-Фуркан</item>
+        <item>Аш-Шу\'ара\'</item>
+        <item>Ан-Намль</item>
+        <item>Аль-Касас</item>
+        <item>Аль-\'Анкабут</item>
+        <item>Ар-Рум</item>
+        <item>Лукман</item>
+        <item>Ас-Саджда</item>
+        <item>Аль-Ахзаб</item>
+        <item>Саба\'</item>
+        <item>Фатыр</item>
+        <item>Йа Син</item>
+        <item>Ас-Саффат</item>
+        <item>Сад</item>
+        <item>Аз-Зумар</item>
+        <item>Гафир</item>
+        <item>Фуссылят</item>
+        <item>Аш-Шура</item>
+        <item>Аз-Зухруф</item>
+        <item>Ад-Духан</item>
+        <item>Аль-Джасийа</item>
+        <item>Аль-Ахкаф</item>
+        <item>Мухаммад</item>
+        <item>Аль-Фатх</item>
+        <item>Аль-Худжурат</item>
+        <item>Каф</item>
+        <item>Аз-Зарийат</item>
+        <item>Ат-Тур</item>
+        <item>Ан-Наджм</item>
+        <item>Аль-Камар</item>
+        <item>Ар-Рахман</item>
+        <item>Аль-Ваки\'а</item>
+        <item>Аль-Хадид</item>
+        <item>Аль-Муджадала</item>
+        <item>Аль-Хашр</item>
+        <item>Аль-Мумтахана</item>
+        <item>Ас-Сафф</item>
+        <item>Аль-Джуму\'а</item>
+        <item>Аль-Мунафикун</item>
+        <item>Ат-Тагабун</item>
+        <item>Ат-Талак</item>
+        <item>Ат-Тахрим</item>
+        <item>Аль-Мульк</item>
+        <item>Аль-Калам</item>
+        <item>Аль-Хакка</item>
+        <item>Аль-Ма\'аридж</item>
+        <item>Нух</item>
+        <item>Аль-Джинн</item>
+        <item>Аль-Муззаммиль</item>
+        <item>Аль-Мудассир</item>
+        <item>Аль-Кийама</item>
+        <item>Аль-Инсан</item>
+        <item>Аль-Мурсалят</item>
+        <item>Ан-Наба\'</item>
+        <item>Ан-Нази\'ат</item>
+        <item>\'Абаса</item>
+        <item>Ат-Таквир</item>
+        <item>Аль-Инфитар</item>
+        <item>Аль-Мутаффифин</item>
+        <item>Аль-Иншикак</item>
+        <item>Аль-Бурудж</item>
+        <item>Ат-Тарик</item>
+        <item>Аль-А\'ла</item>
+        <item>Аль-Гашийа</item>
+        <item>Аль-Фаджр</item>
+        <item>Аль-Балад</item>
+        <item>Аш-Шамс</item>
+        <item>Аль-Лайл</item>
+        <item>Ад-Духа</item>
+        <item>Аш-Шарх</item>
+        <item>Ат-Тин</item>
+        <item>Аль-Алак</item>
+        <item>Аль-Кадр</item>
+        <item>Аль-Баййина</item>
+        <item>Аз-Залзала</item>
+        <item>Аль-Адийат</item>
+        <item>Аль-Кари\'а</item>
+        <item>Ат-Такасур</item>
+        <item>Аль-\'Аср</item>
+        <item>Аль-Хумаза</item>
+        <item>Аль-Филь</item>
+        <item>Курайш</item>
+        <item>Аль-Ма\'ун</item>
+        <item>Аль-Каусар</item>
+        <item>Аль-Кафирун</item>
+        <item>Ан-Наср</item>
+        <item>Аль-Масад</item>
+        <item>Аль-Ихлас</item>
+        <item>Аль-Фалак</item>
+        <item>Ан-Нас</item>
+    </string-array>
+
+    <string name="zikr">Зикр</string>
+    <string name="adaptive_battery_long_explanation">Опция \'Адаптивная батарея\' может быть отключена перейдя в настройки системы. Батарея → Адаптивная батарея → Отключить \'Использование адаптивной батареи\'.</string>
+    <string name="open_surah">Сура</string>
+    <string name="open_page">Страница</string>
+    <string name="open">Открыть</string>
+    <string name="page_upparcase">Страница</string>
+    <string name="holy_first_part">"Священный "</string>
+    <string name="animation">Анимация</string>
+    <string name="prayer_first">"Время "</string>
+    <string name="quran_second_part">Коран</string>
+    <string name="times_second">Молитв</string>
+    <string name="quran_explanation">Слушайте и изучайте чтение Корана с величайшими чтецами , такими как Мишари Алафаси, Саад Аль-Гамиди, Ас-Судайс или АбдулБазит АбдулСамад.</string>
+    <string name="prater_times_explanation">Кардинально новое и переосмысленное представление расписания молитв для мусульман с элегантным, современным дизайном.</string>
+    <string name="zikr_explanation">В этом приложении вы можете сохранять зикр и продолжать оттуда, где остановились. Зикры могут сохраняться в соответствии с названием.</string>
+    <string name="dua">Дуа</string>
+    <string name="zikr_and">"Зикр и "</string>
+    <string name="religues_first">"Религиозные "</string>
+    <string name="days_second">Дни</string>
+    <string name="religious_explanation">Используйте перевода хиджры в григорианский календарь и будьте в курсе исламских праздников</string>
+    <string name="bismilla">Бисмиллах</string>
+    <string name="value">Значение</string>
+    <string name="add_to_bookmarks">Добавить в закладки</string>
+    <string name="book_version">Книжный вариант</string>
+    <string name="remove_from_bookmarks">Удалить из закладок</string>
+    <string name="simple_version">Простая версия</string>
+
+    <string-array name="name_99">
+        <item>Аллах</item>
+        <item>Ар-Рахман</item>
+        <item>Ар-Рахим</item>
+        <item>Аль-Малик</item>
+        <item>Аль-Куддус</item>
+        <item>Ас-Салям</item>
+        <item>Аль-Му`мин</item>
+        <item>Аль-Мухаймин</item>
+        <item>Аль-Азиз</item>
+        <item>Аль-Джаббар</item>
+        <item>Аль-Мутакаббир</item>
+        <item>Аль-Халик</item>
+        <item>Аль-Бари</item>
+        <item>Аль-Мусаввир</item>
+        <item>Аль-Гаффар</item>
+        <item>Аль-Каххар</item>
+        <item>Аль-Ваххаб</item>
+        <item>Ар-Раззаку</item>
+        <item>Аль-Фаттах</item>
+        <item>Аль-Алим</item>
+        <item>Аль-Кабид</item>
+        <item>Аль-Баасит</item>
+        <item>Аль-Хафид</item>
+        <item>Ар-Рафи</item>
+        <item>Аль-Муизз</item>
+        <item>Аль-Муззиль</item>
+        <item>Ас-Самиу</item>
+        <item>Аль-Басыр</item>
+        <item>Аль-Хакам</item>
+        <item>Аль-Адль</item>
+        <item>Аль-Латиф</item>
+        <item>Аль-Хабир</item>
+        <item>Аль-Халим</item>
+        <item>Аль-Азыйм</item>
+        <item>Аль-Гафур</item>
+        <item>Аш-Шакур</item>
+        <item>Аль-Алий</item>
+        <item>Аль-Кабир</item>
+        <item>Аль-Хафиз</item>
+        <item>Аль-Мукит</item>
+        <item>Аль-Хасиб</item>
+        <item>Аль-Джалиль</item>
+        <item>Аль-Карим</item>
+        <item>Ар-Ракиб</item>
+        <item>Аль-Муджиб</item>
+        <item>Аль-Васи</item>
+        <item>Аль-Хаким</item>
+        <item>Аль-Вадуд</item>
+        <item>Аль-Маджид</item>
+        <item>Аль-Баис</item>
+        <item>Аш-Шахид</item>
+        <item>Аль-Хакку</item>
+        <item>Аль-Вакиль</item>
+        <item>Аль-Кавий</item>
+        <item>Аль-Матин</item>
+        <item>Аль-Вали</item>
+        <item>Аль-Хамид</item>
+        <item>Аль-Мухси</item>
+        <item>Аль-Мубди</item>
+        <item>Аль-Муид</item>
+        <item>Аль-Мухйи</item>
+        <item>Аль-Мумит</item>
+        <item>Аль-Хаййи</item>
+        <item>Аль-Мааджид</item>
+        <item>Аль-Каюм</item>
+        <item>Аль-Ваджид</item>
+        <item>Аль-Вахид</item>
+        <item>Ас-Самад</item>
+        <item>Аль-Кадир</item>
+        <item>Аль-Муктадир</item>
+        <item>Аль-Мукаддим</item>
+        <item>Аль-Муаххир</item>
+        <item>Аль-Авваль</item>
+        <item>Аль-Ахир</item>
+        <item>Аз-Захир</item>
+        <item>Аль-Батын</item>
+        <item>Аль-Валий</item>
+        <item>Аль-Мутаали</item>
+        <item>Аль-Барру</item>
+        <item>Ат-Таууаб</item>
+        <item>Аль-Мунтакыйм</item>
+        <item>Аль-Афуу</item>
+        <item>Ар-Рауф</item>
+        <item>Маликуль-Мульк</item>
+        <item>Зуль-Джаляли</item>
+        <item>Аль-Муксит</item>
+        <item>Аль-Джами</item>
+        <item>Аль-Гани</item>
+        <item>Аль-Мугни</item>
+        <item>Аль-Мани</item>
+        <item>Ад-Дарр</item>
+        <item>Ан-Нафи</item>
+        <item>Ан-Нур</item>
+        <item>Аль-Хади</item>
+        <item>Аль-Бади</item>
+        <item>Аль-Бакы</item>
+        <item>Аль-Варис</item>
+        <item>Ар-Рашид</item>
+        <item>Ас-Сабур</item>
+    </string-array>
+
+    <string-array name="kazakh_names_99">
+        <item>Бог</item>
+        <item>Милостивый</item>
+        <item>Милосердный</item>
+        <item>Властелин всего сущего</item>
+        <item>Святой</item>
+        <item>Дарующий мир</item>
+        <item>Дарующий стабильность и веру</item>
+        <item>Хранитель</item>
+        <item>Могущественный</item>
+        <item>Управляющий всеми», «Подчиняющий</item>
+        <item>Превосходящий</item>
+        <item>Творец</item>
+        <item>Создатель</item>
+        <item>Придающий всему форму и облик</item>
+        <item>Скрывающий чужие грехи</item>
+        <item>Господствующий</item>
+        <item>Дарующий</item>
+        <item>Наделяющий</item>
+        <item>Раскрывающий</item>
+        <item>Всезнающий</item>
+        <item>Уменьшающий блага</item>
+        <item>Увеличивающий</item>
+        <item>Принижающий</item>
+        <item>Возвышающий</item>
+        <item>Возвеличивающий</item>
+        <item>Ослабляющий</item>
+        <item>Всеслышащий</item>
+        <item>Всевидящий</item>
+        <item>Судья</item>
+        <item>Справедливый</item>
+        <item>Понимающий</item>
+        <item>Сведущий</item>
+        <item>Сдержанный</item>
+        <item>Величайший</item>
+        <item>Прощающий</item>
+        <item>Вознаграждающий</item>
+        <item>Всевышний</item>
+        <item>Великий</item>
+        <item>Хранитель</item>
+        <item>Поддерживающий</item>
+        <item>Достаточный</item>
+        <item>Обладающий величием</item>
+        <item>Щедрый</item>
+        <item>Наблюдающий</item>
+        <item>Отзывчивый</item>
+        <item>Вездесущий</item>
+        <item>Мудрый</item>
+        <item>Любящий</item>
+        <item>Славный</item>
+        <item>Воскрешающий</item>
+        <item>Свидетель</item>
+        <item>Истинный</item>
+        <item>Опекающий</item>
+        <item>Сильный</item>
+        <item>Непоколебимый</item>
+        <item>Спутник</item>
+        <item>Достойный хвалы</item>
+        <item>Учитывающий</item>
+        <item>Основатель</item>
+        <item>Возвращающий всё живое к смерти, а затем вновь к жизни</item>
+        <item>Дарующий жизнь</item>
+        <item>Дарующий смерть</item>
+        <item>Обладающий вечной жизнью</item>
+        <item>Наиславнейший</item>
+        <item>Поддерживающий жизнь</item>
+        <item>Совершающий всё, что пожелает</item>
+        <item>Единственный</item>
+        <item>Самодостаточный</item>
+        <item>Могучий</item>
+        <item>Делающий всё наилучшим образом</item>
+        <item>Продвигающий</item>
+        <item>Отодвигающий</item>
+        <item>Не имеющий начала</item>
+        <item>Не имеющий конца</item>
+        <item>Явный</item>
+        <item>Скрытый</item>
+        <item>Правитель</item>
+        <item>Свободный от недостатков</item>
+        <item>Добродетельный</item>
+        <item>Принимающий покаяния</item>
+        <item>Карающий непокорных</item>
+        <item>Прощающий грехи</item>
+        <item>Снисходительный</item>
+        <item>Повелитель над повелителями</item>
+        <item>Обладатель Величия и Щедрости</item>
+        <item>Справедливый</item>
+        <item>Интегрирующий</item>
+        <item>Обеспеченный всем необходимым</item>
+        <item>Дарующий богатства</item>
+        <item>Ограждающий</item>
+        <item>Способный наслать бедствие</item>
+        <item>Приносящий пользу</item>
+        <item>Просветляющий</item>
+        <item>Направляющий</item>
+        <item>Создающий в прекрасном облике</item>
+        <item>Вечный</item>
+        <item>Наследник</item>
+        <item>Направляющий на путь истины</item>
+        <item>Терпеливейший</item>
+    </string-array>
+
+
+    <string-array name="meanings">
+        <item>Обладатель божественности, то есть Могущества для творения мира.\n\nИмам ас-Сануси, да смилуется над ним Аллах, сказал: «Аллах – это имя собственное для Бога, Чье Существование обязательно с точки зрения разума и который достоин поклонения».</item>
+        <item>Ар-Рахман – Обладатель Милости, Ар-Рахим – Проявляющий Милость.\n\nПо другому мнению, Ар-Рахман – наделяющий пропитанием все живое в этом мире, Ар-Рахим – проявляющий Свою Милость только к верующим в вечной жизни.\n\nИмам ас-Сануси приводит другое толкование, которое встречается в большинстве поздних книгах по акыде: Ар-Рахман – наделяющий значительными благами, а Ар-Рахим – наделяющий небольшими благами.\n\nИ смысл объединения этих имен в Коране и в нашей речи (когда мы говорим: «Бисмилляхи-р-Рахмани-р-Рахим») в том, что у Всевышнего следует просить как о значительных вещах, так и о самых незначительных, на что указал имам аль-Байджури в «Тухфат аль-Мюрид».</item>
+        <item>Ар-Рахман – Обладатель Милости, Ар-Рахим – Проявляющий Милость.\n\nПо другому мнению, Ар-Рахман – наделяющий пропитанием все живое в этом мире, Ар-Рахим – проявляющий Свою Милость только к верующим в вечной жизни.\n\nИмам ас-Сануси приводит другое толкование, которое встречается в большинстве поздних книгах по акыде: Ар-Рахман – наделяющий значительными благами, а Ар-Рахим – наделяющий небольшими благами.\n\nИ смысл объединения этих имен в Коране и в нашей речи (когда мы говорим: «Бисмилляхи-р-Рахмани-р-Рахим») в том, что у Всевышнего следует просить как о значительных вещах, так и о самых незначительных, на что указал имам аль-Байджури в «Тухфат аль-Мюрид».</item>
+        <item>Абсолютный Властелин.\n\nИмам ас-Сануси: «Это Тот, Кто обладает абсолютным Могуществом, и Единственный, Кто распоряжается всем сотворенным, и никто не может Ему ни в чем помешать».</item>
+        <item>Тот, у Кого нет недостатков, не подобный никому и ничему</item>
+        <item>Тот, кто чист от всех недостатков.\n\nИмам ас-Сануси: «Другое толкование: Властелин, оберегающий кого пожелает из своих рабов от бед и несчастий в обоих мирах. Третье толкование: Тот, Кто приветствует «салямом» верующих в Раю».</item>
+        <item>Тот, Кто подтверждает Свою правоту и правоту верующих.\n\nАс-Сануси поясняет: «Тот, Кто подтверждает правоту Своих пророков и посланников, мир им всем, аятами Своей Книги и чудесами (муʼджизат).\n\nДругое толкование: Тот, Кто знает о Своей Единственности.\n\nТретье толкование: Тот, Кто защитит верующих от наказания в Судный день»</item>
+        <item>Тот, Кто осведомлен обо всем, что делают и говорят творения, наблюдающий за ними.\n\nДругое толкование: Тот, кто заботится обо всех творениях. Имам аль-Газали пишет: «Всевышний Аллах совершает все действия творений, наделяет их пропитанием, устанавливает им срок жизни. Попечение Аллаха основано на его абсолютном Знании, владении и поддержании [порядка во Вселенной]».</item>
+        <item>Победитель, Тот, Кого нельзя одолеть.\n\nДругое толкование: Могущественный, Сильный.\n\nТретье толкование: Не имеющий Себе равных или подобных.</item>
+        <item>Тот, в Чьем владении не происходит ничего, помимо Его Воли.\n\nДругое толкование: Тот, кто принуждает рабов к чему захочет, помимо их воли.\n\nАс-Сануси: «Тот, кто исправляет вред для рабов в обоих мирах. И это толкование образовано от «джабр» в значении исправления, улучшения».</item>
+        <item>Тот, Кто превыше того, чтобы иметь качества созданного.\n\nДругое толкование: Тот, Кто проявляет Свое Величие через наказание непослушных Своих рабов, которые противоречат Ему.\n\nАс-Сануси: «Тот, Кто проявляет через доказательства, как рациональные, так и через Коран и Сунну, Величие Совершенства Своей Сущности, атрибутов и действий, и несовершенство сущности, атрибутов и действий всех творений».</item>
+        <item>Тот, Кто творит Вселенную из небытия.\n\nАс-Сануси: «Тот, Кто предопределяет всё для созданного на основе Своей Воли».</item>
+        <item>Правильное мнение, что Аль-Халик и Аль-Бари – синонимы, как указал имам аль-Байджури в «Хашия Умм аль-Барахин».\n\nАс-Сануси: «Аль-Бари – Тот, Кто имеет влияние на все существующее, выполняет все нюансы предопределенного Им для творений, придает им облик и завершенность».</item>
+        <item>Тот, Кто создал творения в различных образах.\n\nАс-Сануси: «Тот, Кто создал облик творений и определил для них все характеристики, без посредника, на основании Своей Воли».</item>
+        <item>Тот, Кто скрывает грехи своих рабов [от других рабов].\n\nАс-Сануси: «А также Тот, Кто устраняет бедствия обоих миров от раба на основании Своей Милости».</item>
+        <item>Сильный (в превосходной степени), Могущественный.\n\nДругое толкование: Тот, кто принуждает Своих рабов подчиняться Своей Воле.\n\nАс-Сануси: «Тот, Кто подчинил Себе все вещи полностью. А сотворенное подчинено, подвластно Его решению и не выходит из этого состояния ни на миг».</item>
+        <item>Это Тот, Кто щедро одаривает многочисленными благами, не требуя ничего взамен.\n\nАс-Сануси: «И самые совершенные блага – это дарованные сердцу человека вера (иман), сила для совершения праведных поступков (тауфик), следование по пути, ведущему к святости (виляйя). А блага земного мира – они несовершенны, ведь они подобны данному взаймы на время. Всего этого придется лишиться и держать за это ответ».</item>
+        <item>Дающий всему живому пропитание, а также все, что рабы используют, будь то дозволено для них или не дозволено.~\~n\~n~Ас-Сануси: «Дающий всему живому все необходимое для продолжения существования. Для жизни духа – это знания и состояния. Для жизни тела – это подходящая для него пища»</item>
+        <item>Судья, Который рассудит рабов.\n\nДанное толкование взято из аята (смысл): «Скажи им [о Пророк!]: Наш Господь соберёт нас и вас в Судный день и справедливо рассудит нас. Поистине, Он – слава Ему! – Всевышний Судия, ведающий истину». (сура «Саба», аят 26)\n\nДругое толкование: Открывающий то, что скрыто от рабов в их религии и мирской жизни.\n\nТретье толкование: Помогающий.\n\nАс-Сануси: «Проявляющий милость совершением блага и облегчающий в трудные времена в делах этой жизни и жизни вечной»\n\nИмам Ахмад Заррук, да смилуется над ним Аллах, пишет в «АльМаксид аль-асма»: «Тот, кто осознает, что Аллах – Аль-Фаттах (Открывающий, Помогающий, Судящий справедливо), будет доверять Ему во всех делах и полагаться на Него».</item>
+        <item>Знающий в превосходной степени. И Знание — это атрибут (сыфат), которым описана Его Сущность.\n\nАс-Сануси: «Тот, Чье знание в предвечности охватывало все познаваемое».</item>
+        <item>Тот, кто увеличивает по Своей Щедрости и Милости удел рабов и уменьшает его по Своей Мудрости.\n\nДругое толкование: Аль-Кабид — Тот, Кто забирает души умерших, Аль-Басыт — Тот, Кто вкладывает души в тела.\n\nАс-Сануси: «Аль-Кабид — Тот, Кто уменьшает кому пожелает удел, будь то пропитание или иные блага духовные или телесные. А Аль-Кабид — Тот, Кто увеличивает удел во всем перечисленном».</item>
+        <item>Тот, кто увеличивает по Своей Щедрости и Милости удел рабов и уменьшает его по Своей Мудрости.\n\nДругое толкование: Аль-Кабид — Тот, Кто забирает души умерших, Аль-Басыт — Тот, Кто вкладывает души в тела.\n\nАс-Сануси: «Аль-Кабид — Тот, Кто уменьшает кому пожелает удел, будь то пропитание или иные блага духовные или телесные. А Аль-Кабид — Тот, Кто увеличивает удел во всем перечисленном».</item>
+        <item>Аль-Хафид — Тот, Кто принижает кого пожелает наказанием.\n\nАр-Рафиʼ — Тот, Кто возвышает кого пожелает Своей Милостью.\n\nАс-Сануси: ««Аль-Хафид» образовано от «хафд», что значит понижение степени в этом или ином мире. «Ар-Рафиʼ» — от «рафʼ», антонима слова «хафд»».\n\nАхмад Заррук: «Кто осознает, что Аллах — Принижающий и Возвышающий, тот не будет полагаться на свои состояния, знания или поступки, понимая, что никто не возвышает и не принижает, кроме Аллаха».</item>
+        <item>Аль-Хафид — Тот, Кто принижает кого пожелает наказанием.\n\nАр-Рафиʼ — Тот, Кто возвышает кого пожелает Своей Милостью.\n\nАс-Сануси: ««Аль-Хафид» образовано от «хафд», что значит понижение степени в этом или ином мире. «Ар-Рафиʼ» — от «рафʼ», антонима слова «хафд»».\n\nАхмад Заррук: «Кто осознает, что Аллах — Принижающий и Возвышающий, тот не будет полагаться на свои состояния, знания или поступки, понимая, что никто не возвышает и не принижает, кроме Аллаха».</item>
+        <item>Аллах дает силу кому пожелает, и лишает силы кого пожелает.\n\nАс-Сануси: «Аллах дает величие в этом и вечном мирах кому пожелает».\n\nАль-Газали: «Истинное величие — это освобождение от низменных потребностей, власти страстей и глухоты невежества».</item>
+        <item>Аллах дает силу кому пожелает, и лишает силы кого пожелает.\n\nАс-Сануси: «Аллах дает величие в этом и вечном мирах кому пожелает».\n\nАль-Газали: «Истинное величие — это освобождение от низменных потребностей, власти страстей и глухоты невежества».</item>
+        <item>Тот, Кто описан Слухом, а Слух — это атрибут, которым описана Его Сущность.\n\nАс-Сануси: «Тот, для Кого раскрывается все существующее — будь то вечное или сотворенное — через атрибут Слух».</item>
+        <item>Тот, Кто описан Зрением, и это атрибут, которым описана Его Сущность.\n\nАхмад Заррук: «Кто осознал, что Аллах — Слышащий и Видящий, тот будет ощущать божественное присутствие (муракаба) во всех своих состояниях, в движении и покое, и будет совершать то, что Аллах ему повелел, и воздерживаться от того, что Всевышний запретил».</item>
+        <item>Аллах — Законодатель, а Его решение — это Его Речь, поэтому данное имя относится к смыслам атрибута Речь (Аль-Калям).\n\nИмам Ат-Тахави так сказал в своей «Акыде»: «Никто не может отвратить Его предопределение, или отменить Его решение, или пересилить Его повеление».\n\nАхмад Заррук: «Кто осознал, что Всевышний — Аль-Хакам, тот не будет обращаться к другим законам, кроме законов Аллаха, и будет всегда доволен Его решениями».</item>
+        <item>Тот, Кто имеет право поступать как пожелает.\n\nАс-Сануси: «Справедливый, то есть Тот, в Чьих действиях и решениях нет притеснения и несправедливости, поскольку все сотворенное — его владения. И никто не может повелеть Ему чтото или запретить, напротив — Он повелевает и запрещает».\n\nПримечание: Действия Аллаха не могут быть несправедливыми, поскольку несправедливость (произвол, злоупотребление) — это распоряжаться во владениях другого, имуществом другого не по праву. И это невозможно в отношении Всевышнего, поскольку все сотворенное — Его владения, и Он может делать с этим все, что пожелает.</item>
+        <item>Проявляющий доброту к Своим рабам, и тогда это атрибут действия.\n\nПримечание: Качество (атрибут, сыфат) действия — это атрибут, образованный от глагола, который обозначает действие Аллаха, чаще всего он имеет форму причастия действительного залога. Рассмотрим пример: Аллах оживляет. «Оживляет» – это действие Аллаха. А значит, атрибут действия в этом случае будет «Оживляющий». Аллах наставляет — Аллах Наставляющий и т. д.\n\nДругое толкование: Знающий обо всех тонкостях скрытого, и тогда это атрибут, которым описана Его Сущность.</item>
+        <item>Знающий о сути всех вещей.</item>
+        <item>Откладывающий наказание тех, кто этого заслуживает, и Прощающий их затем.</item>
+        <item>Тот, Кто описан всеми атрибутами Величия, и Пречистый от всех недостатков.\n\nАс-Сануси: «Тот, Чьим совершенствам нет числа и предела».\n\nДругое толкование: Тот, кто сотворил все вещи в мире, проявив в предвечности Волю и Знание обо всем, а затем скрыл суть вещей от Своих рабов и сделал их умы неспособными понять все Его Величие и Совершенство.</item>
+        <item>Тот, Кто скрывает грехи Своих рабов (в превосходной степени).\n\nАс-Сануси: «Значение близко к значению имени «Аль-Гаффар» с той разницей, что «Аль-Гаффар» указывает на смысл, общий для всех рабов во все времена, а превосходная степень имени «АльГафур» указывает на множество скрытых Всевышним грехов Его рабов».\n\nПримечание: Имам Ас-Сануси указывает на то, что небольшая разница в значении этих двух имен Всевышнего обусловлена разницей значений их грамматической формы.</item>
+        <item>Тот, Кто щедро вознаграждает даже за небольшие благие поступки.\n\nТакже это имя может иметь значение «Благодарный» – Тот, Кто выражает благодарность, хвалит своих рабов. И это значение имени относится к смыслу атрибута Речь, которым описана Его Сущность.\n\nАс-Сануси: «И награда Аллаха названа «благодарностью» в переносном смысле».\n\nАхмад Заррук: ««Благодарностью» в языке называют радость, возникающую в сердце как результат получения какого-либо блага».\n\nПримечание: Так как благодарность — это эмоция, мы не можем описывать Аллаха этим качеством в прямом смысле, поскольку это означало бы приписывание Ему недостатка.</item>
+        <item>Возвышенный, Непобедимый.\n\nДругое толкование: Тот, Кому не присущи качества творений.\n\nАс-Сануси: «Тот, Кто настолько совершенен, что человеческий разум не в состоянии постичь Его совершенство».\n\nПримечание: Ученые исчерпывающе разъяснили, что под «Возвышенностью» Аллаха подразумевается Возвышенность Его степени, а не места. Всевышний Аллах не занимает место и не находится ни в каком направлении!\n\nИмам аль-Куртуби толкует в своем тафсире слова Всевышнего (Аль-Бакара, 255): «Смысл этого: «Он Возвышен степенью и уровнем, а не возвышенностью места. Аллах чист от того, чтобы занимать место»».</item>
+        <item>Тот, Кто описан Величием и высоким положением.\n\nДругое толкование: Аллах превыше того, чтобы иметь качества созданного.\n\nАс-Сануси: «Также Тот, Чье совершенство не могут постичь умы».</item>
+        <item>Тот, Кто оберегает что пожелает и кого пожелает [из творений].\n\nДругое толкование: Тот, Кто не забывает ничего из Своего Знания. В этом случае значение имени относится к атрибуту Знание.\n\nАс-Сануси: «Всезнающий, Чье Знание твердо и постоянно, не описано изменением и забывчивостью».\n\nАхмад Заррук: «Кто осознает, что Всевышний Аллах знает обо всем, что касается Его творений, и оберегает их, тому будет достаточно, что Аллах знает и заботится о нем, и он перестанет беспокоиться о результате своих дел».</item>
+        <item>Могущественный, то есть это имя относится к атрибуту Аллаха Могущество (Аль-Кудра).\n\nДругое толкование: синоним имени «Аль-Хафиз» — Оберегающий.\n\nТретье толкование: Дающий пропитание, в таком значении это имя связано с атрибутами действия.\n\nАс-Сануси: «Тот, Кто наделяет творения всем необходимым для их существования, будь то пища или сила, ровно в том количестве, какое им необходимо».\n\nАхмад Заррук: «Кто осознает, что Аллах — Наделяющий пропитанием, тот перестанет думать о пропитании и начнет думать об Аллахе».</item>
+        <item>Достаточный.\n\nДругое толкование: Тот, Кто спрашивает отчет [со Своих рабов].\n\nАс-Сануси: «Тот, Кто дает Своим творениям все необходимое из того, в чем они нуждаются. Или Тот, Кто требует отчета у Своих рабов в Судный день о том, что они совершали в каждую секунду отпущенного им времени».\n\nАхмад Заррук: «Кто осознает, что Аллах — Требующий отчета, тот будет спрашивать с себя строго, не дожидаясь отчета у Всевышнего».</item>
+        <item>Тот, кто описан Величием, и это значение относится к Величию Его Могущества (Аль-Кудра) и Высоте Его положения.\n\nАс-Сануси: «Величие Аллаха — в Его Единственности, в Совершенстве Его атрибутов. И нет ему подобного ни в Сущности, ни в атрибутах, ни в действиях».</item>
+        <item>Тот, Кто чист от всего недостойного Его Величия.\n\nДругое толкование: Щедрый, Наделяющий многочисленными благами.\n\nТретье толкование: Проявляющий Доброту, хоть и не обязан. Прощающий то, что творения не выполнили из того, к чему Он их обязал.\n\nАс-Сануси: «Это одно из самых многозначных имен Аллаха: оно обозначает и Его высокое положение, и Его Господство, и то, что Он помогает попавшим в беду, и Его Величие, и Его Доброту, прощение, Милость, и все виды блага, дарованные Им рабам».</item>
+        <item>Оберегающий, от Которого ничто не скроется. И связано это имя с Его атрибутом Знание (Аль-ʼИльм).\n\nАс-Сануси: «Тот, Чье Знание абсолютно, Кто не забывает и не проявляет невнимательность ни в чем».</item>
+        <item>Тот, Кто отвечает на мольбы нуждающихся и помогает попавшему в беду, когда он просит Аллаха о помощи.\n\nАс-Сануси: «Тот, Кто помогает всем просящим Его, будь то просьба языком (совершением дуа) или своим состоянием, давая им то, что было предписано для них в предвечности».\n\nПримечание: Просьба своим состоянием означает, что Аллах знает о наших нуждах и желаниях и без того, чтобы мы выражали их в наших мольбах, и может дать нам желаемое, даже если мы не попросим Его об этом словами.</item>
+        <item>Знающий.\n\nДругое толкование: Тот, Кто ни в чем не нуждается.\n\nАс-Сануси: «Тот, Чье знание охватывает все познаваемое и [Чьему Знанию] нет предела, и Его не отвлекает одно от другого. То же касается и других атрибутов Аллаха, таких как: Могущество (Аль-Кудра), Воля (Аль-Ирада), Слух (Ас-Самʼ), Зрение (АльБасар), Речь (Аль-Калям); а также действий, таких как: контроль за всем существующим и наделение пропитанием».\n\nАхмад Заррук: «Тот, Чьи Знание и Милость всеохватны».</item>
+        <item>Тот, Кто знал в точности устройство мироздания при его творении.\n\nДругое толкование: Тот, кто всегда прав в Своих действиях.\n\nАс-Сануси: «Тот, Чьи действия безупречны и всегда точно соответствуют Его Знанию и Воле».</item>
+        <item>Тот, Кто любит Своих верующих рабов, и они Его любят.\n\nПримечание: Имам Бадруддин Ибн Джамаа, да помилует его Аллах, пишет в книге «Ат-Танзих»15: Лексическое значение слова «любовь» – склонность сердца к объекту любви, и это (буквальное значение) недопустимо в отношении Всевышнего Творца».\n\nКогда мы говорим, что Аллах любит Свои творения, это означает, что Он желает им блага, проявляет милость к Своим рабам и хвалит их. Таким образом, это имя относится к смыслу атрибутов Аллаха Воля (Аль-Ирада) и Речь (Аль-Калям).\n\nДругое толкование: Наделяющий рабов благами, – и в этом значении имя относится к атрибутам действий.</item>
+        <item>Величественный, Обладатель высокого положения.\n\nСовершающий благо, Обладатель беспредельной доброты.\n\nОдно из значений слова «аль-маджд» в арабском языке — величие, а другое – «доброта».</item>
+        <item>Тот, Кто воскрешает рабов после их смерти для Суда и воздаяния [им за то, что они совершали при жизни].\n\nАс-Сануси: «Тот, Кто оживляет мертвых в День Суда».\n\nДругое толкование: Тот, Кто посылает пророков и посланников, мир им.\n\nОднако очевидно, что значение имени более общее, чем оба предыдущих: Тот, Кто внушает [рабам] их состояния: покой (будь то сон или смерть) или движение (будь то бодрствование, жизнь и др.).\n\nАхмад Заррук: «Аллах — Тот, Кто внушает посланникам законы (шариат), мертвому — жизнь, а спящему — бодрствование».\n\nС осознанием того, что Аллах — Ниспосылающий, увеличивается убежденность в воскрешении после смерти и вера в посланников, а сам человек увереннее полагается на Аллаха в получении пропитания.</item>
+        <item>Тот, от Кого ничто не скроется. Другое толкование: Знающий и Видящий.\n\nАс-Сануси: «Тот, Чье Знание всеохватно». Ахмад Заррук: «Кто осознает, что Аллах — Аш-Шахид, тот будет постоянно ощущать божественное присутствие, понимая, что Аллах видит его, и не станет ослушиваться повелений и запретов Аллаха».</item>
+        <item>Тот, Чье Существование — истина.\n\nАс-Сануси: «Тот, Чье Существование установлено, Кто вечен и не изменяется».\n\nДругое толкование: Устанавливающий все сотворенное, дающий ему начало.\n\nТретье толкование: Разъясняющий истину, Утверждающий то, что верно и справедливо.</item>
+        <item>Тот, Кого достаточно. Аллах — Единственный, Кто определяет итог вверенного Ему дела.\n\nДругое толкование: Покровитель, наделяющий творения пропитанием и защищающий их от вреда.\n\nАхмад Заррук: «Кто осознает, что Аллах — Аль-Вакиль, тот будет полагаться во всех делах только на Него».</item>
+        <item>Всемогущий. Могущество (Аль-Кудра) Аллаха беспредельно, Его не охватывает бессилие ни на миг.\n\nАс-Сануси: «Его Могущество не убавляется ни от сотворения вещей, ни от их уничтожения. Его не охватывает усталость. И создать или уничтожить все миры и создать или уничтожить самую малую частицу материи – для Его Могущества это одинаково».</item>
+        <item>Тот, Чья Сила (Аль-Кувва) огромна и бесконечна. Смысл этого имени также связан с атрибутом Могущество (Аль-Кудра).</item>
+        <item>Оказывающий помощь.\n\nДругое толкование: Тот, Кто управляет всем.\n\nАс-Сануси: «Тот, под Чьим управлением и контролем находится все существующее, и ничто не может выйти из-под контроля Всевышнего ни на миг».</item>
+        <item>Тот, Кого восхваляют, Достойный хвалы.\n\nДругое толкование: Обладатель совершенных атрибутов.\n\nАс-Сануси: «В действительности никто не заслуживает хвалы, кроме Всевышнего Аллаха, поскольку никто, кроме Него, не описан Божественностью, Милостью и Господством». Примечание: В истинном смысле никто, кроме Аллаха, не заслуживает хвалы и благодарности. Ведь именно Аллах предопределил и сотворил для нас все те блага, за которые мы благодарны. Когда мы хвалим и благодарим людей, которые нам сделали что-то хорошее, мы должны помнить, что они только передают нам блага от Аллаха.\n\nАхмад Заррук: «Если человек осознает, что Всевышний Аллах — Достойный Хвалы, то мысли об Аллахе и благодарность Ему отвлекут его от мыслей о себе и похвалы себе». И сказано в книге «Аль-Хикам» Ибн ʼАтаиЛляха аль-Искандари: «Восхваление Аллаха отвлекает верующего от благодарности самому себе. И выполнение обязательств, наложенных Аллахом, отвлекает от мыслей о самом себе».</item>
+        <item>Тот, Кто исчислил, охватил все. Смысл имени связан с атрибутом Знание (Аль-ʼИльм).\n\nАхмад Заррук: «Всевышний охватывает Своим Знанием все существующее, знает о каждой вещи все детали, и ни одна частичка мира не скроется от Него».\n\nАс-Сануси: «Ничто из познаваемого не скрыто от Аллаха, Он знает все о каждой вещи: ее сущность, свойства, ее количественные характеристики, если они есть».</item>
+        <item>Тот, Кто положил начало человеку, то есть сотворил его.\n\nАс-Сануси: «Тот, Кто воплотил все созданное, сотворив все его виды, формы и свойства из абсолютного небытия».</item>
+        <item>Тот, Кто возвращает творения после их создания (умерщвляет их), затем снова возвращает к жизни.\n\nАхмад Заррук: «Некоторые ученые считали, что «Аль-Мубди аль-Муʼид» – это одно имя, поскольку смысл одного не полон без другого».</item>
+        <item>Аллах — Тот, Кто оживляет безжизненное семя, выводя из него живую душу, и оживляет безжизненные тела, возвращая в них дух, воскрешая их. И Он оживляет сердца светом познания. И Он оживляет мертвую землю, орошая ее дождем и выращивая на ней [то, что служит для] пропитания живых существ.\n\nАс-Сануси: «Аллах создает жизнь в душах и телах. И жизнь в телах поддерживается через обычные причины (через пищу и воду), но без того, чтобы эти причины как-то влияли на поддержание жизни. И Всевышний Господь — Единственный, Кто оживляет, без посредника. Также Аллах — Единственный, Кто создает жизнь в душах, оживляя их познанием и теми внутренними деяниями, что оно дает. А также Аллах оживляет тело человека через служение  Ему и устранение вялости и лени в поклонении и через благодарность за Его милости».</item>
+        <item>Тот, Кто умерщвляет живое и лишает сильных силы через смерть.\n\nАс-Сануси: «Аллах творит смерть через обычную причину, какую Он пожелает, — или без нее — во всем теле и забирает душу из этого тела. И рационально допустимо воскрешение этого тела, которое покинула душа. Также допустимы смерть души при живом теле и смерть тела при живой душе. И Аллах может умертвить сердце, после того как напитал его небесными знаниями и очистил его от телесных страстей. И такое умерщвление сердца приводит к лени в поклонении и занятию тем, что лишает человека высоких степеней в Вечной обители».</item>
+        <item>Тот, Кто не переставал существовать и быть Живым. И Жизнь — это атрибут, которым описана Его Сущность.\n\nАс-Сануси: «Живой, Который не умирает, не спит, не печалится и не болеет. И Его Жизнь не связана с душой, телом, [поддержанием жизни] через еду и питье, лекарства и т. п.».\n\nАхмад Заррук: «Если человек осознает, что Аллах — Живой и Бессмертный, он не будет полагаться ни в чем на смертных».</item>
+        <item>То же, что Аль-Маджи́д: Величественный.\n\nАс-Сануси: «Разница в том, что в форме имени Аль-Ма́джид заключено усиление значения».</item>
+        <item>Тот, Кто существует всегда и не перестает существовать. В этом значении имя относится к смыслам Его атрибута Бесконечность (Аль-Бака).\n\nДругое толкование: Тот, Кто ведает обо всем в мире и управляет всем, что происходит в мире. В этом значении имя относится к атрибутам действия.\n\nАс-Сануси: «Самодостаточный (Аль-Каиму би нафсихи). Тот, Кто ни в ком и ни в чем не нуждается, а все остальное нуждается в Нем».</item>
+        <item>Тот, Кто ни в чем не нуждается. Образовано от слова «вуджд», что значит «богатство, самодостаточность».\n\nАс-Сануси: «Тот, Кто не нуждается в творениях, а все великое множество творений находится во власти Его Могущества и Воли, и все познаваемое — во власти его Знания и Речи, и все существующее раскрывается Его Зрением и Слухом».</item>
+        <item>Единственный, Тот, у Кого нет сотоварища.\n\nДругое толкование: Тот, у Кого нет подобного, похожего на Него.\n\nАс-Сануси: «Тот, Кто не состоит из частей и превыше того, чтобы иметь качества тел».\n\nАхмад Заррук: «Единственный в Своей Сущности, атрибутах и действиях. Единственный в Сущности значит, что Аллах не состоит из частей и не занимает место. Единственный в атрибутах: нет ничего подобного Ему, и Аллах никому и ничему не подобен. Единственный в действиях: нет у Него соучастника и подобного Ему [в действиях]».</item>
+        <item>Это значит: Господь, к Которому прибегают во всех делах и обращаются со всеми своими нуждами.\n\nДругое толкование: Вечный, Бесконечный (Аль-Бакы), Который никогда не исчезнет. И это атрибут, которым описана Сущность.</item>
+        <item>Обладатель всеобъемлющего Могущества (Аль-Кудра). И Могущество — одно из Его сущностных качеств.\n\nАхмад Заррук: «Аль-Кадир — Тот, Кто действует без подготовки, орудия и посредника. И Его никогда не охватывает бессилие и неспособность выполнить то, что Он пожелал».\n\nАс-Сануси: «Без подготовки и посредника Он творит и уничтожает».</item>
+        <item>Обладатель беспредельного Могущества (Аль-Кудра), Которому ничто не может воспрепятствовать.\n\nАс-Сануси: ««Аль-Муктадир» — синоним «Аль-Кадир», только в форме имени «Аль-Муктадир» — усиление значения».\n\nДругое толкование: «Аль-Муктадир» имеет более узкое значение — Тот, Кто действует через установленные им причины, через ангелов, например, хотя сами эти причины не имеют никакого влияния на вещи.</item>
+        <item>Тот, Кто располагает творения ближе и дальше, раньше и позже, как пожелает.\n\nАхмад Заррук: «Аллах определяет для каждого творения его время и положение. И смысл имени относится к атрибуту Воля (Аль-Ирада)».\n\nАс-Сануси: «Господь выбирает для каждого творения последовательность, время, его количественные и качественные характеристики, в соответствии со Своим Знанием и Своей Волей».</item>
+        <item>Тот, Кто располагает творения ближе и дальше, раньше и позже, как пожелает.\n\nАхмад Заррук: «Аллах определяет для каждого творения его время и положение. И смысл имени относится к атрибуту Воля (Аль-Ирада)».\n\nАс-Сануси: «Господь выбирает для каждого творения последовательность, время, его количественные и качественные характеристики, в соответствии со Своим Знанием и Своей Волей».</item>
+        <item>Аль-Авваль (Первый) – Тот, Чье Существование не имеет начала. Аль-Ахыр (Последний) – Тот, Чье Существование не имеет конца. И это атрибуты, которыми описана Сущность Аллаха.\n\nПримечание: В книгах Ахлю-Сунна валь-Джамаʼа эти атрибуты принято назвать Аль-Кыдам (Безначальность) и Аль-Бака (Бесконечность).\n\nАс-Сануси: «Из наличия этих атрибутов следует то, что Аллах – Тот, Чье Существование обязательно (Ваджиб аль-Вуджуд), поскольку, если бы Существование Аллаха было рационально допустимым – чист наш Господь от этого! – то это означало бы, что Он возникший, а значит, нуждается в создателе. Тогда этот «создатель» был бы тем, чье существование предшествует Существованию Аллаха, и бытию Аллаха предшествовало бы небытие. А это отрицало бы то, что Аллах – Первый (Аль-Авваль). Поэтому обязательно с точки зрения разума, что Аллах – АльАвваль и Аль-Ахыр».</item>
+        <item>Аль-Авваль (Первый) – Тот, Чье Существование не имеет начала. Аль-Ахыр (Последний) – Тот, Чье Существование не имеет конца. И это атрибуты, которыми описана Сущность Аллаха.\n\nПримечание: В книгах Ахлю-Сунна валь-Джамаʼа эти атрибуты принято назвать Аль-Кыдам (Безначальность) и Аль-Бака (Бесконечность).\n\nАс-Сануси: «Из наличия этих атрибутов следует то, что Аллах – Тот, Чье Существование обязательно (Ваджиб аль-Вуджуд), поскольку, если бы Существование Аллаха было рационально допустимым – чист наш Господь от этого! – то это означало бы, что Он возникший, а значит, нуждается в создателе. Тогда этот «создатель» был бы тем, чье существование предшествует Существованию Аллаха, и бытию Аллаха предшествовало бы небытие. А это отрицало бы то, что Аллах – Первый (Аль-Авваль). Поэтому обязательно с точки зрения разума, что Аллах – АльАвваль и Аль-Ахыр».</item>
+        <item>Аз-Захир: Аллах – Явный посредством ясных доводов и очевидных признаков, указывающих на Его Существование, Господство и Его Единственность.\n\nТакже «Аз-Захир» может означать «Обладатель Высокого положения» или «Тот, Кто побеждает».\n\nАль-Батын: Тот, в отношении Которого немыслим образ (кейфия).\n\nТакже возможно такое толкование: Аз-Захир – Знающий явное; Аль-Батын – Знающий скрытое.\n\nАс-Сануси: «Аз-Захир – Побеждающий. Другое толкование: Тот, на Чье Существование указывает все сотворенное. А АльБатын – Тот, Кто скрыт от творений в этом мире. Другое толкование: Знающий тайное».</item>
+        <item>Аз-Захир: Аллах – Явный посредством ясных доводов и очевидных признаков, указывающих на Его Существование, Господство и Его Единственность.\n\nТакже «Аз-Захир» может означать «Обладатель Высокого положения» или «Тот, Кто побеждает».\n\nАль-Батын: Тот, в отношении Которого немыслим образ (кейфия).\n\nТакже возможно такое толкование: Аз-Захир – Знающий явное; Аль-Батын – Знающий скрытое.\n\nАс-Сануси: «Аз-Захир – Побеждающий. Другое толкование: Тот, на Чье Существование указывает все сотворенное. А АльБатын – Тот, Кто скрыт от творений в этом мире. Другое толкование: Знающий тайное».</item>
+        <item>Властелин всех вещей, Управляющий ими.\n\nАс-Сануси: «Принимающий все решения и улучшающий положение того, что находится в Его владении. И Его решение – это осуществление Его Воли на основе его абсолютного Знания (обо всем). Никто не может отменить или отсрочить Его решение».\n\nАхмад Заррук: «Смысл имени близок смыслу имен Аль-Хакам и Аль-ʼАдль».</item>
+        <item>Тот, Кто пречист от обладания качествами творений.\n\nДругое толкование: Тот, Кто находится выше творений Своей властью.\n\nАхмад Заррук: «Тот, Кто возвышен Своим величием и степенью над всеми возможными качествами Его творений. Такие имена, как Аль-Маджид, Аль-ʼАли, Аль-ʼАзым, Аль-Кабир, Аль-Мутаʼали, имеют значения отрицания противоположных им значений и недостатков».\n\nАль-Газали: «Аль-Халими сказал: «Смысл его (имени АльМутаʼали): Аллах превыше того, чтобы допустить в отношении Него то, что допустимо для творений: жену, детей, органы и части тела, обладание троном для сидения на нем, нужду в завесах, чтобы скрыть Его от взглядов [творений], перемещение с одного места на другое и тому подобные вещи. Что-то из этого означало бы Его конечность, что-то – нужду (в чем-либо), что-то – изменение и переход в другое состояние»».\n\nПримечание: это слова имама Абу Абдилляха Аль-Халими (ум. в 403 году по хиджре) – одного из имамов своего века, выдающегося факыха (правоведа) шафиитского мазхаба.</item>
+        <item>Делающий добро для Своих творений. Наделяющий всех пропитанием, Одаряющий некоторых их них святостью (виляйя), Увеличивающий награду за поклонение и Прощающий за ослушание.</item>
+        <item>Тот, Кто прощает кого пожелает из своих рабов и принимает их покаяние.\n\nАс-Сануси: «Аллах по Своей милости дарит прощение, скрытие грехов, помощь и силу для совершения благого (тауфик), а также принимает покаяние рабов, совершивших грех, ослушавшихся Его повеления».</item>
+        <item>Тот, Кто одерживает верх над Своими врагами и наказывает их за ослушание.\n\nДругое толкование: Тот, Кто губит их (Своих врагов).\n\nАс-Сануси: «Аллах строго спрашивает после предупреждения [и отсрочки для покаяния до конца земной жизни] и сурово наказывает кого пожелает».\n\nАхмад Заррук: «Кто осознал, что Аллах – Аль-Мунтакым, будет бояться его наказания и не будет мстить Его рабам и жить в неповиновении Господу».</item>
+        <item>Имя образовано от слова «ʼафв» в форме усиления значения. Одно из значений «ʼафв» – стирать (помимо самого распространенного – прощать), то есть значение имени – Прощающий грехи.\n\nДругое толкование – Одаривающий милостями.\n\nАс-Сануси: «Аллах – Тот, Кто по своей Милости и Щедрости откладывает наказание раба за его преступления и за явную несправедливость до тех пор, пока даже их след не сотрется».\n\nПримечание: имам ас-Сануси, да смилуется над ним Аллах, объясняет связь между двумя значениями слова «ʼафв»: стиранием и прощением.</item>
+        <item>То же, что и Милостивый (Ар-Рахим). Образовано от слова «раъфа», что значит «огромная милость». И «Милость» в отношении Аллаха – это Его Воля (Аль-Ирада), направленная на одаривание благами тех из Его рабов, кого Он пожелает. Таким образом, значение имени относится к смыслам атрибута Аллаха Воля (Аль-Ирада).</item>
+        <item>Значение имени: Обладатель власти – вся власть у Аллаха, и Он дает ее, кому пожелает.\n\nДругое толкование: Царь царей.\n\nТретье толкование: Тот, у Кого будет Власть в день, когда никто не сможет претендовать на власть.\n\nАс-Сануси: «Аллах – Властелин всех творений. Он распоряжается ими полностью, и Его власть не может быть ограничена ни с точки зрения разума, ни согласно Шариату».</item>
+        <item>Аллах – Тот, Кто заслуживает возвеличивания и почтения. Тот, кого нельзя отрицать. В таком случае это атрибут Сущности Аллаха.\n\nТакже возможно истолковать «аль-икрам» как оказание Аллахом почестей верующим: прощение их грехов в этой жизни и Рай – в вечной. В таком случае это атрибут действий Аллаха.\n\nАхмад Заррук: «Тот, Кто обладает абсолютным Величием и абсолютной Щедростью»</item>
+        <item>Тот, Кто справедлив в Своих решениях.</item>
+        <item>Тот, Кто соберет все творения в День, в отношении которого нет сомнения (в Судный день). И это имя относится к атрибутам действий Аллаха.\n\nДругое толкование: Тот, Кто соединил в Себе все похвальные качества. В этом случае это атрибут Его сущности.\n\nАс-Сануси: «Тот, Кого обязательно с позиции разума описывать абсолютно всеми качествами совершенства».</item>
+        <item>Тот, Кто не нуждается в творениях.\n\nДругое толкование: Тот, Чья Воля (Аль-Ирада) всегда исполняется.\n\nАхмад Заррук: «Тот, Кто ни в чем не нуждается: ни в Сущности, ни в атрибутах, ни в действиях».\n\nАс-Сануси: «Аллах описан бесчисленными совершенствами в Своей Сущности, атрибутах и действиях, и нет нужды Ему ни в чем в Сущности и атрибутах, которые обязательны, и Он не нуждается в помощниках, средствах и орудиях».</item>
+        <item>Тот, Кто выполняет нужды творений.\n\nДругое толкование: Тот, Кого достаточно (Аль-Кафи), так как слово «ганаъ» означает «достаточность».\n\nАхмад Заррук: «Тот, Кто дает все необходимое кому пожелает из своих рабов».</item>
+        <item>Помогающий верующим и Защищающий их.\n\nДругое толкование: Лишающий. Тот, кто лишает даров одних и избавляет от испытаний других.</item>
+        <item>Причиняющий вред, кому пожелает.\n\nАс-Сануси: «Аллах — Творец любого вреда в этой и вечной жизни, будь то вред духовный или телесный, связанный с обычными причинами или нет».\n\nИмам Газали: «Аллах — Творец как добра, так и зла, как пользы, так и вреда. И нельзя думать, будто что бы то ни было из творений приносит пользу или причиняет вред само по себе. Все вещи – только лишь причины».</item>
+        <item>Приносящий пользу, кому пожелает.\n\nАхмад Заррук: «Кто осознает, что Аллах — Ад-Дарр и Ан-Нафиʼ — не будет ожидать пользы или вреда от кого-то или чего-то, помимо Аллаха».</item>
+        <item>Наставляющий. Другое толкование: Освещающий.\n\nАс-Сануси: «Тот, Кто проявил через сотворение скрытое во мраке небытия».\n\nЭти смыслы относятся к атрибутам действий Аллаха.\n\nТретье толкование: Истинный (Аль-Хак).\n\nЧетвертое толкование: Тот, Чье Существование явно для верующих на основании признаков [в этом мире], и Тот, Кого увидят верующие [в Раю].\n\nВ этих значениях имя относится к атрибутам Сущности.</item>
+        <item>Тот, благодаря чьему руководству наставлены на истинный путь верующие и находит все живое то, что ему необходимо, и остерегается вреда.\n\nАс-Сануси: «Аллах ведет все творения по пути поиска пользы как в религии, так и в земных делах, чувствуют они это или не чувствуют, как в случае с маленькими детьми, животными и даже разумными людьми во многих ситуациях».\n\nАхмад Заррук: «Кто осознает, что Аллах – Аль-Хади, тот будет просить у Него помощи и наставления на истинный путь».</item>
+        <item>Тот, Кто сотворил все существующее [из небытия] без предшествующего примера.\n\nАс-Сануси: ««Аль-Бадиʼ» в этом значении – Аль-Мубдиʼ, то есть Тот, Кто создал все существующее в соответствии со Своим Знанием, без образца и помощника».\n\nДругое толкование: Тот, Кому нет подобия.</item>
+        <item>Тот, Чье Существование бесконечно. И Бесконечность (АльБака) – это атрибут, которым описана Сущность Аллаха. Это же значение имеет имя Аллаха Аль-Варис (الوارث.(\n\nАхмад Заррук: "Тот, для Кого невозможно (с позиции разума) исчезновение и небытие. Это же значение имеет имя Аллаха АдДаим (الدائم)".</item>
+        <item>Тот же смысл, что у имени Аль-Бакы (Вечный, Бесконечный).\n\nАс-Сануси: «Наследующий — Тот, к Кому отойдет все имущество с исчезновением его владельцев, хотя его владельцы (творения) распоряжались своим имуществом не по-настоящему, ведь на самом деле вся власть и все существующее принадлежит только Аллаху».</item>
+        <item>Наставляющий, Ведущий [прямым путем].\n\nАс-Сануси: «В этом значении имя близко к имени Аль-Хади».\n\nДругое толкование: Властелин, обладающий Мудростью (рушд), поскольку Аллах знает итог всех событий и всегда прав.\n\nАс-Сануси: «Тот, Кто справедлив в действиях и всегда прав в словах. Иное толкование: Тот, Кто превыше всех недостатков».</item>
+        <item>Тот, Кто не спешит наказывать грешников. Значение близко значению имени Аль-Халим, с той разницей, что в смысле имени Аль-Халим усилено значение возможного прощения.\n\nАс-Сануси: «Терпение – это сдерживание себя в болезненные моменты. И это недопустимо относить к Всевышнему Аллаху. В отношении Аллаха терпение (ас-сабр) – это откладывание наказания грешников до момента, Ему известного, или до внушения им покаяния, или прощения их грехов по одной лишь Милости Всевышнего».\n\nНа этом мы завершаем толкование самого известного среди мусульман перечня из 99-ти имен Всевышнего. Далее мы, если на то будет воля Аллаха, кратко разберем значения имен, упомянутых в другой версии хадиса от Абу Хурайры, да будет Аллах им доволен.</item>
+    </string-array>
+</resources>

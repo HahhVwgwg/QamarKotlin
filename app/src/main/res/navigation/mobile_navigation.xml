@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_pray_times">
+
+    <fragment
+        android:id="@+id/navigation_pray_times"
+        android:name="e.muslim.prayer.presentation.pray_time.PrayTimeFragment"
+        android:label="PrayTimeFragment"
+        tools:layout="@layout/fragment_pray_time">
+
+        <action
+            android:id="@+id/action_pray_time_to_choose_mosque"
+            app:destination="@id/navigation_choose_mosque" />
+
+        <action
+            android:id="@+id/action_pray_time_to_settings"
+            app:destination="@id/navigation_settings" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="e.muslim.prayer.presentation.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+
+    <fragment
+        android:id="@+id/navigation_quran"
+        android:name="e.muslim.prayer.presentation.quran.QuranFragment"
+        android:label="QuranFragment"
+        tools:layout="@layout/fragment_quran">
+        <action
+            android:id="@+id/action_quran_to_search"
+            app:destination="@id/navigation_search" />
+
+        <action
+            android:id="@+id/action_quran_to_statistics"
+            app:destination="@id/navigation_statistics" />
+        <action
+            android:id="@+id/action_quran_to_khatym"
+            app:destination="@id/navigation_khatym" />
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_quran_to_sura"-->
+        <!--            app:destination="@id/navigation_sura" />-->
+
+        <!--        <action-->
+        <!--            android:id="@+id/action_quran_to_para"-->
+        <!--            app:destination="@id/navigation_para" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sura"
+        android:name="e.muslim.prayer.presentation.sura.SuraFragment"
+        android:label="SuraFragment">
+
+        <argument
+            android:name="sura"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_sura_to_tajweed"
+            app:destination="@id/navigation_tajweed" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_para"
+        android:name="e.muslim.prayer.presentation.para.ParaFragment"
+        android:label="ParaFragment">
+
+        <argument
+            android:name="page"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_para_to_tajweed"
+            app:destination="@id/navigation_tajweed" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_dua"
+        android:name="e.muslim.prayer.presentation.dua.DuaFragment"
+        android:label="DuaFragment"
+        tools:layout="@layout/fragment_dua" />
+    <fragment
+        android:id="@+id/navigation_khatym"
+        android:name="e.muslim.prayer.presentation.khatym.KhatymFragment"
+        android:label="KhatymFragment" />
+
+    <fragment
+        android:id="@+id/navigation_tajweed"
+        android:name="e.muslim.prayer.presentation.tajweed.TajweedFragment"
+        android:label="TajweedFragment" />
+    <fragment
+        android:id="@+id/navigation_tespihat"
+        android:name="e.muslim.prayer.presentation.tespihat.TespihatFragment"
+        android:label="TespihatFragment">
+
+        <action
+            android:id="@+id/action_tespihat_to_cevshen"
+            app:destination="@id/navigation_cevshen" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_cevshen"
+        android:name="e.muslim.prayer.presentation.cevshen.CevshenFragment"
+        android:label="CevshenFragment" />
+
+    <fragment
+        android:id="@+id/navigation_asma"
+        android:name="e.muslim.prayer.presentation.asma.AsmaFragment"
+        android:label="AsmaFragment"
+        tools:layout="@layout/fragment_asma">
+        <action
+            android:id="@+id/action_asma_to_qaza"
+            app:destination="@id/navigation_qaza" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_asma_details"
+        android:name="e.muslim.prayer.presentation.asma_details.AsmaDetailsFragment"
+        android:label="AsmaDetailsFragment">
+
+        <argument
+            android:name="asma_position"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_asma_details_to_qaza"
+            app:destination="@id/navigation_qaza" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="e.muslim.prayer.presentation.statistics.StatisticsFragment"
+        android:label="StatisticsFragment" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="e.muslim.prayer.presentation.search.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/navigation_qaza"
+        android:name="e.muslim.prayer.presentation.qaza.QazaFragment"
+        android:label="QazaFragment" />
+
+    <fragment
+        android:id="@+id/navigation_choose_mosque"
+        android:name="e.muslim.prayer.presentation.choose_mosque.ChooseMosqueFragment"
+        android:label="ChooseMosqueFragment" />
+
+</navigation>

@@ -1,0 +1,145 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/bottomSheetContainer</item>
+        <item name="colorPrimary">@color/bottomSheetContainer</item>
+        <item name="colorPrimaryDark">@color/bottomSheetContainer</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@color/color111</item>
+        <item name="android:windowBackground">@color/color000</item>
+
+        <item name="colorAccent">@color/bottomSheetContainer</item>
+        <item name="mainBackground">@color/mainBackground</item>
+        <item name="bottomSheetText">@color/bottomSheetText</item>
+        <item name="rippleBottomSheet">@color/rippleBottomSheet</item>
+        <item name="rippleBottomSheetStopColor">@color/rippleBottomSheetStopColor</item>
+        <item name="bottomSheetTextNotActive">@color/bottomSheetTextNotActive</item>
+        <item name="bottomSheetContainer">@color/bottomSheetContainer</item>
+        <item name="toolbarColor">@color/toolbarColor</item>
+        <item name="toolbarTextColor">@color/toolbarTextColor</item>
+        <item name="toolbarIconColor">@color/toolbarIconColor</item>
+        <item name="containerMain">@color/containerMain</item>
+
+        <item name="elevationDynamic">@dimen/_5sdp</item>
+        <item name="shadowCustom">@dimen/shadowCustomValue</item>
+
+        <!-- Pray Time -->
+        <item name="timer">@color/timer</item>
+        <item name="regularText">@color/regularText</item>
+        <item name="nextPrayer">@color/nextPrayer</item>
+        <item name="yearDatePickerContainer">@color/yearDatePickerContainer</item>
+        <item name="arrowBackIcon">@color/arrowBackIcon</item>
+        <item name="yearDatePickerIconColor">@color/yearDatePickerIconColor</item>
+        <item name="notificationIcon">@color/notificationIcon</item>
+        <item name="prayTimesContainer">@color/prayTimesContainer</item>
+        <item name="dividerPrayTimes">@color/dividerPrayTimes</item>
+        <item name="prayTimeText">@color/prayTimeText</item>
+        <item name="prayTimeClock">@color/prayTimeClock</item>
+        <item name="locationMainIcon">@color/locationMainIcon</item>
+        <!--Quran-->
+        <item name="quranMainBg1">@color/quranMainBg1</item>
+        <item name="quranMainBg2">@color/quranMainBg2</item>
+        <item name="quranMainBg3">@color/quranMainBg3</item>
+        <item name="quranMainBg4">@color/quranMainBg4</item>
+        <item name="continueReading">@color/continueReading</item>
+        <item name="lastReadPage">@color/lastReadPage</item>
+        <item name="lastReadPara">@color/lastReadPara</item>
+        <item name="liquidSwipe">@color/liquidSwipe</item>
+        <item name="liquidSwipeIndicator">@color/liquidSwipeIndicator</item>
+        <!--DUA-->
+        <item name="duaContainer">@color/duaContainer</item>
+        <item name="arabicDua">@color/arabicDua</item>
+        <item name="nativeDua">@color/nativeDua</item>
+        <item name="translationDua">@color/translationDua</item>
+        <item name="counterContainer">@color/counterContainer</item>
+        <item name="counterIcons">@color/counterIcons</item>
+        <item name="counterName">@color/counterName</item>
+        <item name="counter">@color/counter</item>
+        <!--Qaza-->
+        <item name="qaza">@color/qazaItem</item>
+        <item name="addButtonRippleStatic">@color/addButtonRippleStatic</item>
+        <item name="addButtonRippleRipple">@color/addButtonRippleRipple</item>
+
+
+        <item name="color2">@color/color22</item>
+        <item name="color3">@color/color33</item>
+        <item name="color4">@color/color44</item>
+        <item name="background1">@color/color000</item>
+        <item name="background2">@color/color111</item>
+        <item name="background3">@color/color000</item>
+    </style>
+
+    <style name="anim">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_logo</item>
+        <item name="android:navigationBarColor">@color/color000</item>
+        <item name="colorPrimaryDark">@color/color000</item>
+    </style>
+
+
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item> <!-- This is important -->
+        <item name="android:statusBarColor">@color/transparent
+        </item> <!-- And then this will be needed -->
+        <item name="android:navigationBarColor">?attr/background1</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetText" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:textSize">@dimen/bottomSheetTextSize</item>
+        <item name="android:fontFamily">@font/gold_semi_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/_2sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?attr/bottomSheetText</item>
+    </style>
+
+    <style name="Medium" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/gold_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?attr/regularText</item>
+    </style>
+
+    <style name="Medium.16" parent="Medium">
+        <item name="android:textSize">@dimen/regular16</item>
+    </style>
+
+    <style name="Medium.13" parent="Medium">
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+
+    <style name="Toolbar.Main" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/toolbarTextSize</item>
+        <item name="android:fontFamily">@font/gold_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?attr/toolbarTextColor</item>
+    </style>
+
+    <style name="SemiBold" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/gold_semi_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?attr/regularText</item>
+    </style>
+
+    <style name="SemiBold.13" parent="SemiBold">
+        <item name="android:textSize">@dimen/_13ssp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_dark_bottom_30"
+            android:elevation="?attr/elevationDynamic"
+            android:paddingHorizontal="@dimen/_11sdp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/Toolbar.Main"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/_11sdp"
+                android:paddingVertical="@dimen/_11sdp"
+                android:text="@string/zikr"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/saved"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/saved"
+                android:layout_width="@dimen/_34sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:contentDescription="@null"
+                android:padding="@dimen/_7sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_saved" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:layoutAnimation="@anim/layout_animation_slide_right"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@id/staticLayout"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintVertical_weight="0.5"
+            tools:listitem="@layout/item_dua" />
+
+        <ScrollView
+            android:id="@+id/dua"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginVertical="0dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/recycler_view"
+            app:layout_constraintEnd_toEndOf="@id/recycler_view"
+            app:layout_constraintStart_toStartOf="@id/recycler_view"
+            app:layout_constraintTop_toTopOf="@id/recycler_view">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_7sdp"
+                android:paddingVertical="@dimen/_15sdp">
+
+                <TextView
+                    android:id="@+id/arabic_dua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/scheherazade"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:textColor="?attr/arabicDua"
+                    android:textSize="@dimen/_20ssp" />
+
+
+                <TextView
+                    android:id="@+id/native_dua"
+                    style="@style/Medium.13"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:textColor="?attr/nativeDua" />
+
+                <TextView
+                    android:id="@+id/translation_dua"
+                    style="@style/Medium.13"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="3"
+                    android:textColor="?attr/translationDua" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp">
+
+                    <TextView
+                        android:id="@+id/delete"
+                        style="@style/Medium.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="?attr/elevationDynamic"
+                        android:layout_toStartOf="@+id/buttonBack"
+                        android:background="@drawable/container_main_dark_20"
+                        android:elevation="?attr/elevationDynamic"
+                        android:padding="@dimen/_12sdp"
+                        android:text="@string/delete_dua_from_database" />
+
+                    <TextView
+                        android:id="@+id/buttonBack"
+                        style="@style/Medium.13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="?attr/elevationDynamic"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:background="@drawable/container_main_dark_20"
+                        android:elevation="?attr/elevationDynamic"
+                        android:padding="@dimen/_12sdp"
+                        android:text="@string/cancel" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/staticLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bottom_navigation_bg"
+            android:backgroundTint="?attr/counterContainer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recycler_view"
+            app:layout_constraintVertical_weight="0.5">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/_8sdp">
+
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/ic_add"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:id="@+id/repeat"
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/ic_repeat"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/counter"
+                style="@style/Medium"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_46sdp"
+                android:text="@string/twice_zero"
+                android:textColor="?attr/counter"
+                android:textSize="@dimen/_65ssp" />
+
+            <TextView
+                android:id="@+id/counterName"
+                style="@style/SemiBold"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textColor="?attr/counterName"
+                android:textSize="@dimen/_19ssp" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

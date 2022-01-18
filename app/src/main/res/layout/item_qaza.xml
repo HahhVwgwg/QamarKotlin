@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/container_main_dark_20"
+    android:elevation="?attr/elevationDynamic"
+    android:padding="@dimen/_13sdp">
+
+    <TextView
+        android:id="@+id/staticLayout1"
+        style="@style/Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="?attr/qaza"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/prayer_fajr" />
+
+    <TextView
+        android:id="@+id/semicolon"
+        style="@style/Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/colon"
+        android:textColor="?attr/qaza"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintStart_toEndOf="@id/staticLayout1" />
+
+    <TextView
+        android:id="@+id/counter1"
+        style="@style/Medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/semicolon"
+        tools:text="120 000" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
