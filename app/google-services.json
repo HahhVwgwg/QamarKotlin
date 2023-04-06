@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495855254115",
+    "project_id": "qamar-kotlin",
+    "storage_bucket": "qamar-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495855254115:android:12ae36e682924fb2439656",
+        "android_client_info": {
+          "package_name": "e.muslim.prayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495855254115-eaeimo8u6qvp8miug4578qsvvrdpgg2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4FUGKyOjAED50NRpNOfapsTuqXXwITQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495855254115-eaeimo8u6qvp8miug4578qsvvrdpgg2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

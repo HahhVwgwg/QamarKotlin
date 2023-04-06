@@ -18,7 +18,7 @@ class MainActivity : BaseBindingActivity<ActivityMainBinding>(R.layout.activity_
 
         binding.run {
             vm = bottomVm
-            bottomVm.clickedMenu.observe(this@MainActivity, { menuType ->
+            bottomVm.clickedMenu.observe(this@MainActivity) { menuType ->
                 calledNavigation = true
                 navView.selectedItemId = when (menuType) {
                     1 -> R.id.navigation_pray_times
@@ -29,7 +29,7 @@ class MainActivity : BaseBindingActivity<ActivityMainBinding>(R.layout.activity_
                     else -> R.id.navigation_pray_times
                 }
                 calledNavigation = false
-            })
+            }
             findNavController(R.id.nav_host_fragment_main).addOnDestinationChangedListener { _, destination, _ ->
                 if (calledNavigation)
                     return@addOnDestinationChangedListener
