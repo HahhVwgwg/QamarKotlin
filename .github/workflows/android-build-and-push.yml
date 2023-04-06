@@ -17,10 +17,10 @@ jobs:
       with:
         java-version: 11
         
-    - name: Use Node.js 16.15.1
+    - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16.15.1'
+        node-version: '14'
         
     - name: Install NDK
       run: echo "y" | sudo /usr/local/lib/android/sdk/tools/bin/sdkmanager --install "ndk;20.0.5594570" --sdk_root=${ANDROID_SDK_ROOT}
